@@ -1,5 +1,7 @@
 # Списки муниципального этапа 2021 года
 
+Лежат в файлике members.txt
+
 ## XLSX parser
 
 ### Требования
@@ -63,6 +65,10 @@ https://document.online-convert.com/ru/convert/xls-to-xlsx
 * sudo apt install xdotool
 
 Также ожидается, что оператор скрипта введёт свой логин и пароль в файле vk_searcher.py в соответствующие переменные сверху файла в виде строк 
+
+### Запуск
+
+python3 vk_searcher.py
 
 ### Что получится?
 
