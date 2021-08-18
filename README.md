@@ -1,5 +1,7 @@
 # Списки муниципального этапа 2021 года
 
+Смотри output/members.txt.
+
 ## Общие настройки
 
 Код работает под большинством Linux-систем с python3.
@@ -8,6 +10,7 @@
 * export PYTHONPATH=${PYTHONPATH}:\`pwd\`
 
 Затем в файле data.py необходимо записать логин и пароль оператора (для части скриптов, работающих с VK API).
+Лежат в файлике members.txt
 
 ## XLSX parser
 
@@ -70,6 +73,10 @@ python3 script_parser.py
 Также ожидается, что заранее в терминале в корне проекта исполнены команды
 * pip3 install vk_api
 * sudo apt install xdotool
+
+### Запуск
+
+python3 scrpit_searcher.py
 
 ### Что получится?
 
