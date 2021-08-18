@@ -2,9 +2,7 @@ import json
 import vk_api
 import os
 from threading import *
-
-LOGIN = '???'
-PASSWORD = '???'
+from sigma_parsing.data import *
 
 def log(string):
     print("__LOG__: " + str(string))
@@ -17,9 +15,8 @@ def ask_user(string):
     return ans.lower()[0]
 
 def execute_string(string):
-    os.system(string)
-    # T = Thread(target=os.system, args = (string,))
-    # T.start()
+    T = Thread(target=os.system, args = (string,))
+    T.start()
 
 
 vk_session = vk_api.VkApi(LOGIN, PASSWORD)
@@ -31,7 +28,7 @@ MAX_ATTEMPT_NUMBER = 5
 members = {}
 
 try:
-    with open('members.txt', 'r') as f:
+    with open('output/members.txt', 'r') as f:
         members = json.load(f)
 except:
     log("members.txt не найден, остановка")
@@ -60,17 +57,17 @@ while((i + 1) < len(members)):
             user = user[0]
             user_id = user["id"]
             vk_link = "https://vk.com/id" + str(user_id)
-            execute_string("google-chrome --new-window " + vk_link + " &> google-logs.txt &") 
-            execute_string("./leftclick.sh")
+            execute_string("google-chrome " + vk_link + " > temp/google-logs.txt 2>temp/google-logs.txt") 
+            execute_string("./bash/leftclick.sh")
             ans = ask_user("Это наш? - да(Y), нет(N), пропустить(S), вернуться назад(B)?")
-            # execute_string("./rightwindowkill.sh")
-            # execute_string("./leftclick.sh")
+            # execute_string("./bash/rightwindowkill.sh")
+            # execute_string("./bash/leftclick.sh")
             print()
             print()
             print()
             if (ans == 'y'):
                 member['vk'] = vk_link
-                with open('members.txt', 'w') as f:
+                with open('output/members.txt', 'w') as f:
                     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
                 break
             elif (ans == 'n'):

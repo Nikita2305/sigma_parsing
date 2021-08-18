@@ -2,6 +2,11 @@ import openpyxl
 from pathlib import Path
 import json
 
+def format_spaces(string):
+    if (isinstance(string, str)):
+        return " ".join(string.split())
+    return string
+
 def log(string):
     print("__LOG__: " + str(string))
 
@@ -10,7 +15,7 @@ def find_equal(sheet, string):
     for i in range(1, 50):
         for j in range(1, 50):
             # print(sheet.cell(i, j).value)
-            if (isinstance(sheet.cell(i, j).value, str) and sheet.cell(i, j).value.lower() == string):
+            if (isinstance(sheet.cell(i, j).value, str) and format_spaces(sheet.cell(i, j).value.lower()) == string):
                 ret += [(i, j)]
     return ret
 
@@ -19,7 +24,7 @@ def find_substring(sheet, string):
     for i in range(1, 50):
         for j in range(1, 50):
             # print(sheet.cell(i, j).value)
-            if (isinstance(sheet.cell(i, j).value, str) and sheet.cell(i, j).value.lower().find(string) != -1):
+            if (isinstance(sheet.cell(i, j).value, str) and format_spaces(sheet.cell(i, j).value.lower()).find(string) != -1):
                 ret += [(i, j)]
     return ret
 
@@ -68,10 +73,10 @@ def find_olymp(olymplist, olymp):
 
 
 
-xlsx_files = [path for path in Path('.').rglob('itog_*.xlsx')]
+xlsx_files = [path for path in Path('./temp').rglob('itog_*.xlsx')]
 final_list = []
 try:
-    with open('members.txt', 'r') as f:
+    with open('output/members.txt', 'r') as f:
         final_list = json.load(f)
     log("Найден members.txt\n")
 except:
@@ -82,7 +87,7 @@ for xlsx_file in xlsx_files:
     subject = fname[fname.find('_')+1:fname.rfind('.xlsx')]
     workbook = openpyxl.load_workbook(xlsx_file)
     for sheet in workbook:
-        description = sheet.title
+        description = format_spaces(sheet.title)
         class_number = find_number(description)  
         log(subject + ", class:" + class_number)
         zero_row, column_interpret = find_format(sheet)
@@ -97,7 +102,7 @@ for xlsx_file in xlsx_files:
                         break
                 for col_name in column_interpret.keys():
                     col_number = column_interpret[col_name] 
-                    user_dict[col_name] = sheet.cell(zero_row, col_number).value
+                    user_dict[col_name] = format_spaces(sheet.cell(zero_row, col_number).value)
                 event_dict = {"olymp": subject, "class": class_number, "status": user_dict["status"]}
                 user_dict.pop("status")
 
@@ -110,5 +115,5 @@ for xlsx_file in xlsx_files:
                         final_list[user_id]["diplomas"] += [event_dict] 
             log("Обработан")
         print()
-with open('members.txt', 'w') as f:
+with open('output/members.txt', 'w') as f:
     print(json.dumps(final_list, ensure_ascii=False, indent=4), file=f)
