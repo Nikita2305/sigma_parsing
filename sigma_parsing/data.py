@@ -1,2 +1,2 @@
-LOGIN = '89131436601'
-PASSWORD = 'ama_Red_god'
+LOGIN = '79257438279'
+PASSWORD = 'nikitalox2002'

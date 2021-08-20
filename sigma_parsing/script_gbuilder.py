@@ -4,6 +4,12 @@ import vk_api
 from sigma_parsing.data import *
 import time
 
+def getstr(var):
+    if (isinstance(var, str)):
+        return var
+    return ""
+
+
 vk_session = vk_api.VkApi(LOGIN, PASSWORD)
 vk_session.auth()
 
@@ -13,35 +19,74 @@ with open("output/members.txt") as f:
     members = json.load(f)
 
 users = []
-i = 0
-for member in members:
-    i += 1
-    print(i)
-    if (i == 10):
-        break
-    users += vk.users.search(
-        q=member["name"] + " " + member["surname"],
-        count=5,
+size = len(members) 
+COUNT = 5
+PAUSE_TIME = 0.4
+SAVING_EVERY = 10
+for i in range(size):
+    print("pages: " + str(i))
+    if ("vk_pages" in members[i].keys()):
+        continue
+    name=getstr(members[i]["name"])
+    surname=getstr(members[i]["surname"])
+    users = vk.users.search(
+        q=name + " " + surname,
+        count=COUNT,
         city=104,
         age_from=12,
         age_to=19
     )["items"]
-    time.sleep(0.3)
+    time.sleep(PAUSE_TIME)
     users += vk.users.search(
-        q=member["name"] + " " + member["surname"],
-        count=5,
+        q=name + " " + surname,
+        count=COUNT,
         city=104
     )["items"]
-    time.sleep(0.3)
-
-temp = []
-ids = []
-for user in users:
-    if (not user["id"] in ids):
-        ids += [user["id"]]
-        temp += [user]
-users = temp
+    time.sleep(PAUSE_TIME)
     
-with open('output/graph.txt', 'w') as f:
-    print(json.dumps(users, ensure_ascii=False, indent=4), file=f)
+    temp = []
+    ids = []
+    for user in users:
+        if (not user["id"] in ids):
+            ids += [user["id"]]
+            temp += [user]
+    users = temp
+    members[i]["vk_pages"] = users
+    
+    if (i % SAVING_EVERY == SAVING_EVERY - 1):
+        with open('output/members.txt', 'w') as f:
+            print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
 
+with open('output/members.txt', 'w') as f:
+    print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
+
+with open('output/ids.txt') as f:
+    all_ids = json.load(f)
+    
+for i in range(size):
+    print("friends: " + str(i))
+    users = members[i]["vk_pages"]
+    if (len(users) == 0 or "friends" in users[0].keys()):
+        continue 
+    for user in users:
+        user["friends"] = []
+        if (user["is_closed"]):
+            continue
+        userid=user["id"]
+        try:
+            friends = [x for x in vk.friends.get(user_id=userid,)["items"] if (x in all_ids)]
+            user["friends"] = friends
+        except:
+            user["friends"] = []
+        time.sleep(PAUSE_TIME)
+
+    members[i]["vk_pages"] = users  
+    if (i % SAVING_EVERY == SAVING_EVERY - 1):
+        with open('output/members.txt', 'w') as f:
+            print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
+
+
+with open('output/members.txt', 'w') as f:
+    print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
+
+print("Done")

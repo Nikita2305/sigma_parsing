@@ -1,4 +1,6 @@
-# Списки муниципального этапа 2021 года
+#Списки муниципального этапа 2021 года
+
+// TODO: JSON format has been changed 
 
 Смотри output/members.txt.
 

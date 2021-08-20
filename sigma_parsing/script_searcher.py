@@ -4,6 +4,8 @@ import os
 from threading import *
 from sigma_parsing.data import *
 
+# TODO: vk_link is outdated
+
 def log(string):
     print("__LOG__: " + str(string))
 
