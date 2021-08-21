@@ -14,6 +14,7 @@
 * [process_cleaner.py](#process_cleaner) - если вы хотите отменить действия скриптов accepted_links_parser.py и graph_processor.py
 * [visualizer.py](#visualizer) - создаёт xlsx файл, считываемый [gephi](#gephi) для создания графа
 
+OUTDATED:
 * [manual_seeker.py](#manual_seeker) - даёт возможность искать некоторых людей вручную
 
 Полученные результаты смотри в **output/members.txt**.
@@ -166,6 +167,8 @@
 * sudo apt install openjdk-8-jdk openjdk-8-jre
 
 ## manual_seeker
+
+**В процессе доработки**
 
 ### Требования
 Для запуска скрипта подразумевается, что сформирован файл output/members.txt

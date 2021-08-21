@@ -73,7 +73,7 @@ def find_olymp(olymplist, olymp):
 
 
 
-xlsx_files = [path for path in Path('./temp').rglob('itog_Russian*.xlsx')]
+xlsx_files = [path for path in Path('./temp').rglob('itog_*.xlsx')]
 final_list = []
 try:
     with open('output/members.txt', 'r') as f:

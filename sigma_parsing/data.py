@@ -1,2 +1,2 @@
-LOGIN = '89131513375'
-PASSWORD = 'irina1031975'
+LOGIN = 'phone_number'
+PASSWORD = 'password'
