@@ -3,8 +3,7 @@ import vk_api
 import os
 from threading import *
 from sigma_parsing.data import *
-
-# TODO: vk_link is outdated
+import copy
 
 def log(string):
     print("__LOG__: " + str(string))
@@ -19,7 +18,6 @@ def ask_user(string):
 def execute_string(string):
     T = Thread(target=os.system, args = (string,))
     T.start()
-
 
 vk_session = vk_api.VkApi(LOGIN, PASSWORD)
 vk_session.auth()
@@ -40,9 +38,13 @@ i = -1
 while((i + 1) < len(members)):
     i += 1
     member = members[i]
-    if ("vk" in member.keys()):
-            continue
-    log(json.dumps(member, ensure_ascii=False, indent=4))
+    if ((not "processed" in member) or member["processed"]):
+        continue
+    member_copy = copy.copy(member)
+    member_copy.pop("vk_pages")
+    member_copy.pop("processed")
+    member_copy.pop("official_page")
+    log(json.dumps(member_copy, ensure_ascii=False, indent=4))
     OFFSET = 0
     while (OFFSET < MAX_ATTEMPT_NUMBER):
         user = vk.users.search(
@@ -68,7 +70,8 @@ while((i + 1) < len(members)):
             print()
             print()
             if (ans == 'y'):
-                member['vk'] = vk_link
+                member['processed'] = True
+                member['official_page'] = user
                 with open('output/members.txt', 'w') as f:
                     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
                 break
@@ -86,4 +89,4 @@ while((i + 1) < len(members)):
             else:
                 break 
             
-log("Предметы закончились!")
+log("Пользователи закончились!")

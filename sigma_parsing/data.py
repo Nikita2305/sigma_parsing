@@ -1,2 +1,2 @@
-LOGIN = 'phone_number'
+LOGIN = 'phone'
 PASSWORD = 'password'
