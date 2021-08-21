@@ -9,7 +9,6 @@ def getstr(var):
         return var
     return ""
 
-
 vk_session = vk_api.VkApi(LOGIN, PASSWORD)
 vk_session.auth()
 
@@ -19,10 +18,12 @@ with open("output/members.txt") as f:
     members = json.load(f)
 
 users = []
+all_ids = []
 size = len(members) 
 COUNT = 5
 PAUSE_TIME = 0.4
 SAVING_EVERY = 10
+print ("Waiting time ~" + str(size * 2) + "seconds")
 for i in range(size):
     print("pages: " + str(i))
     if ("vk_pages" in members[i].keys()):
@@ -50,6 +51,7 @@ for i in range(size):
         if (not user["id"] in ids):
             ids += [user["id"]]
             temp += [user]
+    all_ids += ids
     users = temp
     members[i]["vk_pages"] = users
     
@@ -60,9 +62,6 @@ for i in range(size):
 with open('output/members.txt', 'w') as f:
     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
 
-with open('output/ids.txt') as f:
-    all_ids = json.load(f)
-    
 for i in range(size):
     print("friends: " + str(i))
     users = members[i]["vk_pages"]

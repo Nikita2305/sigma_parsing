@@ -14,18 +14,16 @@ vk_session.auth()
 
 vk = vk_session.get_api()
 
+with open("temp/links.txt") as links:
+    short_names = []
 
-links = open("temp/links.txt")
-
-short_names = []
-
-while True:
-    line = links.readline()
-    if not line:
-        break
-    short_names += [line[line.rfind('/') + 1:]]
-
-links.close()
+    while True:
+        line = links.readline()
+        if not line:
+            break
+        name = line[line.rfind('/') + 1:]
+        if (line.rfind('/') != -1):
+            short_names += [name]
 
 ans = [str(user["id"]) for user in vk.users.get(user_ids=",".join(short_names))]
 
@@ -43,7 +41,9 @@ for member in members:
             account["probability"] = 1
             sm += 1
     if (sm > 1):
-        print(getstr(member["name"]) + " - same_ids in one list")
+        print(getstr(member["name"]) + " " + getstr(member["surname"]) + " - same_ids in one list")
+        for account in member["vk_pages"]:
+            account["probability"] = 0
         break
     if (sm == 1):
         member["processed"] = True 

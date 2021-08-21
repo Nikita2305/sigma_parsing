@@ -12492,7 +12492,7 @@
                 "is_closed": false,
                 "track_code": "adb5dc3aUxEs-ZnPmXMawjT0WGP7OzS1dBX6o5r55DmZ_WzRUjQ0eD-okKLKckKYDQiDlFc-XLtyFvqjlJ8",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             },
             {
                 "first_name": "Катерина",
@@ -12502,7 +12502,7 @@
                 "is_closed": false,
                 "track_code": "920bb60dTYXuMFAn__bdUrNM1wn3QgVETos3qjHmc7Y-xR2jSu0q7KgwARn-949SgbQK-F1HbUpIiDeqP4A",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             },
             {
                 "first_name": "Екатерина",
@@ -12512,7 +12512,7 @@
                 "is_closed": false,
                 "track_code": "1218cdc2bPyCx7K_jH_nU6mhhnjhDrs5mcme8tej5x6yIsQFepwLlcCc49DddLQBmF1ZiUgL0zefyp7y2cU",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             },
             {
                 "first_name": "Екатерина",
@@ -12522,7 +12522,7 @@
                 "is_closed": false,
                 "track_code": "4c4dd7cdEjgu8j3Hw5YGPSkNSG1UykapaXsVMxVuLR3a8qq2r5Z1UW73Zq2QlgMxG_iSn8qkIrR2dgJBGw",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             }
         ],
         "processed": true,
@@ -20465,7 +20465,7 @@
                 "is_closed": false,
                 "track_code": "78aeeb84I3yAiL4e736805Fo9Oj0OfhqCCA1onyEmG8F9wV_FT1EFcbesyG8f7_cpPsYUgtSnHcXLSLQcg",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             }
         ],
         "processed": true,
@@ -23221,7 +23221,7 @@
                 "is_closed": false,
                 "track_code": "a2c478eeTA7S_1DkJ_noh6UThqBx_AgXJVURADVh8NGRwUykNa0vdIL0aOFzqriBk9AdL2GUBhEmVREOUw",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             },
             {
                 "first_name": "Оксана",
@@ -23231,7 +23231,7 @@
                 "is_closed": false,
                 "track_code": "b472ef17UmK6H3MoluXnslwoDJcpIh8yUiv8MUKt_dLOCj4YmIYxGOtBH37H7-S8bO-WGzlKETRRK_w_JA",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             },
             {
                 "first_name": "Ксения",
@@ -23241,7 +23241,7 @@
                 "is_closed": false,
                 "track_code": "4278bd19hF39QEK-n2WozN9FtJlZ-JazodAUpE7sYlIiYJuNl5PnJ6YRer6WNKmb7oYkEEmQmLWi0BSqKA",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             },
             {
                 "first_name": "Ксения",
@@ -23251,7 +23251,7 @@
                 "is_closed": false,
                 "track_code": "7de6ec70LQZoVtKefBjgss1Fon3X6gsVooVTS52QjXqOD32HIRBOfDIN7Zx_TuO0-YI388eCBROhhVNF-w",
                 "friends": [],
-                "probability": 0
+                "probability": 0.0
             }
         ],
         "processed": true,
@@ -26258,7 +26258,7 @@
                 "friends": [
                     180765880
                 ],
-                "probability": 0.25
+                "probability": 0.2
             },
             {
                 "first_name": "Ася",
@@ -26283,7 +26283,7 @@
                     436516056,
                     457551126
                 ],
-                "probability": 0.75
+                "probability": 0.775
             },
             {
                 "first_name": "Настя",

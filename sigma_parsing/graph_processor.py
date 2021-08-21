@@ -1,7 +1,5 @@
 import json
-import matplotlib.pyplot as plt
 import time
-
 
 def get_prob(obj):
     if ("probability" in obj.keys()):
@@ -51,10 +49,13 @@ with open("output/members.txt") as f:
 # ----------- COUNTING BASE -----------
 
 for member in members:
-    member["processed"] = False
-    member["official_page"] = dict()
+    if (not "processed" in member):
+        member["processed"] = False
+    if (not "official_page" in member):
+        member["official_page"] = dict()
     for account in member["vk_pages"]:
-        account["probability"] = 0
+        if (not "probability" in account):
+            account["probability"] = 0
 
 for member in members:
     accounts = member["vk_pages"];
@@ -72,7 +73,7 @@ for member in members:
                 account["probability"] = 0
 
 print("base:")
-print(len([member for member in members if "processed" in member and  member["processed"]]))
+print(len([member for member in members if ("processed" in member and member["processed"])]))
 
 # ----------------- STARTING COMPUTING OTHERS --------------------- 
 
