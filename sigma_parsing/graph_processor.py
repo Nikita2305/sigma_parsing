@@ -1,47 +1,48 @@
 import json
 import time
 
-def get_prob(obj):
-    if ("probability" in obj.keys()):
-        return obj[probability]
-    return -1
+# At first solve the repeating ids problem.
+# Point: we should not solve it by deleting same accounts. 
 
 def getstr(var):
     if (isinstance(var, str)):
         return var
     return ""
 
-def get_member(members, user_id):
+def get_id_probability(members, user_id):
+    sm = 0
+    cnt = 0
     for member in members:
-        for account in member["vk_pages"]:
-            if (account["id"] == user_id):
-                return member
+        if (member["processed"]):
+            for account in member["vk_pages"]:
+                if (account["id"] == user_id):
+                    sm += account["probability"]
+                    cnt += 1
+    return sm / cnt
+            
 
-def get_account(member, user_id):
-    for account in member["vk_pages"]:
-        if (account["id"] == user_id):
-            return account
-
-def process(members, member):
+def process(members, processed_ids, member):
     member["processed"] = True
     total = 0
     for account in member["vk_pages"]:
         for friend_id in account["friends"]:
-            friend = get_member(members, friend_id)
-            if (friend["processed"]):
-                total += 1
+            total += (friend_id in processed_ids)
+    mx = 0
     for account in member["vk_pages"]:
         count = 0
         for friend_id in account["friends"]:
-            friend = get_member(members, friend_id)
-            if (friend["processed"]):
-                count += get_account(friend, friend_id)["probability"]
-        account["probability"] = count / total 
+            if (not friend_id in processed_ids):
+                continue
+            count += get_id_probability(members, friend_id)
+        account["probability"] = (count / total if total != 0 else 0)
+        mx = max(mx, account["probability"])
+    print("Probability: " + str(mx))
+    
 
 # ---------- SETTINGS ------------ 
  
 PROBABILITY_LIMIT = 0.8
-PROCESSED_LIMIT = 0.6
+PROCESSED_LIMIT = 0.0
 
 with open("output/members.txt") as f:
     members = json.load(f)
@@ -57,16 +58,17 @@ for member in members:
         if (not "probability" in account):
             account["probability"] = 0
 
+processed_ids = set()
 for member in members:
-    accounts = member["vk_pages"];
-    if (len(accounts) == 0):
+    if (len(member["vk_pages"]) == 0):
         continue
-    l = [len(account["friends"]) for account in accounts]
+    l = [len(account["friends"]) for account in member["vk_pages"]]
     l.sort()
     l = l[::-1]
     if ((l[0] >= 10 and (len(l) == 1 or l[1] <= 1)) or (l[0] >= 5 and (len(l) == 1 or l[1] == 0))):
         member["processed"] = True
-        for account in accounts:
+        for account in member["vk_pages"]:
+            processed_ids.add(account["id"])
             if (len(account["friends"]) > 1):
                 account["probability"] = 1
             else:
@@ -78,13 +80,8 @@ print(len([member for member in members if ("processed" in member and member["pr
 # ----------------- STARTING COMPUTING OTHERS --------------------- 
 
 while(True):
-    print("START")
-    TOTAL = 0
-    i = 0
+    another_members = []
     for member in members:
-        i += 1
-        if (i % 1000 == 0):
-            print(i)
         if (member["processed"]): 
             continue
         count = 0
@@ -92,16 +89,21 @@ while(True):
         for account in member["vk_pages"]:
             total += len(account["friends"])
             for friend_id in account["friends"]:
-                count += int(get_member(members, friend_id)["processed"])
+                count += int(friend_id in processed_ids)
         if (total == 0):
             continue
-        if (count / total >= PROCESSED_LIMIT):
-            TOTAL += 1
-            process(members, member)
-        
-    print("CYCLE:" + str(TOTAL))
-    if (TOTAL == 0):
+        process_level = count / total
+        another_members += [(process_level, member)]
+    another_members.sort(key=(lambda x: x[0]))
+    another_members = another_members[::-1]
+    
+    if (len(another_members) == 0 or another_members[0][0] < PROCESSED_LIMIT):
+        print("Не обработано:" + str(len(another_members)))
         break
+ 
+    process(members, processed_ids, another_members[0][1])
+    print("Осталось: " + str(len(another_members)))
+    print("Higher_process_level: " + str(another_members[0][0]))
 
 # --------- SETTING OFFICIAL PAGE ----------
 
@@ -114,6 +116,9 @@ for member in members:
             member["official_page"] = account
             member["processed"] = True
             break
+
+print("Final:")
+print(len([member for member in members if ("processed" in member and member["processed"])]))
 
 with open('output/members.txt', 'w') as f:
     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
