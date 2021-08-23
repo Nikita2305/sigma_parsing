@@ -1,4 +1,5 @@
 import json
+import sys
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
@@ -9,8 +10,18 @@ def getstr(var):
         return var
     return ""
 
-with open("output/members.txt") as f:
-    members = json.load(f)
+files = [path for path in Path('./output').rglob('members03*.txt')]
+if (len(files) >= 1):
+    print("Type a number:")
+    for i in range(len(files)):
+        print(i, ":", files[i])
+    i = int(input())
+    with open(files[i % len(files)]) as f:
+        members = json.load(f) 
+else:
+    print("No file")
+    quit()
+
 
 active = {}
 for i in range(-1,1000):
@@ -35,7 +46,7 @@ values = list(active.values())[:50]
 plt.bar(keys, values)
 plt.ylabel("Number of people")
 plt.xlabel("M1")
-plt.savefig("output/M1.png")
+plt.savefig("output/research03_1.png")
 plt.clf()
 
 keys = list(active.keys())[:50]
@@ -45,33 +56,19 @@ for i in reversed(range(1, len(keys))):
 plt.bar(keys, values)
 plt.ylabel("Number of people(cumulative)")
 plt.xlabel("M1")
-plt.savefig("output/M1_cumulative.png")
+plt.savefig("output/research03_2.png")
 plt.clf()
 
+X = np.array([l[0][0] for l in lst])
+Y = np.array([(l[0][1] if len(l[0]) > 1 else 0) for l in lst])
 
-active2 = {}
-for l in lst:
-    pair = (l[0][0], (l[0][1] if len(l[0]) > 1 else 0))
-    active2[pair] = (active2[pair] if pair in active2 else 0) + 1
-active2.pop((0,0))
-active2.pop((1,0))
+fig, ax = plt.subplots()
+hist, xbins, ybins, im = ax.hist2d(X, Y, bins=(30,30), range=[(0,30),(0,30)], cmin=1)
 
-X = np.array([x[0] for x in active2.keys()])
-Y = np.array([x[1] for x in active2.keys()])
-Z = np.array(list(active2.values()))
+for i in range(len(ybins)-1):
+    for j in range(len(xbins)-1):
+        ax.text(xbins[j]+0.5,ybins[i]+0.5, hist.T[i,j], 
+                color="w", ha="center", va="center", fontweight="bold")
 
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.view_init(elev=20, azim=250)
-
-ax.set_xlabel("M1")
-ax.set_xlim(15)
-ax.set_ylabel("M2")
-ax.set_ylim(15)
-ax.set_zlabel("Number of people")
-ax.set_title("All pairs (M1, M2), except (0, 0) and (1, 0)")
-
-surf = ax.plot_trisurf(X, Y, Z, cmap=cm.coolwarm)
-plt.savefig("output/M1_M2.png")
 plt.show()
 plt.clf()
