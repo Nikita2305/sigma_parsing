@@ -1,4 +1,5 @@
 import json
+import sys
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
@@ -9,7 +10,12 @@ def getstr(var):
         return var
     return ""
 
-with open("output/members.txt") as f:
+filename = "output/members.txt"
+
+if len(sys.argv) >= 2:
+    filename = sys.argv[1]
+
+with open(filename) as f:
     members = json.load(f)
 
 active = {}
@@ -18,13 +24,20 @@ for i in range(-1,1000):
 
 lst = []
 for member in members:
-    if (len(member["vk_pages"]) == 0):
-        active[-1] = active[-1] + 1
+    if (not "vk_id" in member):
         continue
-    l = [len(account["friends"]) for account in member["vk_pages"]]
-    l.sort()
-    l = l[::-1]
-    lst += [(l, getstr(member["surname"]) + " " + getstr(member["name"]))]
+    if (len(member["official_page"]) == 0):
+        if(len(member["vk_pages"]) != 0):
+            for acc in member["vk_pages"]:
+                if(acc["id"] == int(member["vk_id"])):
+                    if (len(member["vk_pages"]) == 0):
+                        active[-1] = active[-1] + 1
+                        continue
+                    l = [len(account["friends"]) for account in member["vk_pages"]]
+                    l.sort()
+                    l = l[::-1]
+                    lst += [(l, getstr(member["surname"]) + " " + getstr(member["name"]))]
+                    break
 lst.sort()
 
 for l in lst:
@@ -48,30 +61,18 @@ plt.xlabel("M1")
 plt.savefig("output/M1_cumulative.png")
 plt.clf()
 
+X = np.array([l[0][0] for l in lst])
+Y = np.array([(l[0][1] if len(l[0]) > 1 else 0) for l in lst])
 
-active2 = {}
-for l in lst:
-    pair = (l[0][0], (l[0][1] if len(l[0]) > 1 else 0))
-    active2[pair] = (active2[pair] if pair in active2 else 0) + 1
-active2.pop((0,0))
-active2.pop((1,0))
+fig, ax = plt.subplots()
+hist, xbins, ybins, im = ax.hist2d(X, Y, bins=(30,30), range=[(0,30),(0,30)], cmin=1)
 
-X = np.array([x[0] for x in active2.keys()])
-Y = np.array([x[1] for x in active2.keys()])
-Z = np.array(list(active2.values()))
+for i in range(len(ybins)-1):
+    for j in range(len(xbins)-1):
+        ax.text(xbins[j]+0.5,ybins[i]+0.5, hist.T[i,j], 
+                color="w", ha="center", va="center", fontweight="bold")
 
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.view_init(elev=20, azim=250)
 
-ax.set_xlabel("M1")
-ax.set_xlim(15)
-ax.set_ylabel("M2")
-ax.set_ylim(15)
-ax.set_zlabel("Number of people")
-ax.set_title("All pairs (M1, M2), except (0, 0) and (1, 0)")
-
-surf = ax.plot_trisurf(X, Y, Z, cmap=cm.coolwarm)
 plt.savefig("output/M1_M2.png")
 plt.show()
 plt.clf()

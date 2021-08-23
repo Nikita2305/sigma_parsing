@@ -1,5 +1,6 @@
 import json
 import openpyxl
+import sys
 from pathlib import Path
 
 def getstr(var):
@@ -13,7 +14,12 @@ def is_official(members, user_id):
             return True
     return False
 
-with open("output/members.txt") as f:
+filename = "output/members.txt"
+
+if len(sys.argv) >= 2:
+    filename = sys.argv[1]
+
+with open(filename) as f:
     users = json.load(f)
 
 wb = openpyxl.Workbook()
@@ -25,6 +31,15 @@ ws["C1"] = "Type"
 edge = 2
 ids = []
 for user in users:
+    if (len(user["official_page"]) == 0):
+        if(len(user["vk_pages"]) != 0):
+            for acc in user["vk_pages"]:
+                if(acc["id"] == int(user["vk_id"])):
+                    user["processed"] = True
+                    user["official_page"] = acc
+                    user["special_case"] = True
+                    print(acc)
+                    break
     if (not user["processed"]):
         continue
     account = user["official_page"]
@@ -45,8 +60,12 @@ ws["A1"] = "Id"
 ws["B1"] = "Label"
 ws["C1"] = "Olymps"
 ws["D1"] = "School"
+ws["E1"] = "SpecialCase"
 usr = 2
 ids = []
+
+print("=================")
+
 for user in users:
     if (not user["processed"]):
         continue
@@ -57,7 +76,8 @@ for user in users:
     ids += [id1]
     ws["A"+str(usr)] = str(id1)
     ws["B"+str(usr)] = getstr(user["name"]) + " " + getstr(user["surname"])
-    ws["C"+str(usr)] = str([getstr(olymp["olymp"]) + "(" + getstr(olymp["class"]) + " класс)" for olymp in user["diplomas"]])
+    ws["C"+str(usr)] = ""
     ws["D"+str(usr)] = getstr(user["school"])
+    ws["E"+str(usr)] = 1 if "special_case" in user else 0
     usr += 1
 wb.save("output/graph.xlsx")
