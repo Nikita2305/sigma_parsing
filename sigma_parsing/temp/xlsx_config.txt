@@ -1,0 +1,32 @@
+[
+    {
+        "substring": "имя",
+        "field": "name",
+        "pattern": ".",
+        "important": true
+    },
+    {
+        "substring": "фамилия",
+        "field": "surname",
+        "pattern": ".",
+        "important": true
+    },
+    {
+        "substring": "школа",
+        "field": "school",
+        "pattern": ".",
+        "important": false
+    },
+    {
+        "substring": "класс",
+        "field": "class",
+        "pattern": ".",
+        "important": false
+    },
+    {
+        "substring": "вконтакте",
+        "field": "vk_id",
+        "pattern": "vk.com/",
+        "important": true
+    }
+]

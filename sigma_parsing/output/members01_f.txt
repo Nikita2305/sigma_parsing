@@ -1,0 +1,3411 @@
+[
+    {
+        "name": "Вероника",
+        "surname": "Усова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 451195781
+    },
+    {
+        "name": "Богдан",
+        "surname": "Пьянзин",
+        "school": "117",
+        "class": "10",
+        "vk_id": 298641799
+    },
+    {
+        "name": "Полина",
+        "surname": "Анохина",
+        "school": "УГ МГУ",
+        "class": "10",
+        "vk_id": 332534432
+    },
+    {
+        "name": "Полина",
+        "surname": "Шведова",
+        "school": "19",
+        "class": "7",
+        "vk_id": 394830793
+    },
+    {
+        "name": "Ксения",
+        "surname": "Вареникова",
+        "school": "85",
+        "class": "9",
+        "vk_id": 299630906
+    },
+    {
+        "name": "Кристина",
+        "surname": "Томилова",
+        "school": "85",
+        "class": "9",
+        "vk_id": 591530737
+    },
+    {
+        "name": "Ольга",
+        "surname": "Тыщенко",
+        "school": "85",
+        "class": "7",
+        "vk_id": 378043312
+    },
+    {
+        "name": "Мария",
+        "surname": "Герасименко",
+        "school": "85",
+        "class": "9",
+        "vk_id": 398882645
+    },
+    {
+        "name": "Мария",
+        "surname": "Перевальская",
+        "school": "66",
+        "class": "10",
+        "vk_id": 251118385
+    },
+    {
+        "name": "Александр",
+        "surname": "Лобов",
+        "school": "85",
+        "class": "9",
+        "vk_id": 451471926
+    },
+    {
+        "name": "Анна",
+        "surname": "Ткаченко",
+        "school": "117",
+        "class": "11",
+        "vk_id": "http://vk.com/durachok.kakoito"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Подворная",
+        "school": "117",
+        "class": "10",
+        "vk_id": 324261632
+    },
+    {
+        "name": "Татьяна",
+        "surname": "Шукшина",
+        "school": "143",
+        "class": "10",
+        "vk_id": 258547627
+    },
+    {
+        "name": "Алёна",
+        "surname": "Терешонок",
+        "school": "117",
+        "class": "9",
+        "vk_id": 484004629
+    },
+    {
+        "name": "Софья",
+        "surname": "Павлова",
+        "school": "ЧОУ \"АЭШ\"",
+        "class": "10",
+        "vk_id": 292403592
+    },
+    {
+        "name": "Роман",
+        "surname": "Комнацкий",
+        "school": "64",
+        "class": "8",
+        "vk_id": 565619617
+    },
+    {
+        "name": "Кристина",
+        "surname": "Саверская",
+        "school": "74",
+        "class": "9",
+        "vk_id": 557900457
+    },
+    {
+        "name": "Любовь",
+        "surname": "Рабских",
+        "school": "48",
+        "class": "10",
+        "vk_id": 352770201
+    },
+    {
+        "name": "Полина",
+        "surname": "Попова",
+        "school": "117",
+        "class": "7",
+        "vk_id": 528082701
+    },
+    {
+        "name": "Владимир",
+        "surname": "Константинов",
+        "school": "117",
+        "class": "7",
+        "vk_id": "vk.com/vovagame555"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Ивакина",
+        "school": "43",
+        "class": "10",
+        "vk_id": 231042498
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Гапон",
+        "school": "117",
+        "class": "8",
+        "vk_id": 460655219
+    },
+    {
+        "name": "Анна",
+        "surname": "Бессараб",
+        "school": "117",
+        "class": "8",
+        "vk_id": 253954873
+    },
+    {
+        "name": "Дарья",
+        "surname": "Ладынская",
+        "school": "149",
+        "class": "10",
+        "vk_id": 344828536
+    },
+    {
+        "name": "Гордей",
+        "surname": "Завьялов",
+        "school": "СУНЦ МГУ",
+        "class": "10",
+        "vk_id": 271711683
+    },
+    {
+        "name": "Иван",
+        "surname": "Долгих",
+        "school": "64",
+        "class": "10",
+        "vk_id": 213671374
+    },
+    {
+        "name": "Алина",
+        "surname": "Дьячкова",
+        "school": "135",
+        "class": "7",
+        "vk_id": 398712614
+    },
+    {
+        "name": "Полина",
+        "surname": "Клюева",
+        "school": "117",
+        "class": "10",
+        "vk_id": 248147614
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Жданова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 306650408
+    },
+    {
+        "name": "Ярослав",
+        "surname": "Самсонов",
+        "school": "132",
+        "class": "10",
+        "vk_id": 346126887
+    },
+    {
+        "name": "Юлия",
+        "surname": "Бурмистова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 408131570
+    },
+    {
+        "name": "Никита",
+        "surname": "Клюшин",
+        "school": "64",
+        "class": "10",
+        "vk_id": 500937025
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Шмидт",
+        "school": "149",
+        "class": "9",
+        "vk_id": 339456210
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Галак",
+        "school": "149",
+        "class": "9",
+        "vk_id": 310479043
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Челпанов",
+        "school": "84",
+        "class": "7",
+        "vk_id": 581004301
+    },
+    {
+        "name": "Назар",
+        "surname": "Данилов",
+        "school": "140",
+        "class": "9",
+        "vk_id": 606368660
+    },
+    {
+        "name": "Александр",
+        "surname": "Пашков",
+        "school": "62",
+        "class": "8",
+        "vk_id": 475162180
+    },
+    {
+        "name": "Анна",
+        "surname": "Столярова",
+        "school": "62",
+        "class": "8",
+        "vk_id": 554837855
+    },
+    {
+        "name": "Полина",
+        "surname": "Рощупкина",
+        "school": "62",
+        "class": "8",
+        "vk_id": 349524865
+    },
+    {
+        "name": "Марина",
+        "surname": "Спицкая",
+        "school": "62",
+        "class": "8",
+        "vk_id": "https://vk.com/"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Бибичев",
+        "school": "117",
+        "class": "10",
+        "vk_id": 140912611
+    },
+    {
+        "name": "Маша",
+        "surname": "Искра",
+        "school": "92",
+        "class": "7",
+        "vk_id": 300378599
+    },
+    {
+        "name": "Роман",
+        "surname": "Тарасенко",
+        "school": "84",
+        "class": "8",
+        "vk_id": 433235962
+    },
+    {
+        "name": "Илья",
+        "surname": "Бурляев",
+        "school": "117",
+        "class": "10",
+        "vk_id": 152267404
+    },
+    {
+        "name": "Владимир",
+        "surname": "Шмурыгин",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/shmuryginvldmr"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Перевальская",
+        "school": "117",
+        "class": "10",
+        "vk_id": 258574005
+    },
+    {
+        "name": "Александр",
+        "surname": "Зырянов",
+        "school": "108",
+        "class": "10",
+        "vk_id": 323828260
+    },
+    {
+        "name": "Расул",
+        "surname": "Бижанов",
+        "school": "92",
+        "class": "10",
+        "vk_id": 251248040
+    },
+    {
+        "name": "Максим",
+        "surname": "Кривко",
+        "school": "75",
+        "class": "9",
+        "vk_id": 356801694
+    },
+    {
+        "name": "Асхат",
+        "surname": "Кажкаримов",
+        "school": "117",
+        "class": "9",
+        "vk_id": 392169689
+    },
+    {
+        "name": "Пётр",
+        "surname": "Макаров",
+        "school": "92",
+        "class": "10",
+        "vk_id": 344454715
+    },
+    {
+        "name": "Дарья",
+        "surname": "Михайлова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 278622186
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Тимко",
+        "school": "495",
+        "class": "9",
+        "vk_id": 409562768
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Зырянова",
+        "school": "108",
+        "class": "8",
+        "vk_id": 505165100
+    },
+    {
+        "name": "Данил",
+        "surname": "Сбитнев",
+        "school": "117",
+        "class": "9",
+        "vk_id": 310102597
+    },
+    {
+        "name": "Маргарита",
+        "surname": "Мережко",
+        "school": "115",
+        "class": "10",
+        "vk_id": 522897102
+    },
+    {
+        "name": "Евгений",
+        "surname": "Бобкунов",
+        "school": "115",
+        "class": "10",
+        "vk_id": 270329729
+    },
+    {
+        "name": "Кристина",
+        "surname": "Латышкина",
+        "school": "Лицей БИТ",
+        "class": "9",
+        "vk_id": 293398980
+    },
+    {
+        "name": "Алексей",
+        "surname": "Белозеров",
+        "school": "56",
+        "class": "11",
+        "vk_id": 494493499
+    },
+    {
+        "name": "Виктория",
+        "surname": "Куксевич",
+        "school": "56",
+        "class": "11",
+        "vk_id": "https://vk.com/viiiiiiiiiiiiiiiiiiiiika"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Дмитриевна",
+        "school": "56",
+        "class": "11",
+        "vk_id": "https://vk.com/viiiiiiiiiiiiiiiiiiiiika"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Сорокин",
+        "school": "146",
+        "class": "7",
+        "vk_id": 30728805
+    },
+    {
+        "name": "Дарья",
+        "surname": "Казаренко",
+        "school": "146",
+        "class": "10",
+        "vk_id": 446211239
+    },
+    {
+        "name": "Павел",
+        "surname": "Никульшин",
+        "school": "64",
+        "class": "10",
+        "vk_id": 271952299
+    },
+    {
+        "name": "Сема",
+        "surname": "Аббасова",
+        "school": "108",
+        "class": "10",
+        "vk_id": 190655457
+    },
+    {
+        "name": "Ксения",
+        "surname": "Новичкова",
+        "school": "117",
+        "class": "10",
+        "vk_id": 557778304
+    },
+    {
+        "name": "Ангелина",
+        "surname": "Бочарова",
+        "school": "85",
+        "class": "10",
+        "vk_id": 601870891
+    },
+    {
+        "name": "Софья",
+        "surname": "Ботова",
+        "school": "85",
+        "class": "10",
+        "vk_id": 283105137
+    },
+    {
+        "name": "Мария",
+        "surname": "Лукашенко",
+        "school": "9",
+        "class": "10",
+        "vk_id": 473369212
+    },
+    {
+        "name": "Владимир",
+        "surname": "Михайленко",
+        "school": "25",
+        "class": "9",
+        "vk_id": 577339233
+    },
+    {
+        "name": "Артём",
+        "surname": "Афонин",
+        "school": "ОмГТУ",
+        "class": "11",
+        "vk_id": 507166680
+    },
+    {
+        "name": "Борис",
+        "surname": "Малашин",
+        "school": "64",
+        "class": "10",
+        "vk_id": 164392346
+    },
+    {
+        "name": "Александра",
+        "surname": "Жаворонкова",
+        "school": "64",
+        "class": "11",
+        "vk_id": 213760950
+    },
+    {
+        "name": "Анна",
+        "surname": "Молоторенко",
+        "school": "64",
+        "class": "11",
+        "vk_id": 242699738
+    },
+    {
+        "name": "Рамина",
+        "surname": "Мукушева",
+        "school": "146",
+        "class": "10",
+        "vk_id": 218425936
+    },
+    {
+        "name": "Алексей",
+        "surname": "Кузнецов",
+        "school": "115",
+        "class": "10",
+        "vk_id": 413685971
+    },
+    {
+        "name": "Елена",
+        "surname": "Щукина",
+        "school": "166",
+        "class": "9",
+        "vk_id": 452262359
+    },
+    {
+        "name": "Ислам",
+        "surname": "Сарсенов",
+        "school": "Фоксфорд",
+        "class": "8",
+        "vk_id": 548983066
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Протченко",
+        "school": "117",
+        "class": "11",
+        "vk_id": 270970940
+    },
+    {
+        "name": "Даниил",
+        "surname": "Каяшов",
+        "school": "117",
+        "class": "11",
+        "vk_id": 176018583
+    },
+    {
+        "name": "Роман",
+        "surname": "Власов",
+        "school": "117",
+        "class": "8",
+        "vk_id": 516067967
+    },
+    {
+        "name": "Данара",
+        "surname": "Нуркушева",
+        "school": "117",
+        "class": "10",
+        "vk_id": 55040621
+    },
+    {
+        "name": "Алиса",
+        "surname": "Темерева",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://m.vk.com/alisatemereva"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Богданова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 206813526
+    },
+    {
+        "name": "Джессика",
+        "surname": "Тулинская",
+        "school": "54",
+        "class": "10",
+        "vk_id": "https://vk.com/jess41359473"
+    },
+    {
+        "name": "Степан",
+        "surname": "Анисимков",
+        "school": "159",
+        "class": "9",
+        "vk_id": 293021806
+    },
+    {
+        "name": "Сергей",
+        "surname": "Прохоров",
+        "school": "139",
+        "class": "7",
+        "vk_id": 326623716
+    },
+    {
+        "name": "Ирина",
+        "surname": "Сушкова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 402259781
+    },
+    {
+        "name": "Анатолий",
+        "surname": "Лазарев",
+        "school": "116",
+        "class": "9",
+        "vk_id": "vk.com/tillid"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Затолоцкая",
+        "school": "СУНЦ НГУ",
+        "class": "10",
+        "vk_id": 226383318
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Цалко",
+        "school": "61",
+        "class": "7",
+        "vk_id": 166902078
+    },
+    {
+        "name": "Наиля",
+        "surname": "Киямова",
+        "school": "64",
+        "class": "9",
+        "vk_id": 157774551
+    },
+    {
+        "name": "Ольга",
+        "surname": "Гриценко",
+        "school": "117",
+        "class": "10",
+        "vk_id": 56001370
+    },
+    {
+        "name": "Сергей",
+        "surname": "Кумейко",
+        "school": "64",
+        "class": "10",
+        "vk_id": 354871101
+    },
+    {
+        "name": "Майя",
+        "surname": "Чебакова",
+        "school": "64",
+        "class": "7",
+        "vk_id": 305699141
+    },
+    {
+        "name": "Юрий",
+        "surname": "Верзун",
+        "school": "117",
+        "class": "8",
+        "vk_id": 400485657
+    },
+    {
+        "name": "Анна",
+        "surname": "Артамонова",
+        "school": "64",
+        "class": "9",
+        "vk_id": 157850061
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Подворная",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/liza06082000"
+    },
+    {
+        "name": "Виктор",
+        "surname": "Ложников",
+        "school": "139",
+        "class": "10",
+        "vk_id": 124894118
+    },
+    {
+        "name": "Семён",
+        "surname": "Сычов",
+        "school": "64",
+        "class": "9",
+        "vk_id": "vk.com/sermon.kokosov"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Мельков",
+        "school": "64",
+        "class": "10",
+        "vk_id": 81616591
+    },
+    {
+        "name": "Сергей",
+        "surname": "Цындуков",
+        "school": "92",
+        "class": "10",
+        "vk_id": "https://vk.com/tsyndukov"
+    },
+    {
+        "name": "Мария",
+        "surname": "Мозылева",
+        "school": "9",
+        "class": "8",
+        "vk_id": 99314292
+    },
+    {
+        "name": "Андрей",
+        "surname": "Храмов",
+        "school": "83",
+        "class": "8",
+        "vk_id": "https://vk.com/damaskyoutube"
+    },
+    {
+        "name": "Виолетта",
+        "surname": "Задорожная",
+        "school": "117",
+        "class": "9",
+        "vk_id": 198934365
+    },
+    {
+        "name": "Анита",
+        "surname": "Сташевская",
+        "school": "84",
+        "class": "9",
+        "vk_id": 196023528
+    },
+    {
+        "name": "Константин",
+        "surname": "Турышев",
+        "school": "64",
+        "class": "10",
+        "vk_id": 281300280
+    },
+    {
+        "name": "Алексей",
+        "surname": "Фильчиков",
+        "school": "3",
+        "class": "10",
+        "vk_id": 162177040
+    },
+    {
+        "name": "Евгения",
+        "surname": "Ткачёва",
+        "school": "143",
+        "class": "10",
+        "vk_id": "https://vk.com/zhenek1979"
+    },
+    {
+        "name": "Алена",
+        "surname": "Фадеева",
+        "school": "64",
+        "class": "11",
+        "vk_id": 46862447
+    },
+    {
+        "name": "Юлия",
+        "surname": "Балакина",
+        "school": "академический лицей",
+        "class": "8",
+        "vk_id": "https://vk.com/yulyabalakina"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Суднев",
+        "school": "149",
+        "class": "9",
+        "vk_id": 113425882
+    },
+    {
+        "name": "Владислав",
+        "surname": "Шевцов",
+        "school": "92",
+        "class": "10",
+        "vk_id": 164991725
+    },
+    {
+        "name": "Юлия",
+        "surname": "Кудашкина",
+        "school": "123",
+        "class": "10",
+        "vk_id": 183332969
+    },
+    {
+        "name": "Павел",
+        "surname": "Кельцев",
+        "school": "64",
+        "class": "10",
+        "vk_id": 149517262
+    },
+    {
+        "name": "Вячеслав",
+        "surname": "Задворнов",
+        "school": "34",
+        "class": "10",
+        "vk_id": 209670944
+    },
+    {
+        "name": "Всеволод",
+        "surname": "Захаров",
+        "school": "92",
+        "class": "9",
+        "vk_id": 288643683
+    },
+    {
+        "name": "Роман",
+        "surname": "Уманский",
+        "school": "64",
+        "class": "9",
+        "vk_id": 192165034
+    },
+    {
+        "name": "Иван",
+        "surname": "Вачев",
+        "school": "19",
+        "class": "10",
+        "vk_id": 224262854
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Золотарев",
+        "school": "117",
+        "class": "10",
+        "vk_id": 92516450
+    },
+    {
+        "name": "Севастьян",
+        "surname": "Панов",
+        "school": "117",
+        "class": "8",
+        "vk_id": "vk.com/sevastyanp"
+    },
+    {
+        "name": "Лука",
+        "surname": "Никифоров",
+        "school": "115",
+        "class": "8",
+        "vk_id": "vk.com/luckea"
+    },
+    {
+        "name": "Ян",
+        "surname": "Вяземский",
+        "school": "64",
+        "class": "10",
+        "vk_id": 124028509
+    },
+    {
+        "name": "Ирина",
+        "surname": "Широкова",
+        "school": "64",
+        "class": "9",
+        "vk_id": 189704537
+    },
+    {
+        "name": "Дарья",
+        "surname": "Крючкова",
+        "school": "66",
+        "class": "11",
+        "vk_id": "vk.com/unfraid"
+    },
+    {
+        "name": "Георгий",
+        "surname": "Лапшин",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://m.vk.com/georgela"
+    },
+    {
+        "name": "Анна",
+        "surname": "Коломеец",
+        "school": "73",
+        "class": "10",
+        "vk_id": 157847345
+    },
+    {
+        "name": "Данил",
+        "surname": "Рябцев",
+        "school": "19",
+        "class": "10",
+        "vk_id": 70707427
+    },
+    {
+        "name": "Александра",
+        "surname": "Базиль",
+        "school": "64",
+        "class": "11",
+        "vk_id": 136665279
+    },
+    {
+        "name": "Константин",
+        "surname": "Ушаков",
+        "school": "64",
+        "class": "10",
+        "vk_id": 310400504
+    },
+    {
+        "name": "Анна",
+        "surname": "Романенко",
+        "school": "54",
+        "class": "10",
+        "vk_id": 151109872
+    },
+    {
+        "name": "Алексей",
+        "surname": "Копац",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://vk.com/mr_ukropchik"
+    },
+    {
+        "name": "Ольга",
+        "surname": "Белозерова",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/obeloz"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Красных",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/evverything_is_allowed"
+    },
+    {
+        "name": "Кирилл",
+        "surname": "Киселев",
+        "school": "149",
+        "class": "8",
+        "vk_id": 215131774
+    },
+    {
+        "name": "Ксения",
+        "surname": "Гнедина",
+        "school": "117",
+        "class": "7",
+        "vk_id": 377773056
+    },
+    {
+        "name": "Юлия",
+        "surname": "Гнедина",
+        "school": "117",
+        "class": "7",
+        "vk_id": 316784802
+    },
+    {
+        "name": "Маргарита",
+        "surname": "Дизер",
+        "school": "117",
+        "class": "10",
+        "vk_id": 213944525
+    },
+    {
+        "name": "Максим",
+        "surname": "Аркушенко",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/m.arkushenko"
+    },
+    {
+        "name": "Артем",
+        "surname": "Булыгин",
+        "school": "117",
+        "class": "10",
+        "vk_id": 176711613
+    },
+    {
+        "name": "Арина",
+        "surname": "Гарбуз",
+        "school": "98",
+        "class": "7",
+        "vk_id": "vk.com/agarbus2003"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Кушнарева",
+        "school": "159",
+        "class": "10",
+        "vk_id": "vk.com/akushnareva2000"
+    },
+    {
+        "name": "Виктор",
+        "surname": "Артамонов",
+        "school": "140",
+        "class": "9",
+        "vk_id": 86940558
+    },
+    {
+        "name": "Амалия",
+        "surname": "Ибатуллина",
+        "school": "117",
+        "class": "7",
+        "vk_id": 262530619
+    },
+    {
+        "name": "Владимир",
+        "surname": "Мальцев",
+        "school": "149",
+        "class": "7",
+        "vk_id": 269312243
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Янукова",
+        "school": "81",
+        "class": "10",
+        "vk_id": 150796947
+    },
+    {
+        "name": "Татьяна",
+        "surname": "Захарова",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/tanya080900"
+    },
+    {
+        "name": "Константин",
+        "surname": "Савченко",
+        "school": "117",
+        "class": "10",
+        "vk_id": 163053104
+    },
+    {
+        "name": "Яна",
+        "surname": "Куличенко",
+        "school": "64",
+        "class": "9",
+        "vk_id": "vk.com/y.kulichenko"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Куличенко",
+        "school": "64",
+        "class": "9",
+        "vk_id": "vk.com/bellakey"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Кочурова",
+        "school": "117",
+        "class": "10",
+        "vk_id": 336544709
+    },
+    {
+        "name": "Егор",
+        "surname": "Черноок",
+        "school": "117",
+        "class": "10",
+        "vk_id": 149548495
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Кошевая",
+        "school": "117",
+        "class": "7",
+        "vk_id": 249818753
+    },
+    {
+        "name": "Маша",
+        "surname": "Стеблий",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/masya_st"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Крючков",
+        "school": "66",
+        "class": "9",
+        "vk_id": 179938740
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Олейник",
+        "school": "117",
+        "class": "10",
+        "vk_id": 179548647
+    },
+    {
+        "name": "Михаил",
+        "surname": "Смирнов",
+        "school": "117",
+        "class": "7",
+        "vk_id": 383760243
+    },
+    {
+        "name": "Розалита",
+        "surname": "Успанова",
+        "school": "81",
+        "class": "10",
+        "vk_id": 162562572
+    },
+    {
+        "name": "Анна",
+        "surname": "Долгова",
+        "school": "117",
+        "class": "7",
+        "vk_id": "vk.com/anna_dolgova2004"
+    },
+    {
+        "name": "Матвей",
+        "surname": "Суров",
+        "school": "135",
+        "class": "6",
+        "vk_id": 411925471
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Крутикова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 313977338
+    },
+    {
+        "name": "Семён",
+        "surname": "Поркулевич",
+        "school": "64",
+        "class": "9",
+        "vk_id": 153731120
+    },
+    {
+        "name": "Артём",
+        "surname": "Клименко",
+        "school": "92",
+        "class": "10",
+        "vk_id": 129336332
+    },
+    {
+        "name": "Алексей",
+        "surname": "Веретенников",
+        "school": "64",
+        "class": "9",
+        "vk_id": 189651298
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Рудских",
+        "school": "64",
+        "class": "10",
+        "vk_id": 270087107
+    },
+    {
+        "name": "Иван",
+        "surname": "Целиков",
+        "school": "117",
+        "class": "7",
+        "vk_id": 179533793
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Гричкоедова",
+        "school": "149",
+        "class": "8",
+        "vk_id": 242170279
+    },
+    {
+        "name": "Юлия",
+        "surname": "Рогова",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/juliarrrrrx"
+    },
+    {
+        "name": "Артём",
+        "surname": "Васянович",
+        "school": "54",
+        "class": "10",
+        "vk_id": "https://vk.com/science_tk"
+    },
+    {
+        "name": "Александр",
+        "surname": "Бабенко",
+        "school": "117",
+        "class": "8",
+        "vk_id": 248288690
+    },
+    {
+        "name": "Максим",
+        "surname": "Сербин",
+        "school": "117",
+        "class": "8",
+        "vk_id": 352280379
+    },
+    {
+        "name": "Валерия",
+        "surname": "Александрова",
+        "school": "117",
+        "class": "10",
+        "vk_id": 137084080
+    },
+    {
+        "name": "Андрей",
+        "surname": "Зольников",
+        "school": "117",
+        "class": "10",
+        "vk_id": 306404698
+    },
+    {
+        "name": "Владислав",
+        "surname": "Точилов",
+        "school": "19",
+        "class": "10",
+        "vk_id": "https://vk.com/uhhkjg78ygh"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Оваканян",
+        "school": "117",
+        "class": "7",
+        "vk_id": 211698405
+    },
+    {
+        "name": "Дарья",
+        "surname": "Петухова",
+        "school": "7",
+        "class": "8",
+        "vk_id": "https://vk.com/ddp102f"
+    },
+    {
+        "name": "Марина",
+        "surname": "Капллани",
+        "school": "117",
+        "class": "7",
+        "vk_id": 343979880
+    },
+    {
+        "name": "Богдан",
+        "surname": "Христолюбов",
+        "school": "146",
+        "class": "7",
+        "vk_id": 382406601
+    },
+    {
+        "name": "Вероника",
+        "surname": "Моисеева",
+        "school": "117",
+        "class": "7",
+        "vk_id": 276675815
+    },
+    {
+        "name": "Софья",
+        "surname": "Ткач",
+        "school": "43",
+        "class": "8",
+        "vk_id": 186803102
+    },
+    {
+        "name": "Александра",
+        "surname": "Деркач",
+        "school": "117",
+        "class": "7",
+        "vk_id": 341442598
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Новопашина",
+        "school": "107",
+        "class": "10",
+        "vk_id": 172201719
+    },
+    {
+        "name": "Валерия",
+        "surname": "Халюзина",
+        "school": "117",
+        "class": "8",
+        "vk_id": 303071470
+    },
+    {
+        "name": "Мария",
+        "surname": "Васильева",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/sadmaris"
+    },
+    {
+        "name": "Александр",
+        "surname": "Грушко",
+        "school": "117",
+        "class": "7",
+        "vk_id": 340132670
+    },
+    {
+        "name": "Илья",
+        "surname": "Бендик",
+        "school": "117",
+        "class": "11",
+        "vk_id": 189813664
+    },
+    {
+        "name": "Даша",
+        "surname": "Тищенко",
+        "school": "117",
+        "class": "8",
+        "vk_id": 524671490
+    },
+    {
+        "name": "Анна",
+        "surname": "Курбатова",
+        "school": "3",
+        "class": "8",
+        "vk_id": "https://vk.com/anna.kurbatova99"
+    },
+    {
+        "name": "Артем",
+        "surname": "Алтышев",
+        "school": "109",
+        "class": "9",
+        "vk_id": 312748553
+    },
+    {
+        "name": "Леонид",
+        "surname": "Желдак",
+        "school": "117",
+        "class": "7",
+        "vk_id": 247547682
+    },
+    {
+        "name": "Василий",
+        "surname": "Кузьмин",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/username1908"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Бурмистрова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 408131570
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Семёнова",
+        "school": "Омский музыкально педагогический колледж",
+        "class": "10",
+        "vk_id": 542091942
+    },
+    {
+        "name": "Матвей",
+        "surname": "Гуляев",
+        "school": "64",
+        "class": "8",
+        "vk_id": 354185619
+    },
+    {
+        "name": "Анна",
+        "surname": "Перевозкина",
+        "school": "12",
+        "class": "9",
+        "vk_id": 281208655
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Ракова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 341567849
+    },
+    {
+        "name": "Алена",
+        "surname": "Перевальская",
+        "school": "117",
+        "class": "10",
+        "vk_id": 258574005
+    },
+    {
+        "name": "Светлана",
+        "surname": "Данилова",
+        "school": "159",
+        "class": "9",
+        "vk_id": 441533920
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Доброва",
+        "school": "159",
+        "class": "9",
+        "vk_id": 281634464
+    },
+    {
+        "name": "Ярослава",
+        "surname": "Горчакова",
+        "school": "117",
+        "class": "10",
+        "vk_id": 238150808
+    },
+    {
+        "name": "Вероника",
+        "surname": "Ценева",
+        "school": "117",
+        "class": "10",
+        "vk_id": 361219908
+    },
+    {
+        "name": "Иван",
+        "surname": "Зырянов",
+        "school": "64",
+        "class": "8",
+        "vk_id": 548168166
+    },
+    {
+        "name": "Даниил",
+        "surname": "Шапов",
+        "school": "166",
+        "class": "7",
+        "vk_id": 341120317
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Забара",
+        "school": "117",
+        "class": "9",
+        "vk_id": 292857970
+    },
+    {
+        "name": "Лейла",
+        "surname": "Садвокасова",
+        "school": "118",
+        "class": "7",
+        "vk_id": 502773244
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Апполонина",
+        "school": "84",
+        "class": "9",
+        "vk_id": 451275043
+    },
+    {
+        "name": "Никита",
+        "surname": "Клюшкин",
+        "school": "64",
+        "class": "10",
+        "vk_id": 500937025
+    },
+    {
+        "name": "Лада",
+        "surname": "Ивченко",
+        "school": "115",
+        "class": "7",
+        "vk_id": 495228874
+    },
+    {
+        "name": "Любовь",
+        "surname": "Ушакова",
+        "school": "1449",
+        "class": "10",
+        "vk_id": 277678281
+    },
+    {
+        "name": "Вероника",
+        "surname": "Коростелёва",
+        "school": "64",
+        "class": "11",
+        "vk_id": 207315807
+    },
+    {
+        "name": "Поля",
+        "surname": "Синельникова",
+        "school": "19",
+        "class": "11",
+        "vk_id": 345307761
+    },
+    {
+        "name": "Анна",
+        "surname": "Кривцова",
+        "school": "64",
+        "class": "10",
+        "vk_id": "https://m.vk.com/ann_1907"
+    },
+    {
+        "name": "Тихон",
+        "surname": "Курочкин",
+        "school": "150",
+        "class": "10",
+        "vk_id": 207826497
+    },
+    {
+        "name": "Рената",
+        "surname": "Джураева",
+        "school": "64",
+        "class": "10",
+        "vk_id": "vk.com/renata_eva"
+    },
+    {
+        "name": "Анна",
+        "surname": "Исаева",
+        "school": "64",
+        "class": "10",
+        "vk_id": 247403526
+    },
+    {
+        "name": "Милана",
+        "surname": "Каныгина",
+        "school": "62",
+        "class": "11",
+        "vk_id": 345976613
+    },
+    {
+        "name": "Артём",
+        "surname": "Колесник",
+        "school": "64",
+        "class": "10",
+        "vk_id": 180722533
+    },
+    {
+        "name": "Катя",
+        "surname": "Куличенко",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/kulichenko2"
+    },
+    {
+        "name": "Славик",
+        "surname": "Задворнов",
+        "school": "34",
+        "class": "11",
+        "vk_id": 209670944
+    },
+    {
+        "name": "екатерина",
+        "surname": "таранова",
+        "school": "7",
+        "class": "9",
+        "vk_id": 453091282
+    },
+    {
+        "name": "Арсений",
+        "surname": "Калиниченко",
+        "school": "51",
+        "class": "10",
+        "vk_id": "https://vk.com/a.kalinechenko"
+    },
+    {
+        "name": "Мария",
+        "surname": "Рождественская",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/m.christmas27"
+    },
+    {
+        "name": "Даша",
+        "surname": "Шадёркина",
+        "school": "117",
+        "class": "9",
+        "vk_id": 286182125
+    },
+    {
+        "name": "Никита",
+        "surname": "Никитин",
+        "school": "64",
+        "class": "10",
+        "vk_id": 247747335
+    },
+    {
+        "name": "Вика",
+        "surname": "Скрипкина",
+        "school": "166",
+        "class": "8",
+        "vk_id": 467293207
+    },
+    {
+        "name": "Полина",
+        "surname": "Недобойко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 248742348
+    },
+    {
+        "name": "Софья",
+        "surname": "Барнёва",
+        "school": "117",
+        "class": "9",
+        "vk_id": 172357435
+    },
+    {
+        "name": "Вика",
+        "surname": "рожкова",
+        "school": "Ключевская школа",
+        "class": "7",
+        "vk_id": 390700568
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Тепляшина",
+        "school": "139",
+        "class": "9",
+        "vk_id": 254419335
+    },
+    {
+        "name": "Полина",
+        "surname": "Локтева",
+        "school": "26",
+        "class": "10",
+        "vk_id": 266201204
+    },
+    {
+        "name": "Арсений",
+        "surname": "Жирнов",
+        "school": "149",
+        "class": "9",
+        "vk_id": 535081485
+    },
+    {
+        "name": "Юлия",
+        "surname": "Гуртовенко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 254401565
+    },
+    {
+        "name": "Вероника",
+        "surname": "Удовиченко",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/vudovichenkov"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Шмалько",
+        "school": "117",
+        "class": "9",
+        "vk_id": 629599632
+    },
+    {
+        "name": "Яна",
+        "surname": "Климова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 269184131
+    },
+    {
+        "name": "Ксения",
+        "surname": "Сушкова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 539493679
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Макарова",
+        "school": "74",
+        "class": "9",
+        "vk_id": 330767783
+    },
+    {
+        "name": "Никита",
+        "surname": "Ильин",
+        "school": "117",
+        "class": "8",
+        "vk_id": 250886985
+    },
+    {
+        "name": "Валерия",
+        "surname": "Дизер",
+        "school": "117",
+        "class": "8",
+        "vk_id": 333898320
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Фирстова",
+        "school": "64",
+        "class": "10",
+        "vk_id": 216732408
+    },
+    {
+        "name": "Марина",
+        "surname": "Зайцева",
+        "school": "149",
+        "class": "9",
+        "vk_id": 272941475
+    },
+    {
+        "name": "Альбина",
+        "surname": "Братухина",
+        "school": "139",
+        "class": "10",
+        "vk_id": 494021182
+    },
+    {
+        "name": "Софья",
+        "surname": "Устымчук",
+        "school": "74",
+        "class": "9",
+        "vk_id": 383279574
+    },
+    {
+        "name": "Ульяна",
+        "surname": "Ремизова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 255750726
+    },
+    {
+        "name": "Никита",
+        "surname": "Кузин",
+        "school": "149",
+        "class": "11",
+        "vk_id": 207788883
+    },
+    {
+        "name": "Мария",
+        "surname": "Терехова",
+        "school": "139",
+        "class": "9",
+        "vk_id": 318731608
+    },
+    {
+        "name": "Дарий",
+        "surname": "Асаинов",
+        "school": "64",
+        "class": "10",
+        "vk_id": 435651592
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Дмитриева",
+        "school": "139",
+        "class": "9",
+        "vk_id": "vk.com/yoneeth"
+    },
+    {
+        "name": "Ирина",
+        "surname": "Геталова",
+        "school": "36",
+        "class": "10",
+        "vk_id": 183798425
+    },
+    {
+        "name": "Даяна",
+        "surname": "Кудайбергенова",
+        "school": "85",
+        "class": "9",
+        "vk_id": "vk.com/gooddayana"
+    },
+    {
+        "name": "Илья",
+        "surname": "Кузин",
+        "school": "149",
+        "class": "11",
+        "vk_id": 195219966
+    },
+    {
+        "name": "Михаил",
+        "surname": "Крючков",
+        "school": "66",
+        "class": "8",
+        "vk_id": 654555476
+    },
+    {
+        "name": "Матвей",
+        "surname": "Измайлов",
+        "school": "64",
+        "class": "10",
+        "vk_id": "https://vk.com/jewomskiy"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Кочурова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 308817000
+    },
+    {
+        "name": "Матвей",
+        "surname": "Захаров",
+        "school": "117",
+        "class": "9",
+        "vk_id": 217815318
+    },
+    {
+        "name": "Тимофей",
+        "surname": "Рядовой",
+        "school": "моцро",
+        "class": "9",
+        "vk_id": 203596526
+    },
+    {
+        "name": "Иван",
+        "surname": "Моргун",
+        "school": "117",
+        "class": "9",
+        "vk_id": 367178659
+    },
+    {
+        "name": "Полина",
+        "surname": "Сумленинова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 205652622
+    },
+    {
+        "name": "Евгения",
+        "surname": "Яковлева",
+        "school": "166",
+        "class": "10",
+        "vk_id": 324373436
+    },
+    {
+        "name": "Асель",
+        "surname": "Нуркушева",
+        "school": "117",
+        "class": "8",
+        "vk_id": 178718292
+    },
+    {
+        "name": "Ксения",
+        "surname": "Мужева",
+        "school": "166",
+        "class": "10",
+        "vk_id": 189048907
+    },
+    {
+        "name": "Даниэла",
+        "surname": "Локтионова",
+        "school": "64",
+        "class": "10",
+        "vk_id": 520355372
+    },
+    {
+        "name": "Андрей",
+        "surname": "Зернюк",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/andreyzerniuk30"
+    },
+    {
+        "name": "Никита",
+        "surname": "Сидоров",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/nsidorov2001"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Фёдорова",
+        "school": "140",
+        "class": "11",
+        "vk_id": "https://vk.com/inaeternum16"
+    },
+    {
+        "name": "Полина",
+        "surname": "Гебель",
+        "school": "117",
+        "class": "8",
+        "vk_id": 397630639
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Белим",
+        "school": "117",
+        "class": "8",
+        "vk_id": 244514494
+    },
+    {
+        "name": "Мария",
+        "surname": "Полищук",
+        "school": "19",
+        "class": "9",
+        "vk_id": 245076479
+    },
+    {
+        "name": "Яна",
+        "surname": "Серобабина",
+        "school": "69",
+        "class": "8",
+        "vk_id": "vk.com/serobabinaa"
+    },
+    {
+        "name": "Элиас",
+        "surname": "Квинт",
+        "school": "92",
+        "class": "9",
+        "vk_id": 394128314
+    },
+    {
+        "name": "Василиса",
+        "surname": "Ячменёва",
+        "school": "140",
+        "class": "11",
+        "vk_id": "https://vk.com/versus_house"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Драгунова",
+        "school": "140",
+        "class": "11",
+        "vk_id": 462161023
+    },
+    {
+        "name": "Настя",
+        "surname": "Волобуева",
+        "school": "104",
+        "class": "10",
+        "vk_id": 178348893
+    },
+    {
+        "name": "Михаил",
+        "surname": "Шестаков",
+        "school": "149",
+        "class": "10",
+        "vk_id": 605021353
+    },
+    {
+        "name": "Яна",
+        "surname": "Куприенко",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/myfakk"
+    },
+    {
+        "name": "Денис",
+        "surname": "Шаповал",
+        "school": "150",
+        "class": "9",
+        "vk_id": "vk.com/denisshapoval"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Проворкина",
+        "school": "142",
+        "class": "10",
+        "vk_id": 138745585
+    },
+    {
+        "name": "Александр",
+        "surname": "Хохлов",
+        "school": "117",
+        "class": "8",
+        "vk_id": 221532690
+    },
+    {
+        "name": "Мария",
+        "surname": "Муравьева",
+        "school": "117",
+        "class": "10",
+        "vk_id": 220918872
+    },
+    {
+        "name": "Валерия",
+        "surname": "Шлыкова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 195147607
+    },
+    {
+        "name": "Юлия",
+        "surname": "Ткаченко",
+        "school": "139",
+        "class": "9",
+        "vk_id": 239500086
+    },
+    {
+        "name": "Алёна",
+        "surname": "Шишко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 308485017
+    },
+    {
+        "name": "Алина",
+        "surname": "Ходарина",
+        "school": "149",
+        "class": "11",
+        "vk_id": 226279512
+    },
+    {
+        "name": "Владислав",
+        "surname": "Логинов",
+        "school": "117",
+        "class": "7",
+        "vk_id": 195904823
+    },
+    {
+        "name": "Андрей",
+        "surname": "Бахмутский",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/qwartal13"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Вольф",
+        "school": "117",
+        "class": "10",
+        "vk_id": 418432876
+    },
+    {
+        "name": "Александр",
+        "surname": "Комнацкий",
+        "school": "СУНЦ МГУ",
+        "class": "10",
+        "vk_id": "https://vk.com/crazyjokerequallynewcrazy"
+    },
+    {
+        "name": "Анна",
+        "surname": "Лапаницына",
+        "school": "137",
+        "class": "8",
+        "vk_id": "vk.com/byheart_chaika"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Линкер",
+        "school": "137",
+        "class": "8",
+        "vk_id": "https://vk.com/katelinker"
+    },
+    {
+        "name": "Артём",
+        "surname": "Малёнов",
+        "school": "139",
+        "class": "9",
+        "vk_id": 153061731
+    },
+    {
+        "name": "Мария",
+        "surname": "Кокшарова",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/musical_mary"
+    },
+    {
+        "name": "Мария",
+        "surname": "Коломиец",
+        "school": "29",
+        "class": "9",
+        "vk_id": 479109984
+    },
+    {
+        "name": "Иван",
+        "surname": "Власенко",
+        "school": "84",
+        "class": "8",
+        "vk_id": "vk.com/vlas.vanya"
+    },
+    {
+        "name": "Софья",
+        "surname": "Качанова",
+        "school": "159",
+        "class": "9",
+        "vk_id": 185708014
+    },
+    {
+        "name": "Данила",
+        "surname": "Назаренко",
+        "school": "75",
+        "class": "9",
+        "vk_id": 203650118
+    },
+    {
+        "name": "Сабина",
+        "surname": "Богун",
+        "school": "130",
+        "class": "8",
+        "vk_id": 188855311
+    },
+    {
+        "name": "Иван",
+        "surname": "Гасилен",
+        "school": "117",
+        "class": "9",
+        "vk_id": 300520380
+    },
+    {
+        "name": "Олеся",
+        "surname": "Добролежа",
+        "school": "140",
+        "class": "7",
+        "vk_id": 469538160
+    },
+    {
+        "name": "Сергей",
+        "surname": "Алексеев",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/likeman177"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Суханова",
+        "school": "140",
+        "class": "7",
+        "vk_id": "https://vk.com/love2006alena8"
+    },
+    {
+        "name": "Ирина",
+        "surname": "Сафронова",
+        "school": "26",
+        "class": "10",
+        "vk_id": 473918755
+    },
+    {
+        "name": "Михаил",
+        "surname": "Ровенских",
+        "school": "84",
+        "class": "7",
+        "vk_id": "vk.com/mrov29"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Петров",
+        "school": "117",
+        "class": "8",
+        "vk_id": "vk.com/vladimir.petrov2016"
+    },
+    {
+        "name": "Мария",
+        "surname": "Лисина",
+        "school": "150",
+        "class": "10",
+        "vk_id": 214503070
+    },
+    {
+        "name": "Полина",
+        "surname": "Лекант",
+        "school": "117",
+        "class": "10",
+        "vk_id": 526408411
+    },
+    {
+        "name": "Сергей",
+        "surname": "Николаев",
+        "school": "146",
+        "class": "8",
+        "vk_id": 289935999
+    },
+    {
+        "name": "Иляна",
+        "surname": "Панева",
+        "school": "149",
+        "class": "10",
+        "vk_id": 227178442
+    },
+    {
+        "name": "Яна",
+        "surname": "Фазуллина",
+        "school": "149",
+        "class": "7",
+        "vk_id": "https://vk.com/y.kolyvanova1990"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Жигулина",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/shanny_angel"
+    },
+    {
+        "name": "Рустам",
+        "surname": "Тимомеев",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://m.vk.com/refresher1"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Жилин",
+        "school": "117",
+        "class": "9",
+        "vk_id": 327555378
+    },
+    {
+        "name": "Нина",
+        "surname": "Булучевская",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/sad_nina"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Краева",
+        "school": "117",
+        "class": "8",
+        "vk_id": "vk.com/ny1privet2elon3musk"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Евстратенко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 520283051
+    },
+    {
+        "name": "Максим",
+        "surname": "Стативка",
+        "school": "117",
+        "class": "7",
+        "vk_id": 418977018
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Рейсер",
+        "school": "117",
+        "class": "7",
+        "vk_id": 341427594
+    },
+    {
+        "name": "Маргарита",
+        "surname": "Денисова",
+        "school": "117",
+        "class": "9",
+        "vk_id": 285364433
+    },
+    {
+        "name": "Ксения",
+        "surname": "Мокиенко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 436516056
+    },
+    {
+        "name": "Даниил",
+        "surname": "Васильев",
+        "school": "117",
+        "class": "9",
+        "vk_id": 240344400
+    },
+    {
+        "name": "Вадим",
+        "surname": "Волченко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 253415747
+    },
+    {
+        "name": "Валентина",
+        "surname": "Осипова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 281800589
+    },
+    {
+        "name": "Александр",
+        "surname": "Дмитриенко",
+        "school": "117",
+        "class": "10",
+        "vk_id": 145559869
+    },
+    {
+        "name": "Леонид",
+        "surname": "Галыба",
+        "school": "117",
+        "class": "10",
+        "vk_id": 175231174
+    },
+    {
+        "name": "Кристина",
+        "surname": "Савиных",
+        "school": "139",
+        "class": "9",
+        "vk_id": 252385302
+    },
+    {
+        "name": "Егор",
+        "surname": "Семенов",
+        "school": "117",
+        "class": "9",
+        "vk_id": 190943067
+    },
+    {
+        "name": "Олег",
+        "surname": "Лощинин",
+        "school": "117",
+        "class": "8",
+        "vk_id": "vk.com/puteshestvennik2004"
+    },
+    {
+        "name": "Кирилл",
+        "surname": "Винтер",
+        "school": "117",
+        "class": "8",
+        "vk_id": 296221269
+    },
+    {
+        "name": "Анна",
+        "surname": "Климова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 190117083
+    },
+    {
+        "name": "Евгений",
+        "surname": "Жунусов",
+        "school": "109",
+        "class": "8",
+        "vk_id": 299162973
+    },
+    {
+        "name": "Михаил",
+        "surname": "Степанов",
+        "school": "117",
+        "class": "7",
+        "vk_id": 141442481
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Гричкоедовой",
+        "school": "149",
+        "class": "10",
+        "vk_id": 242170279
+    },
+    {
+        "name": "Артём",
+        "surname": "Щипачёв",
+        "school": "117",
+        "class": "7",
+        "vk_id": 448410685
+    },
+    {
+        "name": "Денис",
+        "surname": "Шестаков",
+        "school": "64",
+        "class": "10",
+        "vk_id": 329608531
+    },
+    {
+        "name": "Роман",
+        "surname": "Лисовский",
+        "school": "139",
+        "class": "9",
+        "vk_id": 496766710
+    },
+    {
+        "name": "Егор",
+        "surname": "Кожевников",
+        "school": "66",
+        "class": "8",
+        "vk_id": 319452249
+    },
+    {
+        "name": "Георгий",
+        "surname": "Мороз",
+        "school": "117",
+        "class": "7",
+        "vk_id": 330253179
+    },
+    {
+        "name": "Матвей",
+        "surname": "Путинцев",
+        "school": "66",
+        "class": "8",
+        "vk_id": 335232813
+    },
+    {
+        "name": "Лев",
+        "surname": "Филиппенко",
+        "school": "66",
+        "class": "9",
+        "vk_id": 262948848
+    },
+    {
+        "name": "Ян",
+        "surname": "Швин",
+        "school": "92",
+        "class": "11",
+        "vk_id": 212523375
+    },
+    {
+        "name": "Софья",
+        "surname": "Сторожук",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/idmayakova305"
+    },
+    {
+        "name": "Ростислав",
+        "surname": "Гайдуков",
+        "school": "64",
+        "class": "11",
+        "vk_id": 320817987
+    },
+    {
+        "name": "Алина",
+        "surname": "Байдуалетова",
+        "school": "16",
+        "class": "9",
+        "vk_id": 242145646
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Таранова",
+        "school": "7",
+        "class": "10",
+        "vk_id": 453091282
+    },
+    {
+        "name": "Иван",
+        "surname": "Треус",
+        "school": "139",
+        "class": "10",
+        "vk_id": 439954024
+    },
+    {
+        "name": "Милана",
+        "surname": "Файзулина",
+        "school": "50",
+        "class": "10",
+        "vk_id": 126581967
+    },
+    {
+        "name": "Роман",
+        "surname": "Суслов",
+        "school": "140",
+        "class": "8",
+        "vk_id": 277939575
+    },
+    {
+        "name": "Максим",
+        "surname": "Кано",
+        "school": "64",
+        "class": "8",
+        "vk_id": 373641638
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Голицына",
+        "school": "117",
+        "class": "9",
+        "vk_id": 445282722
+    },
+    {
+        "name": "Мария",
+        "surname": "Васильев",
+        "school": "117",
+        "class": "11",
+        "vk_id": 528564940
+    },
+    {
+        "name": "Ильшат",
+        "surname": "Хатыпов",
+        "school": "123",
+        "class": "8",
+        "vk_id": 241544829
+    },
+    {
+        "name": "Валерия",
+        "surname": "Овчинникова",
+        "school": "5",
+        "class": "10",
+        "vk_id": 242922645
+    },
+    {
+        "name": "Светлана",
+        "surname": "Савраскина",
+        "school": "6",
+        "class": "10",
+        "vk_id": 334103298
+    },
+    {
+        "name": "Александра",
+        "surname": "Кравченко",
+        "school": "64",
+        "class": "10",
+        "vk_id": 213760950
+    },
+    {
+        "name": "Дарья",
+        "surname": "Колодяжная",
+        "school": "24",
+        "class": "10",
+        "vk_id": 263080412
+    },
+    {
+        "name": "Наталья",
+        "surname": "Рейнгардт",
+        "school": "МБОУ \"Ремзаводская СОШ\"",
+        "class": "11",
+        "vk_id": 495336010
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Чежин",
+        "school": "117",
+        "class": "10",
+        "vk_id": 358914614
+    },
+    {
+        "name": "Лилианна",
+        "surname": "Шабалина",
+        "school": "124",
+        "class": "8",
+        "vk_id": 177978296
+    },
+    {
+        "name": "Анна",
+        "surname": "Кинчиряк",
+        "school": "36",
+        "class": "8",
+        "vk_id": 275833846
+    },
+    {
+        "name": "Милана",
+        "surname": "Богомазова",
+        "school": "1",
+        "class": "7",
+        "vk_id": 308247874
+    },
+    {
+        "name": "Максим",
+        "surname": "Триколе",
+        "school": "117",
+        "class": "10",
+        "vk_id": 221098364
+    },
+    {
+        "name": "Денис",
+        "surname": "Щербаков",
+        "school": "25",
+        "class": "10",
+        "vk_id": 316002183
+    },
+    {
+        "name": "Полина",
+        "surname": "Бачинская",
+        "school": "СУНЦ НГУ",
+        "class": "10",
+        "vk_id": "vk.com/tupolinaa"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Бабайлова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 489968076
+    },
+    {
+        "name": "Юля",
+        "surname": "Гуртовенко",
+        "school": "117",
+        "class": "10",
+        "vk_id": 254401565
+    },
+    {
+        "name": "Даниил",
+        "surname": "Коноваленко",
+        "school": "117",
+        "class": "7",
+        "vk_id": 427503789
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Пономарев",
+        "school": "25",
+        "class": "10",
+        "vk_id": "vk.com/dmitriy_ponomare"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Степанов",
+        "school": "117",
+        "class": "8",
+        "vk_id": 141442481
+    },
+    {
+        "name": "Ярослав",
+        "surname": "Лисин",
+        "school": "семейное образование",
+        "class": "7",
+        "vk_id": 447460014
+    },
+    {
+        "name": "Тимофей",
+        "surname": "Рыко",
+        "school": "СУНЦ МГУ",
+        "class": "10",
+        "vk_id": 290972089
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Терехина",
+        "school": "117",
+        "class": "10",
+        "vk_id": 150822137
+    },
+    {
+        "name": "Полина",
+        "surname": "Анкудинова",
+        "school": "14",
+        "class": "9",
+        "vk_id": 243548469
+    },
+    {
+        "name": "Ксения",
+        "surname": "Каракальцева",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://vk.com/karakaltseva"
+    },
+    {
+        "name": "Антон",
+        "surname": "Догадин",
+        "school": "117",
+        "class": "9",
+        "vk_id": 236607531
+    },
+    {
+        "name": "Глеб",
+        "surname": "Черкасов",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/maninthebluebox"
+    },
+    {
+        "name": "Антон",
+        "surname": "Выдрин",
+        "school": "64",
+        "class": "10",
+        "vk_id": "vk.com/leepsi"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Воробей",
+        "school": "149",
+        "class": "10",
+        "vk_id": 183865528
+    },
+    {
+        "name": "Владислав",
+        "surname": "Левченко",
+        "school": "64",
+        "class": "10",
+        "vk_id": "vk.com/zyymeboy"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Едемский",
+        "school": "17",
+        "class": "11",
+        "vk_id": 94701319
+    },
+    {
+        "name": "Сергей",
+        "surname": "Аверьянов",
+        "school": "66",
+        "class": "10",
+        "vk_id": 604908780
+    },
+    {
+        "name": "Виктор",
+        "surname": "Драницын",
+        "school": "17",
+        "class": "11",
+        "vk_id": 124973926
+    },
+    {
+        "name": "Алиса",
+        "surname": "Шмидт",
+        "school": "Академический лицей при ОмГПУ",
+        "class": "8",
+        "vk_id": "https://vk.com/malenkaia_esho"
+    },
+    {
+        "name": "Егор",
+        "surname": "Левченко",
+        "school": "66",
+        "class": "10",
+        "vk_id": 194302534
+    },
+    {
+        "name": "Александра",
+        "surname": "Рыбалко",
+        "school": "149",
+        "class": "10",
+        "vk_id": "https://vk.com/lexxandria"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Шпакова",
+        "school": "Лицей НИУ ВШЭ",
+        "class": "10",
+        "vk_id": "https://m.vk.com/evlgenius"
+    },
+    {
+        "name": "Вячеслав",
+        "surname": "Лян",
+        "school": "117",
+        "class": "10",
+        "vk_id": 225935599
+    },
+    {
+        "name": "Софья",
+        "surname": "Черных",
+        "school": "63",
+        "class": "10",
+        "vk_id": 226113989
+    },
+    {
+        "name": "Степан",
+        "surname": "Юдин",
+        "school": "64",
+        "class": "10",
+        "vk_id": "https://vk.com/mrmeller12"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Кацуба",
+        "school": "149",
+        "class": "10",
+        "vk_id": 269671662
+    },
+    {
+        "name": "Анна",
+        "surname": "Кравец",
+        "school": "Академический лицей при ОМГпУ",
+        "class": "10",
+        "vk_id": 194845468
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Ефимкина",
+        "school": "Академический лицей при ОМГПУ",
+        "class": "10",
+        "vk_id": "https://vk.com/missis.nasta20"
+    },
+    {
+        "name": "Яна",
+        "surname": "Франк",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/yanafrank"
+    },
+    {
+        "name": "Илья",
+        "surname": "Мальцев",
+        "school": "140",
+        "class": "10",
+        "vk_id": 210046407
+    },
+    {
+        "name": "Нариман",
+        "surname": "Назаров",
+        "school": "62",
+        "class": "10",
+        "vk_id": 183448945
+    },
+    {
+        "name": "Виктория",
+        "surname": "Руль",
+        "school": "149",
+        "class": "10",
+        "vk_id": 183604164
+    },
+    {
+        "name": "София",
+        "surname": "Шишова",
+        "school": "140",
+        "class": "9",
+        "vk_id": 204830841
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Голозов",
+        "school": "19",
+        "class": "11",
+        "vk_id": 74205141
+    },
+    {
+        "name": "Рустам",
+        "surname": "Мухомедишин",
+        "school": "62",
+        "class": "10",
+        "vk_id": "vk.com/rustam_in"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Янковская",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/17aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+        "name": "София",
+        "surname": "Любавина",
+        "school": "117",
+        "class": "10",
+        "vk_id": 188311616
+    },
+    {
+        "name": "Валерия",
+        "surname": "Виноградова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 162410887
+    },
+    {
+        "name": "Алиса",
+        "surname": "Башкатова",
+        "school": "123",
+        "class": "10",
+        "vk_id": 139785776
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Пирожкова",
+        "school": "84",
+        "class": "10",
+        "vk_id": 145165153
+    },
+    {
+        "name": "Андрей",
+        "surname": "Валитов",
+        "school": "166",
+        "class": "10",
+        "vk_id": 146358386
+    },
+    {
+        "name": "Артемий",
+        "surname": "Матчин",
+        "school": "166",
+        "class": "10",
+        "vk_id": "vk.com/udav_gosha"
+    },
+    {
+        "name": "Диана",
+        "surname": "Мельник",
+        "school": "117",
+        "class": "8",
+        "vk_id": 72241265
+    },
+    {
+        "name": "Илья",
+        "surname": "Малиновский",
+        "school": "117",
+        "class": "10",
+        "vk_id": 112552816
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Константинова",
+        "school": "139",
+        "class": "9",
+        "vk_id": 277529218
+    },
+    {
+        "name": "Алиса",
+        "surname": "Трофимова",
+        "school": "149",
+        "class": "10",
+        "vk_id": 171242575
+    },
+    {
+        "name": "Артём",
+        "surname": "Ляшев",
+        "school": "117",
+        "class": "9",
+        "vk_id": 85584620
+    },
+    {
+        "name": "Павел",
+        "surname": "Торопов",
+        "school": "117",
+        "class": "9",
+        "vk_id": 270892078
+    },
+    {
+        "name": "Таисия",
+        "surname": "Глинская",
+        "school": "117",
+        "class": "9",
+        "vk_id": 200827263
+    },
+    {
+        "name": "Ольга",
+        "surname": "Протазанова",
+        "school": "36",
+        "class": "9",
+        "vk_id": 156995321
+    },
+    {
+        "name": "Кирилл",
+        "surname": "Матвиец",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/scumlife69"
+    },
+    {
+        "name": "Диана",
+        "surname": "Мурашова",
+        "school": "44",
+        "class": "8",
+        "vk_id": "https://m.vk.com/dimetria03"
+    },
+    {
+        "name": "Надежда",
+        "surname": "Терновая",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/nternovaya0"
+    },
+    {
+        "name": "Илья",
+        "surname": "Михеев",
+        "school": "117",
+        "class": "10",
+        "vk_id": 115193038
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Манько",
+        "school": "1",
+        "class": "9",
+        "vk_id": 420859047
+    },
+    {
+        "name": "Анна",
+        "surname": "Калабина",
+        "school": "1",
+        "class": "9",
+        "vk_id": 415155344
+    },
+    {
+        "name": "Вадим",
+        "surname": "Зарипов",
+        "school": "64",
+        "class": "7",
+        "vk_id": "vk.com/vadimka_zaripov"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Сергеев",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/homesituation"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Рожко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 234591697
+    },
+    {
+        "name": "Андрей",
+        "surname": "Крючков",
+        "school": "123",
+        "class": "8",
+        "vk_id": 207531264
+    },
+    {
+        "name": "Марат",
+        "surname": "Абдикеев",
+        "school": "117",
+        "class": "9",
+        "vk_id": 415230992
+    },
+    {
+        "name": "Виктория",
+        "surname": "Зайцева",
+        "school": "166",
+        "class": "8",
+        "vk_id": "https://m.vk.com/id193643114?act=info"
+    },
+    {
+        "name": "Максим",
+        "surname": "Желнин",
+        "school": "64",
+        "class": "9",
+        "vk_id": 187727047
+    },
+    {
+        "name": "Софья",
+        "surname": "Татаурова",
+        "school": "19",
+        "class": "10",
+        "vk_id": "https://m.vk.com/sila_11797r649_sila"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Малыхина",
+        "school": "146",
+        "class": "7",
+        "vk_id": 224821133
+    },
+    {
+        "name": "Виталия",
+        "surname": "Булатова",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://m.vk.com/lolpo2006"
+    },
+    {
+        "name": "Леонид",
+        "surname": "Тарасенко",
+        "school": "64",
+        "class": "7",
+        "vk_id": 307165294
+    },
+    {
+        "name": "Руслан",
+        "surname": "Шарифуллин",
+        "school": "166",
+        "class": "10",
+        "vk_id": 223911840
+    },
+    {
+        "name": "Дарья",
+        "surname": "Кудрявцева",
+        "school": "117",
+        "class": "10",
+        "vk_id": 136912725
+    },
+    {
+        "name": "Регина",
+        "surname": "Гапоненко",
+        "school": "56",
+        "class": "10",
+        "vk_id": 152857098
+    },
+    {
+        "name": "Феодосия",
+        "surname": "Крюкова",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://vk.com/kiparis_zelenenkiy"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Сутырина",
+        "school": "117",
+        "class": "7",
+        "vk_id": 356172162
+    },
+    {
+        "name": "Милаил",
+        "surname": "Смирнов",
+        "school": "117",
+        "class": "8",
+        "vk_id": 383760243
+    },
+    {
+        "name": "Ольга",
+        "surname": "Курочкина",
+        "school": "117",
+        "class": "7",
+        "vk_id": 46225381
+    },
+    {
+        "name": "Елена",
+        "surname": "Грушецкая",
+        "school": "117",
+        "class": "7",
+        "vk_id": 168194179
+    },
+    {
+        "name": "Иван",
+        "surname": "Мамонов",
+        "school": "123",
+        "class": "7",
+        "vk_id": "https://vk.com/afs2013"
+    },
+    {
+        "name": "Денис",
+        "surname": "Скоморощенко",
+        "school": "None",
+        "class": "8",
+        "vk_id": 105981335
+    },
+    {
+        "name": "Александр",
+        "surname": "Мохов",
+        "school": "117",
+        "class": "8",
+        "vk_id": 224333216
+    },
+    {
+        "name": "Максим",
+        "surname": "Москвичёв",
+        "school": "139",
+        "class": "8",
+        "vk_id": 281357389
+    },
+    {
+        "name": "Савелий",
+        "surname": "Чежегов",
+        "school": "117",
+        "class": "8",
+        "vk_id": 204558053
+    },
+    {
+        "name": "Константин",
+        "surname": "Саньков",
+        "school": "64",
+        "class": "8",
+        "vk_id": 371677607
+    },
+    {
+        "name": "Георгий",
+        "surname": "Шароглазов",
+        "school": "123",
+        "class": "8",
+        "vk_id": 204921863
+    },
+    {
+        "name": "Вероника",
+        "surname": "Никишина",
+        "school": "25",
+        "class": "8",
+        "vk_id": 302979497
+    },
+    {
+        "name": "Надежда",
+        "surname": "Суренкова",
+        "school": "117",
+        "class": "8",
+        "vk_id": 269846645
+    },
+    {
+        "name": "Валерий",
+        "surname": "Шадрин",
+        "school": "117",
+        "class": "8",
+        "vk_id": 229914184
+    },
+    {
+        "name": "Ксения",
+        "surname": "Шкуренко",
+        "school": "26",
+        "class": "8",
+        "vk_id": 139391943
+    },
+    {
+        "name": "Даяна",
+        "surname": "Асанова",
+        "school": "64",
+        "class": "8",
+        "vk_id": "vk.com/diana16072001"
+    },
+    {
+        "name": "Александр",
+        "surname": "Фролов",
+        "school": "123",
+        "class": "8",
+        "vk_id": "http://vk.com/luxambero"
+    },
+    {
+        "name": "Богдан",
+        "surname": "Поспелов",
+        "school": "ОКВК",
+        "class": "8",
+        "vk_id": 161889185
+    },
+    {
+        "name": "Даниил",
+        "surname": "Сащенко",
+        "school": "123",
+        "class": "8",
+        "vk_id": "http://vk.com/dsaschenko"
+    },
+    {
+        "name": "Артем",
+        "surname": "Павленко",
+        "school": "117",
+        "class": "9",
+        "vk_id": 125397205
+    },
+    {
+        "name": "Яна",
+        "surname": "Белоозерова",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/jane_vot_i_vce"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Катюгова",
+        "school": "None",
+        "class": "9",
+        "vk_id": 145168213
+    },
+    {
+        "name": "Алиса",
+        "surname": "Краснова",
+        "school": "None",
+        "class": "9",
+        "vk_id": 124675230
+    },
+    {
+        "name": "Григорий",
+        "surname": "Караваев",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://vk.com/grindoc67"
+    },
+    {
+        "name": "Алина",
+        "surname": "Ельсукова",
+        "school": "140",
+        "class": "9",
+        "vk_id": 569054155
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Узлова",
+        "school": "54",
+        "class": "9",
+        "vk_id": 135222854
+    },
+    {
+        "name": "Сергей",
+        "surname": "Щукин",
+        "school": "117",
+        "class": "9",
+        "vk_id": 141578878
+    },
+    {
+        "name": "Александра",
+        "surname": "Шкарупа",
+        "school": "117",
+        "class": "9",
+        "vk_id": 59286736
+    },
+    {
+        "name": "Юлия",
+        "surname": "Мозылева",
+        "school": "117",
+        "class": "9",
+        "vk_id": 81243415
+    },
+    {
+        "name": "Варвара",
+        "surname": "Диких",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/only.justice"
+    },
+    {
+        "name": "Константин",
+        "surname": "Артюшкевич",
+        "school": "117",
+        "class": "9",
+        "vk_id": 160313777
+    },
+    {
+        "name": "Александр",
+        "surname": "Гончаренко",
+        "school": "26",
+        "class": "9",
+        "vk_id": 32422435
+    },
+    {
+        "name": "Влада",
+        "surname": "Завистовская",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/vk.veber"
+    },
+    {
+        "name": "Марина",
+        "surname": "Редман",
+        "school": "117",
+        "class": "9",
+        "vk_id": 171819985
+    },
+    {
+        "name": "Богдан",
+        "surname": "Котубаев",
+        "school": "64",
+        "class": "9",
+        "vk_id": 150874532
+    },
+    {
+        "name": "Алена",
+        "surname": "Трашкова",
+        "school": "142",
+        "class": "9",
+        "vk_id": 94959361
+    },
+    {
+        "name": "Александр",
+        "surname": "Решетников",
+        "school": "117",
+        "class": "9",
+        "vk_id": 149183554
+    },
+    {
+        "name": "Никита",
+        "surname": "Поникаровский",
+        "school": "64",
+        "class": "9",
+        "vk_id": 58811840
+    },
+    {
+        "name": "Дарья",
+        "surname": "Романова",
+        "school": "64",
+        "class": "9",
+        "vk_id": 30676014
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Витютнев",
+        "school": "117",
+        "class": "9",
+        "vk_id": 201300560
+    },
+    {
+        "name": "Ольга",
+        "surname": "Ткач",
+        "school": "43",
+        "class": "9",
+        "vk_id": 150462473
+    },
+    {
+        "name": "Виктория",
+        "surname": "Каплун",
+        "school": "146",
+        "class": "9",
+        "vk_id": 51887896
+    },
+    {
+        "name": "Альберт",
+        "surname": "Приз",
+        "school": "64",
+        "class": "9",
+        "vk_id": 26128145
+    },
+    {
+        "name": "Дарья",
+        "surname": "Евсева",
+        "school": "75",
+        "class": "9",
+        "vk_id": 75489928
+    },
+    {
+        "name": "Александр",
+        "surname": "Бондарь",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/sbondar98"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Кузьмина",
+        "school": "117",
+        "class": "9",
+        "vk_id": 156651923
+    },
+    {
+        "name": "Александр",
+        "surname": "Кобзарев",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/alexoooooooo"
+    },
+    {
+        "name": "Анна-Мария",
+        "surname": "Оммик",
+        "school": "64",
+        "class": "9",
+        "vk_id": 171412602
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Баклина",
+        "school": "123",
+        "class": "9",
+        "vk_id": "https://m.vk.com/anastasi0705"
+    },
+    {
+        "name": "Данил",
+        "surname": "Михайлов",
+        "school": "64",
+        "class": "9",
+        "vk_id": 36027559
+    },
+    {
+        "name": "Анна",
+        "surname": "Галак",
+        "school": "26",
+        "class": "9",
+        "vk_id": "http://vk.com/id200622241?_smt=feed%3A1"
+    },
+    {
+        "name": "Диана",
+        "surname": "Емкужева",
+        "school": "117",
+        "class": "10",
+        "vk_id": 134135127
+    },
+    {
+        "name": "Кристина",
+        "surname": "Дьяченко",
+        "school": "148",
+        "class": "11",
+        "vk_id": 138609295
+    },
+    {
+        "name": "Роман",
+        "surname": "Бакиров",
+        "school": "ВКА",
+        "class": "1 курс (может кадетка?!)",
+        "vk_id": 189928251
+    }
+]

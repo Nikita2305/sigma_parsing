@@ -1,0 +1,24 @@
+[
+    {
+        "fields": "bdate,schools",
+        "count": 5
+    },
+    {
+        "city": 104,
+        "fields": "bdate,schools",
+        "count": 5
+    },
+    {
+        "from_age": 14,
+        "to_age": 25,
+        "fields": "bdate,schools",
+        "count": 5
+    },
+    {
+        "from_age": 14,
+        "to_age": 25,
+        "city": 104,
+        "fields": "bdate,schools",
+        "count": 5
+    }
+]

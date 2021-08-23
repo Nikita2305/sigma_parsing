@@ -1,2 +1,2 @@
-LOGIN = 'phone'
-PASSWORD = 'password'
+LOGIN = '89131436601'
+PASSWORD = 'ama_Red_god'

@@ -35,13 +35,15 @@ for i in range(size):
         count=COUNT,
         city=104,
         age_from=12,
-        age_to=19
+        age_to=19,
+        fields="schools,bdate"
     )["items"]
     time.sleep(PAUSE_TIME)
     users += vk.users.search(
         q=name + " " + surname,
         count=COUNT,
-        city=104
+        city=104,
+        fields="schools,bdate"
     )["items"]
     time.sleep(PAUSE_TIME)
     
