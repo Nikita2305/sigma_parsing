@@ -1,0 +1,3768 @@
+[
+    {
+        "name": "Вероника",
+        "surname": "Усова",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/keroseene"
+    },
+    {
+        "name": "Богдан",
+        "surname": "Пьянзин",
+        "school": "117",
+        "class": "10",
+        "vk_id": "http://vk.com/bpyanzin"
+    },
+    {
+        "name": "Полина",
+        "surname": "Анохина",
+        "school": "УГ МГУ",
+        "class": "10",
+        "vk_id": "https://vk.com/polinko_malinko"
+    },
+    {
+        "name": "Полина",
+        "surname": "Шведова",
+        "school": "19",
+        "class": "7",
+        "vk_id": "vk.com/id394830793"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Вареникова",
+        "school": "85",
+        "class": "9",
+        "vk_id": "vk.com/pirotexxnichka"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Томилова",
+        "school": "85",
+        "class": "9",
+        "vk_id": "http://vk.com/id591530737"
+    },
+    {
+        "name": "Ольга",
+        "surname": "Тыщенко",
+        "school": "85",
+        "class": "7",
+        "vk_id": "http://vk.com/oolllyyyaaa"
+    },
+    {
+        "name": "Мария",
+        "surname": "Герасименко",
+        "school": "85",
+        "class": "9",
+        "vk_id": "http://vk.com/id398882645"
+    },
+    {
+        "name": "Мария",
+        "surname": "Перевальская",
+        "school": "66",
+        "class": "10",
+        "vk_id": "vk.com/perevalskaya_04"
+    },
+    {
+        "name": "Александр",
+        "surname": "Лобов",
+        "school": "85",
+        "class": "9",
+        "vk_id": "http://vk.com/calijaaaaaaaaaaa"
+    },
+    {
+        "name": "Анна",
+        "surname": "Ткаченко",
+        "school": "117",
+        "class": "11",
+        "vk_id": "http://vk.com/durachok.kakoito"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Подворная",
+        "school": "117",
+        "class": "10",
+        "vk_id": "http://vk.com/id324261632"
+    },
+    {
+        "name": "Татьяна",
+        "surname": "Шукшина",
+        "school": "143",
+        "class": "10",
+        "vk_id": "vk.com/slawa_polsce"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Терешонок",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/ccngh"
+    },
+    {
+        "name": "Софья",
+        "surname": "Павлова",
+        "school": "ЧОУ \"АЭШ\"",
+        "class": "10",
+        "vk_id": "vk.com/grafinyyaaa"
+    },
+    {
+        "name": "Роман",
+        "surname": "Комнацкий",
+        "school": "64",
+        "class": "8",
+        "vk_id": "vk.com/zromakom9"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Саверская",
+        "school": "74",
+        "class": "9",
+        "vk_id": "vk.com/saverskay05"
+    },
+    {
+        "name": "Любовь",
+        "surname": "Рабских",
+        "school": "48",
+        "class": "10",
+        "vk_id": "vk.com/id352770201"
+    },
+    {
+        "name": "Полина",
+        "surname": "Попова",
+        "school": "117",
+        "class": "7",
+        "vk_id": "vk.com/id528082701"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Константинов",
+        "school": "117",
+        "class": "7",
+        "vk_id": "vk.com/vovagame555"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Ивакина",
+        "school": "43",
+        "class": "10",
+        "vk_id": "http://vk.com/id231042498"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Гапон",
+        "school": "117",
+        "class": "8",
+        "vk_id": "http://vk.com/id460655219"
+    },
+    {
+        "name": "Анна",
+        "surname": "Бессараб",
+        "school": "117",
+        "class": "8",
+        "vk_id": "vk.com/id253954873"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Ладынская",
+        "school": "149",
+        "class": "10",
+        "vk_id": "http://vk.com/id344828536"
+    },
+    {
+        "name": "Гордей",
+        "surname": "Завьялов",
+        "school": "СУНЦ МГУ",
+        "class": "10",
+        "vk_id": "vk.com/gordeyzav"
+    },
+    {
+        "name": "Иван",
+        "surname": "Долгих",
+        "school": "64",
+        "class": "10",
+        "vk_id": "vk.com/ivantheglorious"
+    },
+    {
+        "name": "Алина",
+        "surname": "Дьячкова",
+        "school": "Школа 135 г. Омск",
+        "class": "7",
+        "vk_id": "https://vk.com/anchous555"
+    },
+    {
+        "name": "Полина",
+        "surname": "Клюева",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/id248147614"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Жданова",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/id306650408"
+    },
+    {
+        "name": "Ярослав",
+        "surname": "Самсонов",
+        "school": "132",
+        "class": "10",
+        "vk_id": "https://vk.com/yaroslav_omnipotent"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Малах",
+        "school": "Лицей 64",
+        "class": "8",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Бурмистова",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/mdaushsh"
+    },
+    {
+        "name": "Никита",
+        "surname": "Клюшин",
+        "school": "64",
+        "class": "10",
+        "vk_id": "http://vk.com/adelfinskii"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Шмидт",
+        "school": "Лицей 149",
+        "class": "9",
+        "vk_id": "https://vk.com/id339456210"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Галак",
+        "school": "149",
+        "class": "9",
+        "vk_id": "vk.com/katerinagalak"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Челпанов",
+        "school": "84",
+        "class": "7",
+        "vk_id": "vk.com/id581004301"
+    },
+    {
+        "name": "Федор",
+        "surname": "Буяльский",
+        "school": "101",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Назар",
+        "surname": "Данилов",
+        "school": "Гимназия 140",
+        "class": "9",
+        "vk_id": "https://m.vk.com/dnazar01"
+    },
+    {
+        "name": "Александр",
+        "surname": "Пашков",
+        "school": "Гимназия 62",
+        "class": "8",
+        "vk_id": "https://vk.com/flirex67"
+    },
+    {
+        "name": "Анна",
+        "surname": "Столярова",
+        "school": "гимназия 62",
+        "class": "8",
+        "vk_id": "https://vk.com/no_varya_im_anya"
+    },
+    {
+        "name": "Полина",
+        "surname": "Рощупкина",
+        "school": "БОУ Гимназия № 62",
+        "class": "8",
+        "vk_id": "vk.com/lovecherepashka"
+    },
+    {
+        "name": "Александра",
+        "surname": "Учуваткина",
+        "school": "БОУ г. Омска «Гимназия 19»",
+        "class": "10",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Марина",
+        "surname": "Спицкая",
+        "school": "БОУ г. Омска \"Гимназия 62\"",
+        "class": "8",
+        "vk_id": "https://vk.com/"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Бибичев",
+        "school": "БОУ ОО «МОЦРО 117»",
+        "class": "10",
+        "vk_id": "vk.com/al.bibichev"
+    },
+    {
+        "name": "Акудович",
+        "surname": "Ирина",
+        "school": "19",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Маша",
+        "surname": "Искра",
+        "school": "Лицей 92",
+        "class": "7",
+        "vk_id": "https://vk.com/massshhkaa"
+    },
+    {
+        "name": "Роман",
+        "surname": "Тарасенко",
+        "school": "Гимназия №84",
+        "class": "8",
+        "vk_id": "https://vk.com/rimuruisthebest"
+    },
+    {
+        "name": "Илья",
+        "surname": "Бурляев",
+        "school": "\"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/ilya_burlyaev"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Шмурыгин",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/shmuryginvldmr"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Перевальская",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/id258574005"
+    },
+    {
+        "name": "Александр",
+        "surname": "Зырянов",
+        "school": "БОУ г. Омска \"СОШ №108\"",
+        "class": "10",
+        "vk_id": "vk.com/kakoytochilavek"
+    },
+    {
+        "name": "Расул",
+        "surname": "Бижанов",
+        "school": "Лицей №92",
+        "class": "10",
+        "vk_id": "https://vk.com/bizdjras"
+    },
+    {
+        "name": "Максим",
+        "surname": "Кривко",
+        "school": "Гимназия 75",
+        "class": "9",
+        "vk_id": "vk.com/black_maksim"
+    },
+    {
+        "name": "Асхат",
+        "surname": "Кажкаримов",
+        "school": "МОЦРО №117",
+        "class": "9",
+        "vk_id": "https://vk.com/cipunz"
+    },
+    {
+        "name": "Пётр",
+        "surname": "Макаров",
+        "school": "БОУ \"Лицей №92\"",
+        "class": "10",
+        "vk_id": "vk.com/piotr.makarov"
+    },
+    {
+        "name": "Константин",
+        "surname": "Орешин",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "7bunu"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Михайлова",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "https://vk.com/pechem_sami"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Тимко",
+        "school": "школа 495",
+        "class": "9",
+        "vk_id": "https://vk.com/urhear"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Зырянова",
+        "school": "БОУ г.Омска \"СОШ 108\"",
+        "class": "8",
+        "vk_id": "vk.com/id505165100"
+    },
+    {
+        "name": "Данил",
+        "surname": "Сбитнев",
+        "school": "гимназия 117",
+        "class": "9",
+        "vk_id": "https://vk.com/ne_pro_igrok"
+    },
+    {
+        "name": "Маргарита",
+        "surname": "Мережко",
+        "school": "Гимназия №115",
+        "class": "10",
+        "vk_id": "https://vk.com/ritamere1"
+    },
+    {
+        "name": "Евгений",
+        "surname": "Бобкунов",
+        "school": "БОУ г. Омск \"Гимназия №115\"",
+        "class": "10",
+        "vk_id": "https://vk.com/h_no3"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Латышкина",
+        "school": "Лицей БИТ",
+        "class": "9",
+        "vk_id": "https://vk.com/krestonosec28"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Белозеров",
+        "school": "БОУ СОШ 56",
+        "class": "11",
+        "vk_id": "https://vk.com/0alescka0"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Куксевич",
+        "school": "Школа 56",
+        "class": "11",
+        "vk_id": "https://vk.com/viiiiiiiiiiiiiiiiiiiiika"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Дмитриевна",
+        "school": "Школа 56",
+        "class": "11",
+        "vk_id": "https://vk.com/viiiiiiiiiiiiiiiiiiiiika"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Сорокин",
+        "school": "Гимназия №146",
+        "class": "7",
+        "vk_id": "https://vk.com/sorokin_ap"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Казаренко",
+        "school": "Гимназия 146",
+        "class": "10",
+        "vk_id": "https://vk.com/daha_c40"
+    },
+    {
+        "name": "Павел",
+        "surname": "Никульшин",
+        "school": "64",
+        "class": "10",
+        "vk_id": "vk.com/p.nikulshin"
+    },
+    {
+        "name": "Сема",
+        "surname": "Аббасова",
+        "school": "БОУ г.Омска СОШ 108",
+        "class": "10",
+        "vk_id": "vk.com/smabbv"
+    },
+    {
+        "name": "Софья",
+        "surname": "Романова",
+        "school": "19",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Татаринова",
+        "school": "БОУ г.Омска \"Гимназия №85\"",
+        "class": "10",
+        "vk_id": "Vk.com/itoldyouso"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Новичкова",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/id557778304"
+    },
+    {
+        "name": "Ангелина",
+        "surname": "Бочарова",
+        "school": "Гимназия №85",
+        "class": "10",
+        "vk_id": "https://vk.com/id601870891"
+    },
+    {
+        "name": "Софья",
+        "surname": "Ботова",
+        "school": "Гимназия 85",
+        "class": "10",
+        "vk_id": "https://vk.com/bitchwantdie"
+    },
+    {
+        "name": "Мария",
+        "surname": "Лукашенко",
+        "school": "БОУ г.Омск «Гимназия №9»",
+        "class": "10",
+        "vk_id": "https://vk.com/mashylka2012"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Михайленко",
+        "school": "БОУ г. Омска \"Инженерно-технологический Лицей 25\"",
+        "class": "9",
+        "vk_id": "vk.com/577339233"
+    },
+    {
+        "name": "Артём",
+        "surname": "Афонин",
+        "school": "ОмГТУ",
+        "class": "11",
+        "vk_id": "https://vk.com/id507166680"
+    },
+    {
+        "name": "Борис",
+        "surname": "Малашин",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "https://vk.com/krendelpops"
+    },
+    {
+        "name": "Александра",
+        "surname": "Жаворонкова",
+        "school": "Лицей 64",
+        "class": "11",
+        "vk_id": "https://vk.com/ananasfromomsk"
+    },
+    {
+        "name": "Анна",
+        "surname": "Молоторенко",
+        "school": "Лицей 64",
+        "class": "11",
+        "vk_id": "https://vk.com/a.molotorenko"
+    },
+    {
+        "name": "Рамина",
+        "surname": "Мукушева",
+        "school": "Гимназия 146",
+        "class": "10",
+        "vk_id": "vk.com/ramina_mm"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Кузнецов",
+        "school": "Гимназия 115",
+        "class": "10",
+        "vk_id": "vk.com/kuznets_lex"
+    },
+    {
+        "name": "Мария",
+        "surname": "Котельникова",
+        "school": "БОУ г. Омска \"Инженерно-технологический лицей № 25\"",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Роберт",
+        "surname": "Савостин",
+        "school": "Школа 1298",
+        "class": "7",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Елена",
+        "surname": "Щукина",
+        "school": "166 лицей",
+        "class": "9",
+        "vk_id": "https://vk.com/id452262359"
+    },
+    {
+        "name": "Малика",
+        "surname": "Сарсенова",
+        "school": "Гимназия 84",
+        "class": "7",
+        "vk_id": "malika_sarsenova"
+    },
+    {
+        "name": "Ислам",
+        "surname": "Сарсенов",
+        "school": "Фоксфорд",
+        "class": "8",
+        "vk_id": "https://vk.com/arcelaner"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Протченко",
+        "school": "БОУ ОО «МОЦРО 117»",
+        "class": "11",
+        "vk_id": "vk.com/anasta_pro"
+    },
+    {
+        "name": "Даниил",
+        "surname": "Каяшов",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "11",
+        "vk_id": "vk.com/totallynothelix"
+    },
+    {
+        "name": "Александра",
+        "surname": "Борисова",
+        "school": "Лицей 64",
+        "class": "11",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Роман",
+        "surname": "Власов",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "8",
+        "vk_id": "vk.com/agent024"
+    },
+    {
+        "name": "Данара",
+        "surname": "Нуркушева",
+        "school": "БОУ ОО \"МОЦРО#117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/id55040621"
+    },
+    {
+        "name": "Алиса",
+        "surname": "Темерева",
+        "school": "Гимназия № 117",
+        "class": "9",
+        "vk_id": "https://m.vk.com/alisatemereva"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Богданова",
+        "school": "БОУ ОО\"МОЦРО 117\"",
+        "class": "9",
+        "vk_id": "vk.com/id206813526"
+    },
+    {
+        "name": "Джессика",
+        "surname": "Тулинская",
+        "school": "Лицей 54",
+        "class": "10",
+        "vk_id": "https://vk.com/jess41359473"
+    },
+    {
+        "name": "Степан",
+        "surname": "Анисимков",
+        "school": "159",
+        "class": "9",
+        "vk_id": "vk.com/id293021806"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Прохоров",
+        "school": "Гимназия 139",
+        "class": "7",
+        "vk_id": "vk.com/id326623716"
+    },
+    {
+        "name": "Ирина",
+        "surname": "Сушкова",
+        "school": "БОУ ОО \"МОЦРО 117\"",
+        "class": "9",
+        "vk_id": "vk.com/id402259781"
+    },
+    {
+        "name": "Анатолий",
+        "surname": "Лазарев",
+        "school": "116",
+        "class": "9",
+        "vk_id": "vk.com/tillid"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Затолоцкая",
+        "school": "СУНЦ НГУ",
+        "class": "10",
+        "vk_id": "https://vk.com/juliya___z"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Цалко",
+        "school": "61",
+        "class": "7",
+        "vk_id": "vk.com/id166902078"
+    },
+    {
+        "name": "Наиля",
+        "surname": "Киямова",
+        "school": "лицей 64",
+        "class": "9",
+        "vk_id": "https://vk.com/loiwwer"
+    },
+    {
+        "name": "Ольга",
+        "surname": "Гриценко",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "vk.com/idiamolya"
+    },
+    {
+        "name": "Арсений",
+        "surname": "Вишневский",
+        "school": "БОУ г.Омска \"Лицей №25\"",
+        "class": "7",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Кумейко",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "https://vk.com/id354871101"
+    },
+    {
+        "name": "Майя",
+        "surname": "Чебакова",
+        "school": "Лицей 64",
+        "class": "7",
+        "vk_id": "https://vk.com/id305699141"
+    },
+    {
+        "name": "Юрий",
+        "surname": "Верзун",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/id400485657"
+    },
+    {
+        "name": "Анна",
+        "surname": "Артамонова",
+        "school": "64",
+        "class": "9",
+        "vk_id": "vk.com/id157850061"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Подворная",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/liza06082000"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Быков",
+        "school": "117",
+        "class": "10",
+        "vk_id": "не умеет пользоваться"
+    },
+    {
+        "name": "Виктор",
+        "surname": "Ложников",
+        "school": "Гимназия 139",
+        "class": "10",
+        "vk_id": "https://vk.com/lozhnikov_victor"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Киреев",
+        "school": "Лицей 25",
+        "class": "9",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Семён",
+        "surname": "Сычов",
+        "school": "64",
+        "class": "9",
+        "vk_id": "vk.com/sermon.kokosov"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Мельков",
+        "school": "64",
+        "class": "10",
+        "vk_id": "https://vk.com/id81616591"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Цындуков",
+        "school": "Лицей 92",
+        "class": "10",
+        "vk_id": "https://vk.com/tsyndukov"
+    },
+    {
+        "name": "Мария",
+        "surname": "Мозылева",
+        "school": "БОУ г. Омска \"Гимназия 9\"",
+        "class": "8",
+        "vk_id": "https://m.vk.com/id99314292"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Храмов",
+        "school": "БОУ СОШ √83",
+        "class": "8",
+        "vk_id": "https://vk.com/damaskyoutube"
+    },
+    {
+        "name": "Виолетта",
+        "surname": "Задорожная",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://m.vk.com/id198934365"
+    },
+    {
+        "name": "Анита",
+        "surname": "Сташевская",
+        "school": "Гимназия №84",
+        "class": "9",
+        "vk_id": "https://vk.com/anitastashevskaya"
+    },
+    {
+        "name": "Константин",
+        "surname": "Турышев",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "vk.com/id281300280"
+    },
+    {
+        "name": "Роман",
+        "surname": "Кучин",
+        "school": "БОУ МОЦРО 117",
+        "class": "9",
+        "vk_id": "не умеет пользоваться"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Фильчиков",
+        "school": "3",
+        "class": "10",
+        "vk_id": "https://vk.com/zuzukidze"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Ткачёва",
+        "school": "лицей 143",
+        "class": "10",
+        "vk_id": "https://vk.com/zhenek1979"
+    },
+    {
+        "name": "Алена",
+        "surname": "Фадеева",
+        "school": "Лицей 64",
+        "class": "11",
+        "vk_id": "https://vk.com/alenushkaa_a"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Балакина",
+        "school": "академический лицей",
+        "class": "8",
+        "vk_id": "https://vk.com/yulyabalakina"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Суднев",
+        "school": "149",
+        "class": "9",
+        "vk_id": "vk.com/dref55"
+    },
+    {
+        "name": "Владислав",
+        "surname": "Шевцов",
+        "school": "Лицей 92",
+        "class": "10",
+        "vk_id": "vk.com/shefat"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Кудашкина",
+        "school": "123",
+        "class": "10",
+        "vk_id": "http://vk.com/id183332969"
+    },
+    {
+        "name": "Павел",
+        "surname": "Кельцев",
+        "school": "64",
+        "class": "10",
+        "vk_id": "https://vk.com/pkeltsev"
+    },
+    {
+        "name": "Вячеслав",
+        "surname": "Задворнов",
+        "school": "34",
+        "class": "10",
+        "vk_id": "vk.com/id209670944"
+    },
+    {
+        "name": "Всеволод",
+        "surname": "Захаров",
+        "school": "Лицей №92",
+        "class": "9",
+        "vk_id": "https://vk.com/id288643683"
+    },
+    {
+        "name": "Роман",
+        "surname": "Уманский",
+        "school": "БОУ \"лицей № 64\"",
+        "class": "9",
+        "vk_id": "https://vk.com/umnayshe4ka"
+    },
+    {
+        "name": "Иван",
+        "surname": "Вачев",
+        "school": "19",
+        "class": "10",
+        "vk_id": "vk.com/ivan_vachev"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Золотарев",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/zolotadmitriy"
+    },
+    {
+        "name": "Севастьян",
+        "surname": "Панов",
+        "school": "БОУОО\"МОЦРО№117\"",
+        "class": "8",
+        "vk_id": "vk.com/sevastyanp"
+    },
+    {
+        "name": "Лука",
+        "surname": "Никифоров",
+        "school": "115",
+        "class": "8",
+        "vk_id": "vk.com/luckea"
+    },
+    {
+        "name": "Ян",
+        "surname": "Вяземский",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "vk.com/yan_vyazem"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Попова",
+        "school": "Гимназия 43",
+        "class": "7",
+        "vk_id": "None"
+    },
+    {
+        "name": "Ирина",
+        "surname": "Широкова",
+        "school": "Лицей 64",
+        "class": "9",
+        "vk_id": "https://vk.com/id189704537"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Крючкова",
+        "school": "Лицей 66",
+        "class": "11",
+        "vk_id": "vk.com/unfraid"
+    },
+    {
+        "name": "Георгий",
+        "surname": "Лапшин",
+        "school": "64 лицей",
+        "class": "9",
+        "vk_id": "https://m.vk.com/georgela"
+    },
+    {
+        "name": "Анна",
+        "surname": "Коломеец",
+        "school": "БОУ СОШУИОП 73",
+        "class": "10",
+        "vk_id": "https://vk.com/id157847345"
+    },
+    {
+        "name": "Данил",
+        "surname": "Рябцев",
+        "school": "Гимназия №19",
+        "class": "10",
+        "vk_id": "vk.com/danil.ryabtsev"
+    },
+    {
+        "name": "Александра",
+        "surname": "Базиль",
+        "school": "Лицей 64",
+        "class": "11",
+        "vk_id": "https://m.vk.com/id136665279"
+    },
+    {
+        "name": "Константин",
+        "surname": "Ушаков",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "https://vk.com/werrewqr"
+    },
+    {
+        "name": "Анна",
+        "surname": "Романенко",
+        "school": "Лицей 54",
+        "class": "10",
+        "vk_id": "https://vk.com/idannromm"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Копац",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://vk.com/mr_ukropchik"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Терещенко",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "мне уже написали приглашение на страницу в вк)"
+    },
+    {
+        "name": "Ольга",
+        "surname": "Белозерова",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/obeloz"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Красных",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/evverything_is_allowed"
+    },
+    {
+        "name": "Кирилл",
+        "surname": "Киселев",
+        "school": "Лицей №149",
+        "class": "8",
+        "vk_id": "https://vk.com/fogo_f"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Гнедина",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/id377773056"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Гнедина",
+        "school": "117",
+        "class": "7",
+        "vk_id": "vk.com/id316784802"
+    },
+    {
+        "name": "Маргарита",
+        "surname": "Дизер",
+        "school": "БОУ ОО \"МОЦРО № 117\"",
+        "class": "10",
+        "vk_id": "vk.com/ekweis"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Ефимова",
+        "school": "25",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Максим",
+        "surname": "Аркушенко",
+        "school": "МОЦРО 117",
+        "class": "7",
+        "vk_id": "https://vk.com/m.arkushenko"
+    },
+    {
+        "name": "Артем",
+        "surname": "Булыгин",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "vk.com/boulygin"
+    },
+    {
+        "name": "Арина",
+        "surname": "Гарбуз",
+        "school": "98",
+        "class": "7",
+        "vk_id": "vk.com/agarbus2003"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Кушнарева",
+        "school": "гимназия 159",
+        "class": "10",
+        "vk_id": "vk.com/akushnareva2000"
+    },
+    {
+        "name": "Виктор",
+        "surname": "Артамонов",
+        "school": "Гимназия № 140",
+        "class": "9",
+        "vk_id": "https://vk.com/svandrith"
+    },
+    {
+        "name": "Амалия",
+        "surname": "Ибатуллина",
+        "school": "МОЦРО 117",
+        "class": "7",
+        "vk_id": "https://m.vk.com/id262530619"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Мальцев",
+        "school": "149",
+        "class": "7",
+        "vk_id": "https://vk.com/id269312243"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Янукова",
+        "school": "81",
+        "class": "10",
+        "vk_id": "vk.com/id150796947"
+    },
+    {
+        "name": "Татьяна",
+        "surname": "Захарова",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/tanya080900"
+    },
+    {
+        "name": "Константин",
+        "surname": "Савченко",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/id163053104"
+    },
+    {
+        "name": "Яна",
+        "surname": "Куличенко",
+        "school": "Лицей №64",
+        "class": "9",
+        "vk_id": "vk.com/y.kulichenko"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Куличенко",
+        "school": "Лицей №64",
+        "class": "9",
+        "vk_id": "vk.com/bellakey"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Кочурова",
+        "school": "БОУ ОО \"МОЦРО 117\"",
+        "class": "10",
+        "vk_id": "http://vk.com/id336544709"
+    },
+    {
+        "name": "Егор",
+        "surname": "Черноок",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "vk.com/id149548495"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Кошевая",
+        "school": "\"МОЦРО 117\"",
+        "class": "7",
+        "vk_id": "https://vk.com/id249818753"
+    },
+    {
+        "name": "Маша",
+        "surname": "Стеблий",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/masya_st"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Крючков",
+        "school": "БОУ г. Омска Лицей №66",
+        "class": "9",
+        "vk_id": "vk.com/sergey80401"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Олейник",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://m.vk.com/lololen.gobz"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Смирнов",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "7",
+        "vk_id": "vk.com/id383760243"
+    },
+    {
+        "name": "Розалита",
+        "surname": "Успанова",
+        "school": "№81",
+        "class": "10",
+        "vk_id": "https://vk.com/id162562572"
+    },
+    {
+        "name": "Анна",
+        "surname": "Долгова",
+        "school": "БОУ ОО \"МОЦРО #117\"",
+        "class": "7",
+        "vk_id": "vk.com/anna_dolgova2004"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Борисец",
+        "school": "117",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Матвей",
+        "surname": "Суров",
+        "school": "135",
+        "class": "6",
+        "vk_id": "https://vk.com/id411925471"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Крутикова",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "9",
+        "vk_id": "https://m.vk.com/id313977338"
+    },
+    {
+        "name": "Семён",
+        "surname": "Поркулевич",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://vk.com/id153731120"
+    },
+    {
+        "name": "Артём",
+        "surname": "Клименко",
+        "school": "Лицей 92",
+        "class": "10",
+        "vk_id": "https://vk.com/velkonost"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Веретенников",
+        "school": "Лицей #64",
+        "class": "9",
+        "vk_id": "https://m.vk.com/demenkovalexey"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Рудских",
+        "school": "64 лицей",
+        "class": "10",
+        "vk_id": "https://vk.com/d.rudskikh"
+    },
+    {
+        "name": "Иван",
+        "surname": "Целиков",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/id179533793"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Гричкоедова",
+        "school": "БОУ Лицей №149",
+        "class": "8",
+        "vk_id": "https://vk.com/grichkoedova"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Рогова",
+        "school": "БОУ ОО \"МОЦРО 117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/juliarrrrrx"
+    },
+    {
+        "name": "Семён",
+        "surname": "Мороз",
+        "school": "117",
+        "class": "7",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Артём",
+        "surname": "Васянович",
+        "school": "Лицей №54",
+        "class": "10",
+        "vk_id": "https://vk.com/science_tk"
+    },
+    {
+        "name": "Александр",
+        "surname": "Бабенко",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id248288690"
+    },
+    {
+        "name": "Максим",
+        "surname": "Сербин",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id352280379"
+    },
+    {
+        "name": "Валерия",
+        "surname": "Александрова",
+        "school": "БОУ ОО \"МОЦРО 117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/vlicharovski"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Зольников",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "vk.com/andrezolnikov"
+    },
+    {
+        "name": "Владислав",
+        "surname": "Точилов",
+        "school": "Гимназия 19",
+        "class": "10",
+        "vk_id": "https://vk.com/uhhkjg78ygh"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Оваканян",
+        "school": "Гимназия № 117",
+        "class": "7",
+        "vk_id": "https://vk.com/vrnkvknn"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Петухова",
+        "school": "№7",
+        "class": "8",
+        "vk_id": "https://vk.com/ddp102f"
+    },
+    {
+        "name": "Марина",
+        "surname": "Капллани",
+        "school": "АНОО \"Видергебурт\", с восьмого класса \"МОЦРО 117\"",
+        "class": "7",
+        "vk_id": "https://vk.com/mara.rina"
+    },
+    {
+        "name": "Богдан",
+        "surname": "Христолюбов",
+        "school": "146",
+        "class": "7",
+        "vk_id": "vk.com/id382406601"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Моисеева",
+        "school": "МОЦРО 117",
+        "class": "7",
+        "vk_id": "vk.com/id276675815"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Пирогова",
+        "school": "117",
+        "class": "7",
+        "vk_id": "Vk.com/darya.pirogova"
+    },
+    {
+        "name": "Софья",
+        "surname": "Ткач",
+        "school": "Гимназия 43",
+        "class": "8",
+        "vk_id": "vk.com/id186803102"
+    },
+    {
+        "name": "Александра",
+        "surname": "Деркач",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/aderkach2017"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Новопашина",
+        "school": "107",
+        "class": "10",
+        "vk_id": "vk.com/id172201719"
+    },
+    {
+        "name": "Валерия",
+        "surname": "Халюзина",
+        "school": "БОУ ОО МОЦРО№117",
+        "class": "8",
+        "vk_id": "https://vk.com/id303071470"
+    },
+    {
+        "name": "Мария",
+        "surname": "Васильева",
+        "school": "БОУ ОО \"МОЦРО 117\"",
+        "class": "8",
+        "vk_id": "https://vk.com/sadmaris"
+    },
+    {
+        "name": "Александр",
+        "surname": "Грушко",
+        "school": "117",
+        "class": "7",
+        "vk_id": "vk.com/id340132670"
+    },
+    {
+        "name": "Илья",
+        "surname": "Бендик",
+        "school": "117",
+        "class": "11",
+        "vk_id": "https://vk.com/id189813664"
+    },
+    {
+        "name": "Иван",
+        "surname": "Гулькин",
+        "school": "117",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Даша",
+        "surname": "Тищенко",
+        "school": "БОУ ОО \"МОЦРО № 117\"",
+        "class": "8",
+        "vk_id": "vk.com/neko_murr"
+    },
+    {
+        "name": "Анна",
+        "surname": "Курбатова",
+        "school": "БОУ СОШ 3",
+        "class": "8",
+        "vk_id": "https://vk.com/anna.kurbatova99"
+    },
+    {
+        "name": "Артем",
+        "surname": "Алтышев",
+        "school": "109",
+        "class": "9",
+        "vk_id": "https://vk.com/id312748553"
+    },
+    {
+        "name": "Леонид",
+        "surname": "Желдак",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/lzheldak"
+    },
+    {
+        "name": "Василий",
+        "surname": "Кузьмин",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/username1908"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Спиридонова",
+        "school": "64",
+        "class": "11",
+        "vk_id": "None"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Павлова",
+        "school": "144",
+        "class": "7",
+        "vk_id": "None"
+    },
+    {
+        "name": "Лиза",
+        "surname": "Уткина",
+        "school": "117",
+        "class": "7",
+        "vk_id": "None"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Бурмистрова",
+        "school": "МОЦРО №117",
+        "class": "9",
+        "vk_id": "vk.com/mdaushsh"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Семёнова",
+        "school": "Омский музыкально педагогический колледж",
+        "class": "10",
+        "vk_id": "https://vk.com/id542091942"
+    },
+    {
+        "name": "Матвей",
+        "surname": "Гуляев",
+        "school": "БОУ г.Омска \"Лицей 64\"",
+        "class": "8",
+        "vk_id": "https://vk.com/loveyoujustlikeafriend"
+    },
+    {
+        "name": "Анна",
+        "surname": "Перевозкина",
+        "school": "Гимназия 12",
+        "class": "9",
+        "vk_id": "https://vk.com/id281208655"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Ракова",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id341567849"
+    },
+    {
+        "name": "Алена",
+        "surname": "Перевальская",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/id258574005"
+    },
+    {
+        "name": "Светлана",
+        "surname": "Данилова",
+        "school": "Гимназия 159",
+        "class": "9",
+        "vk_id": "https://vk.com/id441533920"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Доброва",
+        "school": "Гимназия 159",
+        "class": "9",
+        "vk_id": "https://vk.com/id281634464"
+    },
+    {
+        "name": "Ярослава",
+        "surname": "Горчакова",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/id238150808"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Теплоухова",
+        "school": "Боу моцро 117",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Ценева",
+        "school": "МОЦРО #117",
+        "class": "10",
+        "vk_id": "https://vk.com/veronika.tseneva"
+    },
+    {
+        "name": "Иван",
+        "surname": "Зырянов",
+        "school": "БОУ г. Омска Лицей 64",
+        "class": "8",
+        "vk_id": "https://vk.com/hehehe2020"
+    },
+    {
+        "name": "Даниил",
+        "surname": "Шапов",
+        "school": "166 лицей",
+        "class": "7",
+        "vk_id": "https://vk.com/id341120317"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Ользарович",
+        "school": "МОЦРО 117",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Марчук",
+        "school": "СОШ 94",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Забара",
+        "school": "МОЦРО №117",
+        "class": "9",
+        "vk_id": "https://vk.com/ez.bars"
+    },
+    {
+        "name": "Лейла",
+        "surname": "Садвокасова",
+        "school": "СОШ 118",
+        "class": "7",
+        "vk_id": "https://vk.com/sidushkina"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Апполонина",
+        "school": "БОУ \"Гимназия 84\"",
+        "class": "9",
+        "vk_id": "https://vk.com/ekaterinaapp"
+    },
+    {
+        "name": "Никита",
+        "surname": "Клюшкин",
+        "school": "Лицей №64",
+        "class": "10",
+        "vk_id": "https://m.vk.com/adelfinskii"
+    },
+    {
+        "name": "Лада",
+        "surname": "Ивченко",
+        "school": "БОУ г. Омска «Гимназия №115»",
+        "class": "7",
+        "vk_id": "https://vk.com/lada_ivchenko"
+    },
+    {
+        "name": "Любовь",
+        "surname": "Ушакова",
+        "school": "ГБОУ СОШ «Школа #1449»",
+        "class": "10",
+        "vk_id": "http://vk.com/loveushakovaa"
+    },
+    {
+        "name": "Ирина",
+        "surname": "Акудович",
+        "school": "Гимназия 19",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Коростелёва",
+        "school": "Лицей 64",
+        "class": "11",
+        "vk_id": "https://vk.com/veronika_korosteleva"
+    },
+    {
+        "name": "Поля",
+        "surname": "Синельникова",
+        "school": "Гимназия 19",
+        "class": "11",
+        "vk_id": "vk.com/aliceintowonderland"
+    },
+    {
+        "name": "Анна",
+        "surname": "Кривцова",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "https://m.vk.com/ann_1907"
+    },
+    {
+        "name": "Тихон",
+        "surname": "Курочкин",
+        "school": "Гимназия 150",
+        "class": "10",
+        "vk_id": "https://vk.com/tixon2002"
+    },
+    {
+        "name": "Рената",
+        "surname": "Джураева",
+        "school": "лицей 64",
+        "class": "10",
+        "vk_id": "vk.com/renata_eva"
+    },
+    {
+        "name": "Анна",
+        "surname": "Исаева",
+        "school": "БОУ города Омска \"Лицей № 64\"",
+        "class": "10",
+        "vk_id": "https://vk.com/id247403526"
+    },
+    {
+        "name": "Милана",
+        "surname": "Каныгина",
+        "school": "Гимназия 62",
+        "class": "11",
+        "vk_id": "vk.com/milanakanygina"
+    },
+    {
+        "name": "Артём",
+        "surname": "Колесник",
+        "school": "Лицей №64",
+        "class": "10",
+        "vk_id": "vk.com/somnusss"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Давыдова",
+        "school": "БОУ ОО МОЦРО #117",
+        "class": "8",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Катя",
+        "surname": "Куличенко",
+        "school": "Моцро 117",
+        "class": "8",
+        "vk_id": "https://vk.com/kulichenko2"
+    },
+    {
+        "name": "Славик",
+        "surname": "Задворнов",
+        "school": "БОУ \"СОШ\" 34",
+        "class": "11",
+        "vk_id": "vk.com/id209670944"
+    },
+    {
+        "name": "екатерина",
+        "surname": "таранова",
+        "school": "сош№7",
+        "class": "9",
+        "vk_id": "https://vk.com/ktaranova3"
+    },
+    {
+        "name": "Арсений",
+        "surname": "Калиниченко",
+        "school": "51",
+        "class": "10",
+        "vk_id": "https://vk.com/a.kalinechenko"
+    },
+    {
+        "name": "Мария",
+        "surname": "Рождественская",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/m.christmas27"
+    },
+    {
+        "name": "Даша",
+        "surname": "Шадёркина",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "https://vk.com/shdrkn"
+    },
+    {
+        "name": "Никита",
+        "surname": "Никитин",
+        "school": "64",
+        "class": "10",
+        "vk_id": "https://vk.com/flekser_from_sirius"
+    },
+    {
+        "name": "Вика",
+        "surname": "Скрипкина",
+        "school": "Лицей 166",
+        "class": "8",
+        "vk_id": "https://vk.com/id467293207"
+    },
+    {
+        "name": "Полина",
+        "surname": "Недобойко",
+        "school": "Моцро 117",
+        "class": "9",
+        "vk_id": "https://vk.com/p.nedoboyko"
+    },
+    {
+        "name": "Софья",
+        "surname": "Барнёва",
+        "school": "БОУ ОО «МОЦРО №117»",
+        "class": "9",
+        "vk_id": "https://vk.com/sofya_barneva"
+    },
+    {
+        "name": "Вика",
+        "surname": "рожкова",
+        "school": "Ключевская школа",
+        "class": "7",
+        "vk_id": "https://vk.com/id390700568"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Тепляшина",
+        "school": "Гимназия №139",
+        "class": "9",
+        "vk_id": "https://vk.com/id254419335"
+    },
+    {
+        "name": "Полина",
+        "surname": "Локтева",
+        "school": "Гимназия 26",
+        "class": "10",
+        "vk_id": "https://m.vk.com/polina_l16"
+    },
+    {
+        "name": "Арсений",
+        "surname": "Жирнов",
+        "school": "149",
+        "class": "9",
+        "vk_id": "https://vk.com/id535081485"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Гуртовенко",
+        "school": "БОУ МОЦРО ОО №117",
+        "class": "9",
+        "vk_id": "vk.com/id254401565"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Удовиченко",
+        "school": "\"Моцро 117\"",
+        "class": "8",
+        "vk_id": "https://vk.com/vudovichenkov"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Шмалько",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "https://vk.com/squadrista"
+    },
+    {
+        "name": "Яна",
+        "surname": "Климова",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id269184131"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Сушкова",
+        "school": "Гимназия 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id539493679"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Макарова",
+        "school": "Лицей 74",
+        "class": "9",
+        "vk_id": "https://vk.com/elimaksi"
+    },
+    {
+        "name": "Никита",
+        "surname": "Ильин",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id250886985"
+    },
+    {
+        "name": "Валерия",
+        "surname": "Дизер",
+        "school": "БОУ ОО \"МОЦРО 117\"",
+        "class": "8",
+        "vk_id": "https://vk.com/id333898320"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Фирстова",
+        "school": "БОУ \"Лицей №64\"",
+        "class": "10",
+        "vk_id": "vk.com/karmaa_police"
+    },
+    {
+        "name": "Марина",
+        "surname": "Зайцева",
+        "school": "Лицей 149",
+        "class": "9",
+        "vk_id": "https://vk.com/zzaitceva"
+    },
+    {
+        "name": "Альбина",
+        "surname": "Братухина",
+        "school": "БОУ Гимназия 139",
+        "class": "10",
+        "vk_id": "https://vk.com/id494021182"
+    },
+    {
+        "name": "Софья",
+        "surname": "Устымчук",
+        "school": "74",
+        "class": "9",
+        "vk_id": "vk.com/sestroslava"
+    },
+    {
+        "name": "Ульяна",
+        "surname": "Ремизова",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/rem.joui"
+    },
+    {
+        "name": "Никита",
+        "surname": "Кузин",
+        "school": "Лицей 149",
+        "class": "11",
+        "vk_id": "https://vk.com/shdoo"
+    },
+    {
+        "name": "Мария",
+        "surname": "Терехова",
+        "school": "Гимназия №139",
+        "class": "9",
+        "vk_id": "https://vk.com/id318731608"
+    },
+    {
+        "name": "Дарий",
+        "surname": "Асаинов",
+        "school": "Лицей №64",
+        "class": "10",
+        "vk_id": "https://vk.com/id435651592"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Дмитриева",
+        "school": "БОУ Гимназия № 139",
+        "class": "9",
+        "vk_id": "vk.com/yoneeth"
+    },
+    {
+        "name": "Ирина",
+        "surname": "Геталова",
+        "school": "Школа №36",
+        "class": "10",
+        "vk_id": "https://vk.com/ira_getalova"
+    },
+    {
+        "name": "Даяна",
+        "surname": "Кудайбергенова",
+        "school": "БОУ г.Омска “Гимназия №85”",
+        "class": "9",
+        "vk_id": "vk.com/gooddayana"
+    },
+    {
+        "name": "Илья",
+        "surname": "Кузин",
+        "school": "149 лицей",
+        "class": "11",
+        "vk_id": "vk.com/ilya_kuzin"
+    },
+    {
+        "name": "Софья",
+        "surname": "Папакина",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "s.papakina"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Крючков",
+        "school": "Боу г Омска Лицей66",
+        "class": "8",
+        "vk_id": "vk.com/mihagg01"
+    },
+    {
+        "name": "Матвей",
+        "surname": "Измайлов",
+        "school": "64",
+        "class": "10",
+        "vk_id": "https://vk.com/jewomskiy"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Кочурова",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "8",
+        "vk_id": "https://vk.com/id308817000"
+    },
+    {
+        "name": "Матвей",
+        "surname": "Захаров",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/id217815318"
+    },
+    {
+        "name": "Тимофей",
+        "surname": "Рядовой",
+        "school": "моцро",
+        "class": "9",
+        "vk_id": "https://vk.com/timfencing"
+    },
+    {
+        "name": "Иван",
+        "surname": "Моргун",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/mi.morgun.ivan"
+    },
+    {
+        "name": "Полина",
+        "surname": "Сумленинова",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://m.vk.com/sumleninova"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Яковлева",
+        "school": "Лицей 166",
+        "class": "10",
+        "vk_id": "https://vk.com/irassion"
+    },
+    {
+        "name": "Асель",
+        "surname": "Нуркушева",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/aselnurkusheva"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Мужева",
+        "school": "Лицей 166",
+        "class": "10",
+        "vk_id": "https://vk.com/id189048907"
+    },
+    {
+        "name": "Даниэла",
+        "surname": "Локтионова",
+        "school": "БОУ г. Омска \"Лицей 64\"",
+        "class": "10",
+        "vk_id": "https://m.vk.com/sweet1peach"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Зернюк",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/andreyzerniuk30"
+    },
+    {
+        "name": "Никита",
+        "surname": "Сидоров",
+        "school": "МОЦРО#117",
+        "class": "8",
+        "vk_id": "https://vk.com/nsidorov2001"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Фёдорова",
+        "school": "БОУ \"Гимназия 140\"",
+        "class": "11",
+        "vk_id": "https://vk.com/inaeternum16"
+    },
+    {
+        "name": "Полина",
+        "surname": "Гебель",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id397630639"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Белим",
+        "school": "БОУ ОО «МОЦРО 117»",
+        "class": "8",
+        "vk_id": "vk.com/belimcatherine"
+    },
+    {
+        "name": "Мария",
+        "surname": "Полищук",
+        "school": "БОУ Гимназия 19",
+        "class": "9",
+        "vk_id": "vk.com/id245076479"
+    },
+    {
+        "name": "Яна",
+        "surname": "Серобабина",
+        "school": "69 гимназия",
+        "class": "8",
+        "vk_id": "vk.com/serobabinaa"
+    },
+    {
+        "name": "Элиас",
+        "surname": "Квинт",
+        "school": "Лицей 92",
+        "class": "9",
+        "vk_id": "https://vk.com/eliaskvint"
+    },
+    {
+        "name": "Василиса",
+        "surname": "Ячменёва",
+        "school": "Гимназия №140",
+        "class": "11",
+        "vk_id": "https://vk.com/versus_house"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Драгунова",
+        "school": "Гимназия 140",
+        "class": "11",
+        "vk_id": "https://vk.com/unssonn"
+    },
+    {
+        "name": "Настя",
+        "surname": "Волобуева",
+        "school": "Школа №104",
+        "class": "10",
+        "vk_id": "https://vk.com/anastasiavol"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Шестаков",
+        "school": "149",
+        "class": "10",
+        "vk_id": "https://vk.com/electrik08"
+    },
+    {
+        "name": "Яна",
+        "surname": "Куприенко",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "vk.com/myfakk"
+    },
+    {
+        "name": "Денис",
+        "surname": "Шаповал",
+        "school": "Гимназия №150",
+        "class": "9",
+        "vk_id": "vk.com/denisshapoval"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Проворкина",
+        "school": "БОУ \"СОШ №142\"",
+        "class": "10",
+        "vk_id": "https://vk.com/id138745585"
+    },
+    {
+        "name": "Александр",
+        "surname": "Хохлов",
+        "school": "БОУ ОО \"МОЦРО #117\"",
+        "class": "8",
+        "vk_id": "vk.com/sasashasas"
+    },
+    {
+        "name": "Мария",
+        "surname": "Муравьева",
+        "school": "МОЦРО №117",
+        "class": "10",
+        "vk_id": "vk.com/muravyeva2012"
+    },
+    {
+        "name": "Валерия",
+        "surname": "Шлыкова",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "vk.com/shlykova_valeriya"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Ткаченко",
+        "school": "БОУ г.Омска \"Гимназия №139\"",
+        "class": "9",
+        "vk_id": "https://vk.com/id239500086"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Шишко",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "https://vk.com/id308485017"
+    },
+    {
+        "name": "Алина",
+        "surname": "Ходарина",
+        "school": "Лицей №149",
+        "class": "11",
+        "vk_id": "vk.com/ijustwannahearyouscreamagain"
+    },
+    {
+        "name": "Владислав",
+        "surname": "Логинов",
+        "school": "БОУ ОО МОЦРО №117",
+        "class": "7",
+        "vk_id": "https://vk.com/id195904823"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Бахмутский",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/qwartal13"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Вольф",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/id418432876"
+    },
+    {
+        "name": "Александр",
+        "surname": "Комнацкий",
+        "school": "СУНЦ МГУ",
+        "class": "10",
+        "vk_id": "https://vk.com/crazyjokerequallynewcrazy"
+    },
+    {
+        "name": "Анна",
+        "surname": "Лапаницына",
+        "school": "Лицей №137",
+        "class": "8",
+        "vk_id": "vk.com/byheart_chaika"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Линкер",
+        "school": "Лицей №137",
+        "class": "8",
+        "vk_id": "https://vk.com/katelinker"
+    },
+    {
+        "name": "Артём",
+        "surname": "Малёнов",
+        "school": "Гимназия 139",
+        "class": "9",
+        "vk_id": "vk.com/imagineonfire"
+    },
+    {
+        "name": "Мария",
+        "surname": "Кокшарова",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/musical_mary"
+    },
+    {
+        "name": "Мария",
+        "surname": "Коломиец",
+        "school": "Лицей 29",
+        "class": "9",
+        "vk_id": "https://vk.com/id479109984"
+    },
+    {
+        "name": "Иван",
+        "surname": "Власенко",
+        "school": "Гимназия 84",
+        "class": "8",
+        "vk_id": "vk.com/vlas.vanya"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Григорьев",
+        "school": "МОЦРО №117",
+        "class": "10",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Софья",
+        "surname": "Качанова",
+        "school": "159",
+        "class": "9",
+        "vk_id": "https://vk.com/id185708014"
+    },
+    {
+        "name": "Данила",
+        "surname": "Назаренко",
+        "school": "75",
+        "class": "9",
+        "vk_id": "vk.com/goldnil"
+    },
+    {
+        "name": "Сабина",
+        "surname": "Богун",
+        "school": "130",
+        "class": "8",
+        "vk_id": "https://vk.com/id188855311"
+    },
+    {
+        "name": "Иван",
+        "surname": "Гасилен",
+        "school": "МОЦРО №117",
+        "class": "9",
+        "vk_id": "https://vk.com/id300520380"
+    },
+    {
+        "name": "Олеся",
+        "surname": "Добролежа",
+        "school": "Гимназия 140",
+        "class": "7",
+        "vk_id": "vk.com/id469538160"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Алексеев",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/likeman177"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Суханова",
+        "school": "Гимназия 140",
+        "class": "7",
+        "vk_id": "https://vk.com/love2006alena8"
+    },
+    {
+        "name": "Ирина",
+        "surname": "Сафронова",
+        "school": "Гимназия №26",
+        "class": "10",
+        "vk_id": "https://vk.com/id473918755"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Ровенских",
+        "school": "Гимназия 84",
+        "class": "7",
+        "vk_id": "vk.com/mrov29"
+    },
+    {
+        "name": "Владимир",
+        "surname": "Петров",
+        "school": "БОУ ОО \"МОЦРО\" 117",
+        "class": "8",
+        "vk_id": "vk.com/vladimir.petrov2016"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Самохвалова",
+        "school": "Академический лицей",
+        "class": "9",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Мария",
+        "surname": "Лисина",
+        "school": "БОУ Гимназия 150",
+        "class": "10",
+        "vk_id": "https://vk.com/mrlsan"
+    },
+    {
+        "name": "Алина",
+        "surname": "Сим",
+        "school": "БОУ ОО «МОЦРО 117»",
+        "class": "8",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Полина",
+        "surname": "Лекант",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/id526408411"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Николаев",
+        "school": "Гимназия 146",
+        "class": "8",
+        "vk_id": "https://vk.com/nikola_serj"
+    },
+    {
+        "name": "Иляна",
+        "surname": "Панева",
+        "school": "Лицей 149",
+        "class": "10",
+        "vk_id": "vk.com/id227178442"
+    },
+    {
+        "name": "Яна",
+        "surname": "Фазуллина",
+        "school": "Лицей 149",
+        "class": "7",
+        "vk_id": "https://vk.com/y.kolyvanova1990"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Жигулина",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/shanny_angel"
+    },
+    {
+        "name": "Роман",
+        "surname": "Божко",
+        "school": "Лицей 149",
+        "class": "9",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Рустам",
+        "surname": "Тимомеев",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://m.vk.com/refresher1"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Жилин",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "vk.com/misha_zhilin2003"
+    },
+    {
+        "name": "Нина",
+        "surname": "Булучевская",
+        "school": "БОУ ОО \"МОЦРО #117\"",
+        "class": "9",
+        "vk_id": "vk.com/sad_nina"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Краева",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "vk.com/ny1privet2elon3musk"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Евстратенко",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/katerrrrrina"
+    },
+    {
+        "name": "Максим",
+        "surname": "Стативка",
+        "school": "МОЦРО 117",
+        "class": "7",
+        "vk_id": "https://vk.com/id418977018"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Рейсер",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/id341427594"
+    },
+    {
+        "name": "Маргарита",
+        "surname": "Денисова",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "https://vk.com/id285364433"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Мокиенко",
+        "school": "БОУОО\"МОЦРО№117\"",
+        "class": "9",
+        "vk_id": "https://vk.com/id436516056"
+    },
+    {
+        "name": "Даниил",
+        "surname": "Васильев",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/baldezzhhhhh"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Волченко",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://m.vk.com/volchara49"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Лещенко",
+        "school": "117",
+        "class": "9",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Валентина",
+        "surname": "Осипова",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id281800589"
+    },
+    {
+        "name": "Александр",
+        "surname": "Дмитриенко",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/alexandrinioo"
+    },
+    {
+        "name": "Леонид",
+        "surname": "Галыба",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "vk.com/id175231174"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Савиных",
+        "school": "Гимназия №139",
+        "class": "9",
+        "vk_id": "https://vk.com/id252385302"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Божко",
+        "school": "СОШ N 7",
+        "class": "8",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Егор",
+        "surname": "Семенов",
+        "school": "МОЦРО №117",
+        "class": "9",
+        "vk_id": "https://vk.com/id190943067"
+    },
+    {
+        "name": "Олег",
+        "surname": "Лощинин",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "8",
+        "vk_id": "vk.com/puteshestvennik2004"
+    },
+    {
+        "name": "Кирилл",
+        "surname": "Винтер",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "8",
+        "vk_id": "vk.com/unrealpochvoved"
+    },
+    {
+        "name": "Анна",
+        "surname": "Климова",
+        "school": "БОУ ОО „МОЦРО №117”",
+        "class": "8",
+        "vk_id": "https://vk.com/klimova_ann"
+    },
+    {
+        "name": "Евгений",
+        "surname": "Жунусов",
+        "school": "109",
+        "class": "8",
+        "vk_id": "https://vk.com/id299162973"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Степанов",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/id141442481"
+    },
+    {
+        "name": "Иван",
+        "surname": "Леонов",
+        "school": "Лицей №74",
+        "class": "9",
+        "vk_id": "Vk.com/id463866987"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Гричкоедовой",
+        "school": "Лицей №149",
+        "class": "10",
+        "vk_id": "vk.com/grichkoedova"
+    },
+    {
+        "name": "Артём",
+        "surname": "Щипачёв",
+        "school": "БОУ ОО \"МОЦРО N117\"",
+        "class": "7",
+        "vk_id": "https://vk.com/guselki_yurovchati"
+    },
+    {
+        "name": "Денис",
+        "surname": "Шестаков",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "https://vk.com/denis007crack"
+    },
+    {
+        "name": "Егор",
+        "surname": "Шереш",
+        "school": "Лицей №149",
+        "class": "9",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Роман",
+        "surname": "Лисовский",
+        "school": "Гимназия №139",
+        "class": "9",
+        "vk_id": "vk.com/id496766710"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Шипилова",
+        "school": "84",
+        "class": "10",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Егор",
+        "surname": "Кожевников",
+        "school": "Лицей 66",
+        "class": "8",
+        "vk_id": "https://vk.com/id319452249"
+    },
+    {
+        "name": "Георгий",
+        "surname": "Мороз",
+        "school": "МОЦРО №117",
+        "class": "7",
+        "vk_id": "vk.com/id330253179"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Михель",
+        "school": "117",
+        "class": "8",
+        "vk_id": "хз"
+    },
+    {
+        "name": "Матвей",
+        "surname": "Путинцев",
+        "school": "Лицей 66",
+        "class": "8",
+        "vk_id": "https://vk.com/id335232813"
+    },
+    {
+        "name": "Лев",
+        "surname": "Филиппенко",
+        "school": "66",
+        "class": "9",
+        "vk_id": "https://vk.com/lovememes3"
+    },
+    {
+        "name": "Ян",
+        "surname": "Швин",
+        "school": "92",
+        "class": "11",
+        "vk_id": "vk.com/id_id_idid_id"
+    },
+    {
+        "name": "Софья",
+        "surname": "Сторожук",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/idmayakova305"
+    },
+    {
+        "name": "Ростислав",
+        "surname": "Гайдуков",
+        "school": "Лицей 64",
+        "class": "11",
+        "vk_id": "vk.com/rostgay"
+    },
+    {
+        "name": "Алина",
+        "surname": "Байдуалетова",
+        "school": "БОУ СОШ 16",
+        "class": "9",
+        "vk_id": "https://vk.com/id242145646"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Таранова",
+        "school": "СОШ 7",
+        "class": "10",
+        "vk_id": "https://vk.com/ktaranova3"
+    },
+    {
+        "name": "Иван",
+        "surname": "Треус",
+        "school": "БОУ \"Гимназия №139\"",
+        "class": "10",
+        "vk_id": "https://vk.com/id439954024"
+    },
+    {
+        "name": "Милана",
+        "surname": "Файзулина",
+        "school": "СОШ №50",
+        "class": "10",
+        "vk_id": "vk.com/milkamilkywayy"
+    },
+    {
+        "name": "Роман",
+        "surname": "Суслов",
+        "school": "Гимназия N140",
+        "class": "8",
+        "vk_id": "vk.com/id277939575"
+    },
+    {
+        "name": "Максим",
+        "surname": "Кано",
+        "school": "БОУ г.Омска Лицей 64",
+        "class": "8",
+        "vk_id": "https://vk.com/id373641638"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Голицына",
+        "school": "\"МОЦРО\"№117",
+        "class": "9",
+        "vk_id": "https://vk.com/id445282722"
+    },
+    {
+        "name": "Мария",
+        "surname": "Васильев",
+        "school": "БОУ ОО «МОЦРО 117»",
+        "class": "11",
+        "vk_id": "vk.com/uvasmania"
+    },
+    {
+        "name": "Ильшат",
+        "surname": "Хатыпов",
+        "school": "МБОУ \"Лицей №123\"",
+        "class": "8",
+        "vk_id": "https://vk.com/ilshat4295"
+    },
+    {
+        "name": "Валерия",
+        "surname": "Овчинникова",
+        "school": "МБОУ СШ5",
+        "class": "10",
+        "vk_id": "https://vk.com/lera_ovchinnikova007"
+    },
+    {
+        "name": "Светлана",
+        "surname": "Савраскина",
+        "school": "МАОУ СШ №6",
+        "class": "10",
+        "vk_id": "vk.com/lmao_a"
+    },
+    {
+        "name": "Александра",
+        "surname": "Кравченко",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "vk.com/ananasfromomsk"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Колодяжная",
+        "school": "№24",
+        "class": "10",
+        "vk_id": "http://vk.com/id263080412"
+    },
+    {
+        "name": "Наталья",
+        "surname": "Рейнгардт",
+        "school": "МБОУ \"Ремзаводская СОШ\"",
+        "class": "11",
+        "vk_id": "https://vk.com/nata_2002"
+    },
+    {
+        "name": "Аннет",
+        "surname": "Бугага",
+        "school": "Гимназия №62",
+        "class": "11",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Игорь",
+        "surname": "Вильгельм",
+        "school": "115",
+        "class": "8",
+        "vk_id": "Vk. Com/kwilgelm"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Дзюба",
+        "school": "144",
+        "class": "9",
+        "vk_id": "id316722362"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Чежин",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/totallynotbuzz"
+    },
+    {
+        "name": "Лилианна",
+        "surname": "Шабалина",
+        "school": "МБОУ \"Лицей №124\"",
+        "class": "8",
+        "vk_id": "vk.com/liashabalina"
+    },
+    {
+        "name": "Анна",
+        "surname": "Кинчиряк",
+        "school": "БОУ СОШ 36",
+        "class": "8",
+        "vk_id": "https://vk.com/kinchiryak"
+    },
+    {
+        "name": "Милана",
+        "surname": "Богомазова",
+        "school": "Викуловская СОШ 1",
+        "class": "7",
+        "vk_id": "https://m.vk.com/mbogomazova2015"
+    },
+    {
+        "name": "Максим",
+        "surname": "Триколе",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/mtrikole"
+    },
+    {
+        "name": "Денис",
+        "surname": "Щербаков",
+        "school": "Лицей 25",
+        "class": "10",
+        "vk_id": "https://vk.com/all.aadenis"
+    },
+    {
+        "name": "Полина",
+        "surname": "Бачинская",
+        "school": "СУНЦ НГУ",
+        "class": "10",
+        "vk_id": "vk.com/tupolinaa"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Бабайлова",
+        "school": "117",
+        "class": "8",
+        "vk_id": "vk.com/ecliptic_boundaries"
+    },
+    {
+        "name": "Юля",
+        "surname": "Гуртовенко",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/id254401565"
+    },
+    {
+        "name": "Даниил",
+        "surname": "Коноваленко",
+        "school": "117",
+        "class": "7",
+        "vk_id": "https://vk.com/den_41_k_1"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Пономарев",
+        "school": "Лицей 25",
+        "class": "10",
+        "vk_id": "vk.com/dmitriy_ponomare"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Степанов",
+        "school": "117",
+        "class": "8",
+        "vk_id": "https://vk.com/vadimstepanov79"
+    },
+    {
+        "name": "Ярослав",
+        "surname": "Лисин",
+        "school": "семейное образование",
+        "class": "7",
+        "vk_id": "https://vk.com/id447460014"
+    },
+    {
+        "name": "Тимофей",
+        "surname": "Рыко",
+        "school": "СУНЦ МГУ",
+        "class": "10",
+        "vk_id": "https://vk.com/nitrogenous_base"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Терехина",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/lizkater"
+    },
+    {
+        "name": "Полина",
+        "surname": "Анкудинова",
+        "school": "МАОУ СОШ 14",
+        "class": "9",
+        "vk_id": "https://vk.com/ankudinovazaecologiy"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Каракальцева",
+        "school": "64 лицей",
+        "class": "9",
+        "vk_id": "https://vk.com/karakaltseva"
+    },
+    {
+        "name": "Антон",
+        "surname": "Догадин",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "m.vk.com/djabella"
+    },
+    {
+        "name": "Глеб",
+        "surname": "Черкасов",
+        "school": "БОУ ОО «МОЦРО 117»",
+        "class": "9",
+        "vk_id": "vk.com/maninthebluebox"
+    },
+    {
+        "name": "Антон",
+        "surname": "Выдрин",
+        "school": "64",
+        "class": "10",
+        "vk_id": "vk.com/leepsi"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Воробей",
+        "school": "149",
+        "class": "10",
+        "vk_id": "vk.com/id183865528"
+    },
+    {
+        "name": "Владислав",
+        "surname": "Левченко",
+        "school": "Лицей №64",
+        "class": "10",
+        "vk_id": "vk.com/zyymeboy"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Едемский",
+        "school": "БОУ «СОШ 17»",
+        "class": "11",
+        "vk_id": "vk.com/sykessad"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Аверьянов",
+        "school": "Лицей 66",
+        "class": "10",
+        "vk_id": "vk.com/siemens1337"
+    },
+    {
+        "name": "Виктор",
+        "surname": "Драницын",
+        "school": "БОУ СОШ №17",
+        "class": "11",
+        "vk_id": "https://vk.com/shapebringer"
+    },
+    {
+        "name": "Алиса",
+        "surname": "Шмидт",
+        "school": "Академический лицей при ОмГПУ",
+        "class": "8",
+        "vk_id": "https://vk.com/malenkaia_esho"
+    },
+    {
+        "name": "Егор",
+        "surname": "Левченко",
+        "school": "Лицей №66",
+        "class": "10",
+        "vk_id": "https://vk.com/egorkaegorih"
+    },
+    {
+        "name": "Александра",
+        "surname": "Рыбалко",
+        "school": "149",
+        "class": "10",
+        "vk_id": "https://vk.com/lexxandria"
+    },
+    {
+        "name": "Евгения",
+        "surname": "Шпакова",
+        "school": "Лицей НИУ ВШЭ",
+        "class": "10",
+        "vk_id": "https://m.vk.com/evlgenius"
+    },
+    {
+        "name": "Вячеслав",
+        "surname": "Лян",
+        "school": "БОУ ОО МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/id225935599"
+    },
+    {
+        "name": "Софья",
+        "surname": "Черных",
+        "school": "БОУ г.Омска СОШ 63",
+        "class": "10",
+        "vk_id": "https://vk.com/id226113989"
+    },
+    {
+        "name": "Степан",
+        "surname": "Юдин",
+        "school": "Лицей 64",
+        "class": "10",
+        "vk_id": "https://vk.com/mrmeller12"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Кацуба",
+        "school": "149",
+        "class": "10",
+        "vk_id": "https://m.vk.com/id269671662"
+    },
+    {
+        "name": "Мария",
+        "surname": "Свиридова",
+        "school": "19",
+        "class": "8",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Анна",
+        "surname": "Кравец",
+        "school": "Академический лицей при ОМГпУ",
+        "class": "10",
+        "vk_id": "https://vk.com/id194845468"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Ефимкина",
+        "school": "Академический лицей при ОМГПУ",
+        "class": "10",
+        "vk_id": "https://vk.com/missis.nasta20"
+    },
+    {
+        "name": "Илона",
+        "surname": "Иова",
+        "school": "Лицей 92",
+        "class": "7",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Яна",
+        "surname": "Франк",
+        "school": "БОУ ОО \"МОЦРО\" 117",
+        "class": "10",
+        "vk_id": "vk.com/yanafrank"
+    },
+    {
+        "name": "Илья",
+        "surname": "Мальцев",
+        "school": "Гимназия №140",
+        "class": "10",
+        "vk_id": "https://vk.com/id210046407"
+    },
+    {
+        "name": "Нариман",
+        "surname": "Назаров",
+        "school": "Гимназия 62",
+        "class": "10",
+        "vk_id": "https://vk.com/id183448945"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Руль",
+        "school": "Лицей 149",
+        "class": "10",
+        "vk_id": "https://vk.com/id183604164"
+    },
+    {
+        "name": "София",
+        "surname": "Шишова",
+        "school": "Гимназия 140",
+        "class": "9",
+        "vk_id": "https://vk.com/sshishova2000"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Голозов",
+        "school": "Гимназия 19",
+        "class": "11",
+        "vk_id": "vk.com/dimagolozov"
+    },
+    {
+        "name": "Рустам",
+        "surname": "Мухомедишин",
+        "school": "БОУ \"Гимназия №62\"",
+        "class": "10",
+        "vk_id": "vk.com/rustam_in"
+    },
+    {
+        "name": "Алёна",
+        "surname": "Янковская",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "vk.com/17aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+        "name": "София",
+        "surname": "Любавина",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "10",
+        "vk_id": "https://vk.com/sofialyubavina"
+    },
+    {
+        "name": "Роман",
+        "surname": "Малышков",
+        "school": "Лицей №64",
+        "class": "10",
+        "vk_id": "Нет"
+    },
+    {
+        "name": "Валерия",
+        "surname": "Виноградова",
+        "school": "МОЦРО №117",
+        "class": "8",
+        "vk_id": "vk.com/valeria_vinogradova0"
+    },
+    {
+        "name": "Алиса",
+        "surname": "Башкатова",
+        "school": "СОШ 123",
+        "class": "10",
+        "vk_id": "https://vk.com/id139785776"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Пирожкова",
+        "school": "Гимназия 84",
+        "class": "10",
+        "vk_id": "https://vk.com/katyaaaa468"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Валитов",
+        "school": "Лицей 166",
+        "class": "10",
+        "vk_id": "https://vk.com/andrvat"
+    },
+    {
+        "name": "Артемий",
+        "surname": "Матчин",
+        "school": "Лицей 166",
+        "class": "10",
+        "vk_id": "vk.com/udav_gosha"
+    },
+    {
+        "name": "Диана",
+        "surname": "Мельник",
+        "school": "БОУ ОО \"МОЦРО 117\"",
+        "class": "8",
+        "vk_id": "vk.com/diamelnik"
+    },
+    {
+        "name": "Илья",
+        "surname": "Малиновский",
+        "school": "МОЦРО 117",
+        "class": "10",
+        "vk_id": "https://vk.com/id112552816"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Константинова",
+        "school": "Гимназия 139",
+        "class": "9",
+        "vk_id": "https://m.vk.com/alinasavchenko0"
+    },
+    {
+        "name": "Алиса",
+        "surname": "Трофимова",
+        "school": "149",
+        "class": "10",
+        "vk_id": "https://vk.com/id171242575"
+    },
+    {
+        "name": "Артём",
+        "surname": "Ляшев",
+        "school": "МОЦРО №117",
+        "class": "9",
+        "vk_id": "https://vk.com/id85584620"
+    },
+    {
+        "name": "Павел",
+        "surname": "Торопов",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "https://vk.com/avstralo_pitek"
+    },
+    {
+        "name": "Таисия",
+        "surname": "Глинская",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "https://vk.com/id200827263"
+    },
+    {
+        "name": "Ольга",
+        "surname": "Протазанова",
+        "school": "36",
+        "class": "9",
+        "vk_id": "https://vk.com/olya.protazanova"
+    },
+    {
+        "name": "Кирилл",
+        "surname": "Матвиец",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/scumlife69"
+    },
+    {
+        "name": "Диана",
+        "surname": "Мурашова",
+        "school": "44",
+        "class": "8",
+        "vk_id": "https://m.vk.com/dimetria03"
+    },
+    {
+        "name": "Надежда",
+        "surname": "Терновая",
+        "school": "БОУ ОО \"МОЦРО №117\"",
+        "class": "9",
+        "vk_id": "https://vk.com/nternovaya0"
+    },
+    {
+        "name": "Илья",
+        "surname": "Михеев",
+        "school": "117",
+        "class": "10",
+        "vk_id": "vk.com/mikheevii"
+    },
+    {
+        "name": "Елизавета",
+        "surname": "Манько",
+        "school": "МБОУ \"Лузинская СОШ 1\"",
+        "class": "9",
+        "vk_id": "https://vk.com/beslizast"
+    },
+    {
+        "name": "Анна",
+        "surname": "Калабина",
+        "school": "МБОУ \"Лузинская СОШ 1\"",
+        "class": "9",
+        "vk_id": "http://vk.com/id415155344"
+    },
+    {
+        "name": "Вадим",
+        "surname": "Зарипов",
+        "school": "Лицей #64",
+        "class": "7",
+        "vk_id": "vk.com/vadimka_zaripov"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Сергеев",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/homesituation"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Рожко",
+        "school": "МОЦРО №117",
+        "class": "9",
+        "vk_id": "vk.com/id234591697"
+    },
+    {
+        "name": "Андрей",
+        "surname": "Крючков",
+        "school": "123",
+        "class": "8",
+        "vk_id": "https://vk.com/id207531264"
+    },
+    {
+        "name": "Марат",
+        "surname": "Абдикеев",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "vk.com/id415230992"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Зайцева",
+        "school": "БОУ «Лицей 166»",
+        "class": "8",
+        "vk_id": "https://m.vk.com/id193643114?act=info"
+    },
+    {
+        "name": "Максим",
+        "surname": "Желнин",
+        "school": "БОУ \"Лицей №64\"",
+        "class": "9",
+        "vk_id": "https://vk.com/doc_ya"
+    },
+    {
+        "name": "Софья",
+        "surname": "Татаурова",
+        "school": "БОУ Гимназия 19 г. Омск",
+        "class": "10",
+        "vk_id": "https://m.vk.com/sila_11797r649_sila"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Малыхина",
+        "school": "146",
+        "class": "7",
+        "vk_id": "https://vk.com/id224821133"
+    },
+    {
+        "name": "Виталия",
+        "surname": "Булатова",
+        "school": "МОЦРО 117",
+        "class": "9",
+        "vk_id": "https://m.vk.com/lolpo2006"
+    },
+    {
+        "name": "Леонид",
+        "surname": "Тарасенко",
+        "school": "БОУ г.Омска лицей №64",
+        "class": "7",
+        "vk_id": "https://m.vk.com/id307165294"
+    },
+    {
+        "name": "Руслан",
+        "surname": "Шарифуллин",
+        "school": "Лицей 166",
+        "class": "10",
+        "vk_id": "https://vk.com/id223911840"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Кудрявцева",
+        "school": "117",
+        "class": "10",
+        "vk_id": "https://vk.com/id136912725"
+    },
+    {
+        "name": "Регина",
+        "surname": "Гапоненко",
+        "school": "БОУ г. Омска \"СОШ № 56 с УИОП",
+        "class": "10",
+        "vk_id": "vk.com/id152857098"
+    },
+    {
+        "name": "Феодосия",
+        "surname": "Крюкова",
+        "school": "БОУ \"Лицей №64\"",
+        "class": "9",
+        "vk_id": "https://vk.com/kiparis_zelenenkiy"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Сутырина",
+        "school": "Боу ОО \"МОЦРО № 117\"",
+        "class": "7",
+        "vk_id": "https://vk.com/id356172162"
+    },
+    {
+        "name": "Милаил",
+        "surname": "Смирнов",
+        "school": "МОЦРО 117",
+        "class": "8",
+        "vk_id": "https://vk.com/id383760243"
+    },
+    {
+        "name": "Ольга",
+        "surname": "Курочкина",
+        "school": "Гимназия #117",
+        "class": "7",
+        "vk_id": "https://vk.com/kov1103"
+    },
+    {
+        "name": "Алексей",
+        "surname": "Ходорковский",
+        "school": "Гимназия № 9",
+        "class": "7",
+        "vk_id": "hea55@mail.ru"
+    },
+    {
+        "name": "Елена",
+        "surname": "Грушецкая",
+        "school": "117",
+        "class": "7",
+        "vk_id": "http://vk.com/id168194179"
+    },
+    {
+        "name": "Данил",
+        "surname": "Колбасиснкий",
+        "school": "БОУ СОШ №3",
+        "class": "7",
+        "vk_id": "id311423394"
+    },
+    {
+        "name": "Иван",
+        "surname": "Мамонов",
+        "school": "№123",
+        "class": "7",
+        "vk_id": "https://vk.com/afs2013"
+    },
+    {
+        "name": "Денис",
+        "surname": "Скоморощенко",
+        "school": "None",
+        "class": "8",
+        "vk_id": "https://vk.com/id105981335"
+    },
+    {
+        "name": "Александр",
+        "surname": "Мохов",
+        "school": "гимназия 117",
+        "class": "8",
+        "vk_id": "vk.com/id224333216"
+    },
+    {
+        "name": "Максим",
+        "surname": "Москвичёв",
+        "school": "139",
+        "class": "8",
+        "vk_id": "http://vk.com/drakonmax"
+    },
+    {
+        "name": "Савелий",
+        "surname": "Чежегов",
+        "school": "Гимназия №117",
+        "class": "8",
+        "vk_id": "vk.com/id204558053"
+    },
+    {
+        "name": "Константин",
+        "surname": "Саньков",
+        "school": "лицей 64",
+        "class": "8",
+        "vk_id": "https://vk.com/slender200"
+    },
+    {
+        "name": "Георгий",
+        "surname": "Шароглазов",
+        "school": "123",
+        "class": "8",
+        "vk_id": "https://vk.com/id204921863"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Никишина",
+        "school": "25",
+        "class": "8",
+        "vk_id": "http://vk.com/id302979497"
+    },
+    {
+        "name": "Надежда",
+        "surname": "Суренкова",
+        "school": "Гимназия 117",
+        "class": "8",
+        "vk_id": "http://vk.com/id269846645"
+    },
+    {
+        "name": "Валерий",
+        "surname": "Шадрин",
+        "school": "117",
+        "class": "8",
+        "vk_id": "http://vk.com/valera_shadrin"
+    },
+    {
+        "name": "Ксения",
+        "surname": "Шкуренко",
+        "school": "Гимназия №26",
+        "class": "8",
+        "vk_id": "http://vk.com/kseniashkurenko"
+    },
+    {
+        "name": "Даяна",
+        "surname": "Асанова",
+        "school": "64 лицей",
+        "class": "8",
+        "vk_id": "vk.com/diana16072001"
+    },
+    {
+        "name": "Александр",
+        "surname": "Фролов",
+        "school": "123",
+        "class": "8",
+        "vk_id": "http://vk.com/luxambero"
+    },
+    {
+        "name": "Богдан",
+        "surname": "Поспелов",
+        "school": "ОКВК",
+        "class": "8",
+        "vk_id": "http://vk.com/id161889185"
+    },
+    {
+        "name": "Даниил",
+        "surname": "Сащенко",
+        "school": "123",
+        "class": "8",
+        "vk_id": "http://vk.com/dsaschenko"
+    },
+    {
+        "name": "Артем",
+        "surname": "Павленко",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/id125397205"
+    },
+    {
+        "name": "Яна",
+        "surname": "Белоозерова",
+        "school": "Гимназия 117",
+        "class": "9",
+        "vk_id": "http://vk.com/jane_vot_i_vce"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Катюгова",
+        "school": "None",
+        "class": "9",
+        "vk_id": "http://vk.com/katyugova"
+    },
+    {
+        "name": "Алиса",
+        "surname": "Краснова",
+        "school": "None",
+        "class": "9",
+        "vk_id": "http://vk.com/krasnova_alisa"
+    },
+    {
+        "name": "Григорий",
+        "surname": "Караваев",
+        "school": "Лицей 64",
+        "class": "9",
+        "vk_id": "https://vk.com/grindoc67"
+    },
+    {
+        "name": "Алина",
+        "surname": "Ельсукова",
+        "school": "БОУ г. Омска \"Гимназия№140\"",
+        "class": "9",
+        "vk_id": "https://vk.com/alinaelka"
+    },
+    {
+        "name": "Екатерина",
+        "surname": "Узлова",
+        "school": "54",
+        "class": "9",
+        "vk_id": "https://vk.com/id135222854"
+    },
+    {
+        "name": "Сергей",
+        "surname": "Щукин",
+        "school": "Гимназия 117",
+        "class": "9",
+        "vk_id": "http://m.vk.com/id141578878"
+    },
+    {
+        "name": "Александра",
+        "surname": "Шкарупа",
+        "school": "Гимназия 117",
+        "class": "9",
+        "vk_id": "https://vk.com/id59286736"
+    },
+    {
+        "name": "Юлия",
+        "surname": "Мозылева",
+        "school": "Гимназия 117",
+        "class": "9",
+        "vk_id": "https://vk.com/moz.juli"
+    },
+    {
+        "name": "Варвара",
+        "surname": "Диких",
+        "school": "117",
+        "class": "9",
+        "vk_id": "https://vk.com/only.justice"
+    },
+    {
+        "name": "Константин",
+        "surname": "Артюшкевич",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/profyan"
+    },
+    {
+        "name": "Александр",
+        "surname": "Гончаренко",
+        "school": "гимназия 26",
+        "class": "9",
+        "vk_id": "https://vk.com/kesha787898"
+    },
+    {
+        "name": "Влада",
+        "surname": "Завистовская",
+        "school": "Гимназия №117",
+        "class": "9",
+        "vk_id": "http://vk.com/vk.veber"
+    },
+    {
+        "name": "Марина",
+        "surname": "Редман",
+        "school": "Гимназия 117",
+        "class": "9",
+        "vk_id": "https://vk.com/id171819985"
+    },
+    {
+        "name": "Богдан",
+        "surname": "Котубаев",
+        "school": "64",
+        "class": "9",
+        "vk_id": "https://vk.com/akise_98"
+    },
+    {
+        "name": "Алена",
+        "surname": "Трашкова",
+        "school": "142",
+        "class": "9",
+        "vk_id": "https://vk.com/id94959361"
+    },
+    {
+        "name": "Александр",
+        "surname": "Решетников",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/id149183554"
+    },
+    {
+        "name": "Никита",
+        "surname": "Поникаровский",
+        "school": "64 лицей",
+        "class": "9",
+        "vk_id": "https://vk.com/id58811840"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Романова",
+        "school": "БОУ \"Лицей 64\"",
+        "class": "9",
+        "vk_id": "https://m.vk.com/id30676014"
+    },
+    {
+        "name": "Дмитрий",
+        "surname": "Витютнев",
+        "school": "Гимназия №117",
+        "class": "9",
+        "vk_id": "https://vk.com/dvit99"
+    },
+    {
+        "name": "Ольга",
+        "surname": "Ткач",
+        "school": "43",
+        "class": "9",
+        "vk_id": "https://vk.com/ol_tkach"
+    },
+    {
+        "name": "Виктория",
+        "surname": "Каплун",
+        "school": "Гимназия 146",
+        "class": "9",
+        "vk_id": "https://vk.com/id51887896"
+    },
+    {
+        "name": "Альберт",
+        "surname": "Приз",
+        "school": "64",
+        "class": "9",
+        "vk_id": "vk.com/priz_albert"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Евсева",
+        "school": "75",
+        "class": "9",
+        "vk_id": "https://vk.com/id75489928"
+    },
+    {
+        "name": "Александр",
+        "surname": "Бондарь",
+        "school": "117",
+        "class": "9",
+        "vk_id": "http://vk.com/sbondar98"
+    },
+    {
+        "name": "Дарья",
+        "surname": "Кузьмина",
+        "school": "БОУ \"Гимназия 117\"",
+        "class": "9",
+        "vk_id": "https://vk.com/dariaaev"
+    },
+    {
+        "name": "Александр",
+        "surname": "Кобзарев",
+        "school": "117",
+        "class": "9",
+        "vk_id": "vk.com/alexoooooooo"
+    },
+    {
+        "name": "Анна-Мария",
+        "surname": "Оммик",
+        "school": "БОУ \"Лицей №64\"",
+        "class": "9",
+        "vk_id": "vk.com/id171412602"
+    },
+    {
+        "name": "Анастасия",
+        "surname": "Баклина",
+        "school": "123",
+        "class": "9",
+        "vk_id": "https://m.vk.com/anastasi0705"
+    },
+    {
+        "name": "Данил",
+        "surname": "Михайлов",
+        "school": "БОУ\"лицей 64\"",
+        "class": "9",
+        "vk_id": "http://m.vk.com/danilosv11"
+    },
+    {
+        "name": "Анна",
+        "surname": "Галак",
+        "school": "26",
+        "class": "9",
+        "vk_id": "http://vk.com/id200622241?_smt=feed%3A1"
+    },
+    {
+        "name": "Михаил",
+        "surname": "Ковзалов",
+        "school": "117",
+        "class": "9",
+        "vk_id": "-"
+    },
+    {
+        "name": "Вероника",
+        "surname": "Конопацкая",
+        "school": "47",
+        "class": "9",
+        "vk_id": "нет"
+    },
+    {
+        "name": "Диана",
+        "surname": "Емкужева",
+        "school": "Гимназия 117",
+        "class": "10",
+        "vk_id": "http://vk.com/rurarura"
+    },
+    {
+        "name": "Кристина",
+        "surname": "Дьяченко",
+        "school": "148",
+        "class": "11",
+        "vk_id": "https://m.vk.com/id138609295"
+    },
+    {
+        "name": "Роман",
+        "surname": "Бакиров",
+        "school": "ВКА",
+        "class": "1 курс (может кадетка?!)",
+        "vk_id": "http://m.vk.com/id189928251"
+    }
+]
