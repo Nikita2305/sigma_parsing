@@ -11,7 +11,7 @@ def getstr(var):
         return var
     return ""
 
-files = [path for path in Path('./output').rglob('members03*.txt')]
+files = [path for path in Path('./output').rglob('members0[3,4]*.txt')]
 if (len(files) >= 1):
     print("Type a number:")
     for i in range(len(files)):
@@ -30,6 +30,8 @@ for i in range(-1,1000):
 
 lst = []
 for member in members:
+    # if (member["processed"] or (not member["vk_id"] in [account["id"] for account in member["vk_pages"]])):
+        # continue
     if (len(member["vk_pages"]) == 0):
         active[-1] = active[-1] + 1
         continue
