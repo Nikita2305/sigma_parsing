@@ -77,7 +77,6 @@ for i in range(len(accounts)):
     account = accounts[i]
     if ("friends" in account):
         continue
-
     try:
         account["friends"] = vk.friends.get(user_id=account["id"],)["items"]
     except:
@@ -86,7 +85,6 @@ for i in range(len(accounts)):
 
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
         save(members, accounts)
-
 save(members, accounts)
 
 print("Done")

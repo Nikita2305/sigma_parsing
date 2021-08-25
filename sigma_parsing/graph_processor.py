@@ -42,7 +42,7 @@ def process(members, processed_ids, member):
 
 # ---------- SETTINGS ------------ 
  
-PROBABILITY_LIMIT = 0.8
+PROBABILITY_LIMIT = 0.5
 PROCESSED_LIMIT = 0.0
 
 files = [path for path in Path('./output').rglob('members03*.txt')]
@@ -75,7 +75,7 @@ for member in members:
     l = [len(account["friends"]) for account in member["vk_pages"]]
     l.sort()
     l = l[::-1]
-    if ((l[0] >= 10 and (len(l) == 1 or l[1] <= 1)) or (l[0] >= 5 and (len(l) == 1 or l[1] == 0))):
+    if ((l[0] >= 10 and (len(l) == 1 or l[1] <= 4)) or (l[0] >= 5 and (len(l) == 1 or l[1] == 0))):
         member["processed"] = True
         for account in member["vk_pages"]:
             processed_ids.add(account["id"])
