@@ -50,7 +50,7 @@ print ("Members size: " + str(len(members)))
 for i in range(len(members)):
     print("downloading page: " + str(i))
     member = members[i] 
-    if ("vk_pages" in member):
+    if ("vk_pages" in member): # for savings
         continue 
     users = []
     for config in configs:
@@ -58,14 +58,14 @@ for i in range(len(members)):
         local_config["q"] = getstr(member["name"]) + " " + getstr(member["surname"])
         users += vk_session.method("users.search", local_config)["items"]
         time.sleep(PAUSE_TIME)
-    # print(users)    
    
     member["vk_pages"] = []
     for user in users:
+        if (not user["id"] in member["vk_pages"]):
+            member["vk_pages"] += [user["id"]]
         if (not user["id"] in ids):
-            ids += [user["id"]]
             accounts += [user]
-            member["vk_pages"] += [user["id"]] 
+            ids += [user["id"]]
     
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
         save(members, accounts)
@@ -75,7 +75,7 @@ print("Accounts size: " + str(len(accounts)))
 for i in range(len(accounts)):
     print("downloading friends: " + str(i))
     account = accounts[i]
-    if ("friends" in account):
+    if ("friends" in account): # for savings
         continue
 
     try:
