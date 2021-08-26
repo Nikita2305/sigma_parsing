@@ -1,10 +1,10 @@
 import json
 from threading import *
-import vk_api
 from sigma_parsing.data import *
 import time
 from pathlib import Path
 import copy
+from sigma_parsing.utils import *
 
 def createDict(accounts):
     dct = dict()
@@ -17,17 +17,9 @@ def getstr(var):
         return var
     return ""
 
-files = [path for path in Path('./output').rglob('members02*.txt')]
-if (len(files) >= 1):
-    print("Type a number:")
-    for i in range(len(files)):
-        print(i, ":", files[i])
-    i = int(input())
-    with open(files[i % len(files)]) as f:
-        members = json.load(f) 
-else:
-    print("No file")
-    quit()
+suffix='.friendlists.txt'
+members, filename = get_json_by_pattern("output/*vksearch*txt")
+oname = get_file_name(filename,suffix)
 
 with open("output/accounts.txt") as f:
     accounts = json.load(f)
@@ -74,7 +66,7 @@ for member in members:
             member["vk_pages"][i] = copy.deepcopy(id_dict[member["vk_pages"][i]])
         member["vk_pages"][i]["friends"] = [x for x in id_dict[member["vk_pages"][i]["id"]]["friends"] if x in world]
 
-with open('output/members03.txt', 'w') as f:
+with open(oname, 'w') as f:
     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
 
 print("Done")

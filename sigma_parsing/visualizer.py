@@ -1,6 +1,7 @@
 import json
 import openpyxl
 from pathlib import Path
+from sigma_parsing.utils import *
 
 def getstr(var):
     if (isinstance(var, str)):
@@ -21,18 +22,9 @@ def find_by_id(members, s_id):
                 return account
     return {}
 
-files = [path for path in Path('./output').rglob('members04*.txt')]
-if (len(files) >= 1):
-    print("Type a number:")
-    for i in range(len(files)):
-        print(i, ":", files[i])
-    i = int(input())
-    with open(files[i % len(files)]) as f:
-        users = json.load(f) 
-else:
-    print("No file")
-    quit()
-
+suffix = ".xlsx"
+members, filename = get_json_by_pattern("output/*processed*txt")
+oname = get_file_name(filename,suffix)
 
 ids = []
 for user in users:
@@ -80,4 +72,4 @@ for id1 in final_ids:
             ws["C"+str(edge)] = "Undirected"
         edge += 1
 
-wb.save("output/graph.xlsx")
+wb.save(oname)

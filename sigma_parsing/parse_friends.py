@@ -4,13 +4,14 @@ from sigma_parsing.data import *
 import time
 from cdifflib import CSequenceMatcher
 from pathlib import Path
+from sigma_parsing.utils import *
 
 SIMILARITY_LIMIT = 0.93
 
 def save(members, accounts):
-    with open('output/members02_added.txt', 'w') as f:
+    with open(oname, 'w') as f:
         print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
-    with open("output/accounts_added.txt", "w") as f:
+    with open("output/accounts.txt", "w") as f:
         print(json.dumps(accounts, ensure_ascii=False, indent=4), file=f)
 
 
@@ -20,28 +21,16 @@ def createDict(accounts):
         dct[account["id"]] = account
     return dct
 
-vk_session = vk_api.VkApi(LOGIN, PASSWORD)
-vk_session.auth()
-vk = vk_session.get_api()
+vk_session, vk = init_vk()
+suffix = '.vksearch.txt'
+members, filename = get_json_by_pattern("output/*processed*txt")
+oname = get_file_name(filename, suffix)
 
 with open("output/accounts.txt") as f:
     accounts = json.load(f)
 dct = createDict(accounts)
 
-files = [path for path in Path('./output').rglob('members04*.txt')]
-if (len(files) >= 1):
-    print("Type a number:")
-    for i in range(len(files)):
-        print(i, ":", files[i])
-    i = int(input())
-    with open(files[i % len(files)]) as f:
-        members = json.load(f) 
-else:
-    print("No file")
-    quit()
 new_ids = {}
-
-# print(len(dct))
 
 for member in members:
     if (not member["processed"]):

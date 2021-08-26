@@ -1,6 +1,7 @@
 import json
 import time
 from pathlib import Path
+from sigma_parsing.utils import *
 
 # At first solve the repeating ids problem.
 # Point: we should not solve it by deleting same accounts. 
@@ -45,17 +46,9 @@ def process(members, processed_ids, member):
 PROBABILITY_LIMIT = 0.8
 PROCESSED_LIMIT = 0.0
 
-files = [path for path in Path('./output').rglob('members03*.txt')]
-if (len(files) >= 1):
-    print("Type a number:")
-    for i in range(len(files)):
-        print(i, ":", files[i])
-    i = int(input())
-    with open(files[i % len(files)]) as f:
-        members = json.load(f) 
-else:
-    print("No file")
-    quit()
+suffix = ".processed.txt"
+members, filename = get_json_by_pattern("output/*friendlists*txt")
+oname = get_file_name(filename, suffix)
 
 # ----------- COUNTING BASE -----------
 
@@ -130,7 +123,7 @@ for member in members:
 print("Final:")
 print(len([member for member in members if ("processed" in member and member["processed"])]))
 
-with open('output/members04.txt', 'w') as f:
+with open(oname, 'w') as f:
     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
     print("Written")
 

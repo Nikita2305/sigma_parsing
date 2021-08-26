@@ -5,24 +5,16 @@ from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 import numpy as np
 from pathlib import Path
+from sigma_parsing.utils import *
 
 def getstr(var):
     if (isinstance(var, str)):
         return var
     return ""
 
-files = [path for path in Path('./output').rglob('members0[3,4]*.txt')]
-if (len(files) >= 1):
-    print("Type a number:")
-    for i in range(len(files)):
-        print(i, ":", files[i])
-    i = int(input())
-    with open(files[i % len(files)]) as f:
-        members = json.load(f) 
-else:
-    print("No file")
-    quit()
-
+suffix = ".friendlists.png"
+members, filename = get_json_by_pattern("output/*[friendlists,processed]*txt")
+oname = get_file_name(filename,suffix)
 
 active = {}
 for i in range(-1,1000):
@@ -49,9 +41,10 @@ values = list(active.values())[:50]
 plt.bar(keys, values)
 plt.ylabel("Number of people")
 plt.xlabel("M1")
-plt.savefig("output/research03_1.png")
+plt.savefig(oname)
 plt.clf()
 
+'''
 keys = list(active.keys())[:50]
 values = list(active.values())[:50]
 for i in reversed(range(1, len(keys))):
@@ -61,6 +54,7 @@ plt.ylabel("Number of people(cumulative)")
 plt.xlabel("M1")
 plt.savefig("output/research03_2.png")
 plt.clf()
+'''
 
 X = np.array([l[0][0] for l in lst])
 Y = np.array([(l[0][1] if len(l[0]) > 1 else 0) for l in lst])

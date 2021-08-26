@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 import copy
 import os
 from threading import Thread
+from sigma_parsing.utils import *
 
 def execute_string(string):
      T = Thread(target=os.system, args = (string,))
      T.start()
-
 
 def getstr(var):
     if (isinstance(var, str)):
@@ -24,19 +24,9 @@ def make_autopct(values):
         return '{p:.2f}%  ({v:d})'.format(p=pct,v=val)
     return my_autopct
 
-files = [path for path in Path('./output').rglob('members04*.txt')]
-if (len(files) >= 1):
-    print("Type a number:")
-    for i in range(len(files)):
-        print(i, ":", files[i])
-    i = int(input())
-    filename = files[i % len(files)]
-    with open(filename) as f:
-        members = json.load(f) 
-else:
-    print("No file")
-    quit()
-
+suffix = ".processed.png"
+members, filename = get_json_by_pattern("output/*processed*txt")
+oname = get_file_name(filename, suffix)
 
 # ============= ID STATS ================
 
@@ -88,7 +78,7 @@ values = [len(dct_id[key]) for key in dct_id.keys()]
 wedges, texts, autotexts = ax1.pie(values, labels=dct_id.keys(), autopct=make_autopct(values))
 ax1.axis('equal')
 fig1.set_size_inches(12, 8.5)
-plt.savefig("output/research04_1.png")
+plt.savefig(oname)
 plt.show()
 plt.clf()
 
@@ -130,7 +120,6 @@ values = [len(dct_sch[key]) for key in dct_sch.keys()]
 wedges, texts, autotexts = ax1.pie(values, labels=dct_sch.keys(), autopct=make_autopct(values))
 ax1.axis('equal')
 fig1.set_size_inches(12, 8.5)
-plt.savefig("output/research04_2.png")
 plt.show()
 plt.clf()
 
@@ -159,7 +148,6 @@ plt.title("Stats differences in format:\n {School_status}\n {Id_status}")
 wedges, texts, autotexts = ax1.pie(values1, labels=keys1, autopct=make_autopct(values1))
 ax1.axis('equal')
 fig1.set_size_inches(12, 8.5)
-plt.savefig("output/research04_3.png")
 plt.show()
 plt.clf()
 

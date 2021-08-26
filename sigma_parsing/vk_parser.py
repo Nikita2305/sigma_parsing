@@ -5,34 +5,25 @@ from sigma_parsing.data import *
 import time
 import copy
 from pathlib import Path
+from sigma_parsing.utils import *
 
 def getstr(var):
     if (isinstance(var, str)):
         return var
     return ""
 
+suffix='.vksearch.txt'
+
+vk_session, vk = init_vk()
+
+members, filename = get_json_by_pattern('output/*[xlsxout,vksearch]*txt')
+oname = get_file_name(filename,suffix)
+
 def save(members, accounts):
-    with open('output/members02_another.txt', 'w') as f:
+    with open(oname, 'w') as f:
         print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
     with open("output/accounts.txt", "w") as f:
         print(json.dumps(accounts, ensure_ascii=False, indent=4), file=f)
-
-vk_session = vk_api.VkApi(LOGIN, PASSWORD)
-vk_session.auth()
-
-vk = vk_session.get_api()
-
-files = [path for path in Path('./output').rglob('members0[1,2]*.txt')]
-if (len(files) >= 1):
-    print("Type a number:")
-    for i in range(len(files)):
-        print(i, ":", files[i])
-    i = int(input())
-    with open(files[i % len(files)]) as f:
-        members = json.load(f) 
-else:
-    print("No file")
-    quit()
 
 with open("temp/vk_config.txt") as f:
     configs = json.load(f)

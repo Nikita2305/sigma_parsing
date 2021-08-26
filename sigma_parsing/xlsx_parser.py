@@ -2,6 +2,7 @@ import openpyxl
 from pathlib import Path
 import json
 import re
+from sigma_parsing.utils import *
 
 def format_spaces(string):
     if (isinstance(string, str)):
@@ -48,6 +49,9 @@ def find_user_id(userlist, user):
             return i
     return -1
 
+suffix = '.xlsxout.txt'
+oname = get_file_name("output/members", suffix)
+
 with open("temp/xlsx_config.txt") as f:
     fields = json.load(f)
 
@@ -86,5 +90,5 @@ for xlsx_file in xlsx_files:
     print()
 
 print("Обработано: " + str(len(members)))
-with open('output/members01.txt', 'w') as f:
+with open(oname, 'w') as f:
     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
