@@ -13,7 +13,7 @@ def getstr(var):
     return ""
 
 suffix = ".friendlists.png"
-members, filename = get_json_by_pattern("output/*[friendlists,processed]*txt")
+members, filename = get_json_by_pattern("output/*friendlists*txt")
 oname = get_file_name(filename,suffix)
 
 active = {}

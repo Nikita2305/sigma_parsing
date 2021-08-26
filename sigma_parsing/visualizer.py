@@ -23,7 +23,7 @@ def find_by_id(members, s_id):
     return {}
 
 suffix = ".xlsx"
-members, filename = get_json_by_pattern("output/*processed*txt")
+users, filename = get_json_by_pattern("output/*processed*txt")
 oname = get_file_name(filename,suffix)
 
 ids = []

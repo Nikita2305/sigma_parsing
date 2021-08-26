@@ -5,6 +5,7 @@ import vk_api
 from sigma_parsing.data import *
 from pathlib import Path
 from sigma_parsing.utils import *
+import time
 
 def find_number(string):
     start = -1
@@ -47,14 +48,15 @@ for member in members:
         continue
     if (i % 10 == 0):
         with open(oname, 'w') as f:
-            print(json.dumps(members, ensure_ascii=False, indent=4), file=f)         
+            print(json.dumps(final_final, ensure_ascii=False, indent=4), file=f)         
     short_school = find_number(member["school"])
     member["school"] = (short_school if len(short_school) != 0 else member["school"])
     try:
         member["vk_id"] = vk.users.get(user_ids=member["vk_id"][member["vk_id"].rfind("/") + 1:])[0]["id"]
         time.sleep(0.4)
-        final_final += member
-    except Exception:
+        final_final += [member]
+    except Exception as e:
+        print(e)
         pass
 
 with open(oname, 'w') as f:

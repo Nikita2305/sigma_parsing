@@ -16,7 +16,7 @@ suffix='.vksearch.txt'
 
 vk_session, vk = init_vk()
 
-members, filename = get_json_by_pattern('output/*[xlsxout,vksearch]*txt')
+members, filename = get_json_by_pattern('output/*xlsxout*txt') # TODO: add vksearch
 oname = get_file_name(filename,suffix)
 
 def save(members, accounts):
