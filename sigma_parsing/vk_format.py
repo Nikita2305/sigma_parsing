@@ -66,11 +66,12 @@ if (s.lower()[0] == 'b'):
 else:
     for member in members:
         for vk_page in member["vk_pages"]:
-            world.add(vk_page)
+            world.add(vk_page if isinstance(vk_page, int) else vk_page["id"])
 
 for member in members:
     for i in range(len(member["vk_pages"])):
-        member["vk_pages"][i] = copy.deepcopy(id_dict[member["vk_pages"][i]])
+        if (isinstance(member["vk_pages"][i], int)):
+            member["vk_pages"][i] = copy.deepcopy(id_dict[member["vk_pages"][i]])
         member["vk_pages"][i]["friends"] = [x for x in id_dict[member["vk_pages"][i]["id"]]["friends"] if x in world]
 
 with open('output/members03.txt', 'w') as f:

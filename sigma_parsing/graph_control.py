@@ -4,6 +4,13 @@ import functools
 from pathlib import Path
 import matplotlib.pyplot as plt
 import copy
+import os
+from threading import Thread
+
+def execute_string(string):
+     T = Thread(target=os.system, args = (string,))
+     T.start()
+
 
 def getstr(var):
     if (isinstance(var, str)):
@@ -67,6 +74,11 @@ for i in range(len(members)):
         l = l[::-1]
         lst += [(l, getstr(member["surname"]) + " " + getstr(member["name"]))]
 lst.sort()
+
+# for i in dct_id["not_selected_not_found"]:
+    # print(members[i]["name"] + " " + members[i]["surname"])
+    # os.system("nohup google-chrome vk.com/id" + str(members[i]["vk_id"]))
+# quit()
 
 print("Stat by Id:" + str(dct_id))
 

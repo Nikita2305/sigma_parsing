@@ -12,7 +12,7 @@ def getstr(var):
     return ""
 
 def save(members, accounts):
-    with open('output/members02.txt', 'w') as f:
+    with open('output/members02_another.txt', 'w') as f:
         print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
     with open("output/accounts.txt", "w") as f:
         print(json.dumps(accounts, ensure_ascii=False, indent=4), file=f)
@@ -77,11 +77,16 @@ for i in range(len(accounts)):
     account = accounts[i]
     if ("friends" in account): # for savings
         continue
-
+    account["friends"] = []
     try:
-        account["friends"] = vk.friends.get(user_id=account["id"],)["items"]
+        a_id = account["id"]
+        account["friends"] = vk.friends.get(user_id=a_id,)["items"]
     except:
-        account["friends"] = [] 
+        try:
+            account["friends"] = vk.friends.get(user_id=account,)["items"]
+        except:
+            account["friends"] = [] 
+
     time.sleep(PAUSE_TIME)        
 
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
