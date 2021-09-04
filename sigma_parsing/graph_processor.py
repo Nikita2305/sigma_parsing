@@ -3,9 +3,6 @@ import time
 from pathlib import Path
 from sigma_parsing.utils import *
 
-# At first solve the repeating ids problem.
-# Point: we should not solve it by deleting same accounts. 
-
 def getstr(var):
     if (isinstance(var, str)):
         return var
@@ -22,17 +19,18 @@ def get_id_probability(members, user_id):
                     cnt += 1
     return sm / cnt
             
-
 def process(members, processed_ids, member):
     member["processed"] = True
     total = 0
     for account in member["vk_pages"]:
-        for friend_id in account["friends"]:
+        for friend in account["friends"]:
+            friend_id = friend["id"]
             total += (friend_id in processed_ids)
     mx = 0
     for account in member["vk_pages"]:
         count = 0
-        for friend_id in account["friends"]:
+        for friend in account["friends"]:
+            friend_id = friend["id"]
             if (not friend_id in processed_ids):
                 continue
             count += get_id_probability(members, friend_id)
@@ -68,7 +66,7 @@ for member in members:
     l = [len(account["friends"]) for account in member["vk_pages"]]
     l.sort()
     l = l[::-1]
-    if ((l[0] >= 10 and (len(l) == 1 or l[1] <= 1)) or (l[0] >= 5 and (len(l) == 1 or l[1] == 0))):
+    if ((l[0] >= 10 and (len(l) == 1 or l[1] <= 1)) or member["processed"]):
         member["processed"] = True
         for account in member["vk_pages"]:
             processed_ids.add(account["id"])
@@ -91,7 +89,8 @@ while(True):
         total = 0
         for account in member["vk_pages"]:
             total += len(account["friends"])
-            for friend_id in account["friends"]:
+            for friend in account["friends"]:
+                friend_id = friend["id"]
                 count += int(friend_id in processed_ids)
         if (total == 0):
             continue

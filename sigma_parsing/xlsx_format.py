@@ -1,11 +1,14 @@
 import json
 import re
 import matplotlib.pyplot as plt
-import vk_api
-from sigma_parsing.data import *
-from pathlib import Path
 from sigma_parsing.utils import *
+from sigma_parsing.vk import *
 import time
+import copy
+
+def append_member(response, array, obj):
+    obj["vk_id"] = response[0]["id"]
+    array.append(obj)
 
 def find_number(string):
     start = -1
@@ -20,19 +23,19 @@ def find_number(string):
 suffix = ".xlsxout.txt"
 members, filename = get_json_by_pattern('output/*xlsxout*txt')
 oname = get_file_name(filename,suffix)
-vk_session, vk = init_vk()
+vk = vk_collection(sleep=0.4)
 
 with open("temp/xlsx_config.txt") as f:
-    fields = json.load(f)
+    columns = json.load(f)
 
 final = []
 
 for member in members:
     OK = True
-    for field in fields:
-        if (not isinstance(member[field["field"]], str)):
+    for column in columns:
+        if (not isinstance(member[column["field_name"]], str)):
             continue
-        if (not re.search(field["pattern"], member[field["field"]]) and field["important"]):
+        if (not re.search(column["data_pattern"], member[column["field_name"]]) and column["is_important"]):
             OK = False
     if(OK):
         final += [member]
@@ -51,13 +54,14 @@ for member in members:
             print(json.dumps(final_final, ensure_ascii=False, indent=4), file=f)         
     short_school = find_number(member["school"])
     member["school"] = (short_school if len(short_school) != 0 else member["school"])
-    try:
-        member["vk_id"] = vk.users.get(user_ids=member["vk_id"][member["vk_id"].rfind("/") + 1:])[0]["id"]
-        time.sleep(0.4)
-        final_final += [member]
-    except Exception as e:
-        print(e)
-        pass
+    short_name = member["vk_id"][member["vk_id"].rfind("/") + 1:]
+    vk.call("users.get",
+            {"user_ids": short_name},
+            append_member,
+            array=final_final,
+            obj=copy.deepcopy(member)
+    )
+
 
 with open(oname, 'w') as f:
     print(json.dumps(final_final, ensure_ascii=False, indent=4), file=f) 

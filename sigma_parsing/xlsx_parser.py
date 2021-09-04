@@ -12,24 +12,25 @@ def format_spaces(string):
 def log(string):
     print("__LOG__: " + str(string))
 
-def find_substring(sheet, string):
+def find_cell_with_pattern(sheet, pattern):
     ret = []
     for i in range(1, 3):
         for j in range(1, 50):
-            if (isinstance(sheet.cell(i, j).value, str) and format_spaces(sheet.cell(i, j).value.lower()).find(string.lower()) != -1):
+            if (isinstance(sheet.cell(i, j).value, str) and re.search(pattern,
+                                        format_spaces(sheet.cell(i, j).value.lower()))):
                 ret += [(i, j)]
     return ret
 
 def find_format(sheet):
     col = {}
     row = -1
-    for field in fields:
-        lst = find_substring(sheet, field["substring"])
+    for column in columns:
+        lst = find_cell_with_pattern(sheet, column["cell_pattern"])
         if (len(lst) != 1 or (row != -1 and row != lst[0][0])):
-            log(field["substring"] + ": " + str(lst))    
+            log(column["cell_pattern"] + ": " + str(lst))    
             return -1, {}
         row = lst[0][0]
-        col[field["field"]] = lst[0][1]
+        col[column["field_name"]] = lst[0][1]
     return row, col
 
 def find_number(string):
@@ -53,7 +54,7 @@ suffix = '.xlsxout.txt'
 oname = get_file_name("output/members", suffix)
 
 with open("temp/xlsx_config.txt") as f:
-    fields = json.load(f)
+    columns = json.load(f)
 
 xlsx_files = [path for path in Path('./temp/temp').rglob('*.xlsx')]
 members = []
@@ -72,13 +73,14 @@ for xlsx_file in xlsx_files:
             user_dict = {}
             OK = True
 
-            for field in fields:
-                col_number = column_interpret[field["field"]]
+            for column in columns:
+                col_number = column_interpret[column["field_name"]]
                 value = format_spaces(sheet.cell(zero_row, col_number).value)
-                if (field["field"] == "name" or field["field"] == "surname"):
-                    if (not isinstance(value, str) or not re.search(field["pattern"], value)):
+                if (column["field_name"] == "name" or
+                                column["field_name"] == "surname"):
+                    if (not isinstance(value, str) or not re.search(column["data_pattern"], value)):
                         OK = False
-                user_dict[field["field"]] = str(value)
+                user_dict[column["field_name"]] = str(value)
          
             if (not OK):
                 break            

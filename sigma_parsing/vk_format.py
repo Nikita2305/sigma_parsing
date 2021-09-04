@@ -1,6 +1,5 @@
 import json
 from threading import *
-from sigma_parsing.data import *
 import time
 from pathlib import Path
 import copy
@@ -27,23 +26,26 @@ with open("output/accounts.txt") as f:
 id_dict = createDict(accounts) 
 
 count = 0
-total = 0
 inside = 0
+
 for account in accounts:
     user_id = account["id"]
-    for friend_id in account["friends"]:
-        total += 1
+    for friend in account["friends"]:
+        friend_id = friend["id"]
         inside += int(friend_id in id_dict)
-        if ((friend_id in id_dict) and (not user_id in id_dict[friend_id]["friends"])):
+        if ((friend_id in id_dict) and (not user_id in [f["id"] for f in id_dict[friend_id]["friends"]])):
             count += 1
-            id_dict[friend_id]["friends"] += [user_id]
+            account_to_add = copy.deepcopy(account)
+            account_to_add.pop("friends")
+            id_dict[friend_id]["friends"].append(account_to_add)
   
 print("Simmitration statistics")      
 print("Added: " + str(count))
-print("Total: " + str(total))
-print("Total_Delta_Percent: " + str(count / (count + total) * 100))
 print("Inside: " + str(inside))
 print("Inside_Delta_Percent: " + str(count / (count + inside) * 100))
+
+with open("output/groups.txt") as f:
+    groups = json.load(f)
 
 print()
 print()
@@ -53,18 +55,19 @@ s = input()
 if (s.lower()[0] == 'b'):
     for member in members:
         for vk_page in member["vk_pages"]:
-           for friend_id in id_dict[vk_page]["friends"]:
-                world.add(friend_id)
+           for friend in id_dict[vk_page]["friends"]:
+                world.add(friend["id"])
 else:
     for member in members:
         for vk_page in member["vk_pages"]:
-            world.add(vk_page if isinstance(vk_page, int) else vk_page["id"])
+            world.add(vk_page)
 
 for member in members:
     for i in range(len(member["vk_pages"])):
-        if (isinstance(member["vk_pages"][i], int)):
-            member["vk_pages"][i] = copy.deepcopy(id_dict[member["vk_pages"][i]])
-        member["vk_pages"][i]["friends"] = [x for x in id_dict[member["vk_pages"][i]["id"]]["friends"] if x in world]
+        member_id = member["vk_pages"][i]
+        member["vk_pages"][i] = copy.deepcopy(id_dict[member["vk_pages"][i]])
+        member["vk_pages"][i]["groups"] = [group["id"] for group in groups if member_id in group["members"]]
+        member["vk_pages"][i]["friends"] = [friend for friend in id_dict[member_id]["friends"] if friend["id"] in world]
 
 with open(oname, 'w') as f:
     print(json.dumps(members, ensure_ascii=False, indent=4), file=f)

@@ -1,7 +1,6 @@
 import json
 import re
 import matplotlib.pyplot as plt
-from pathlib import Path
 from sigma_parsing.utils import *
 
 suffix = '.xlsxout.png'
@@ -9,15 +8,15 @@ members, filename = get_json_by_pattern("output/*xlsxout*txt")
 oname = get_file_name(filename, suffix)
 
 with open("temp/xlsx_config.txt") as f:
-    fields = json.load(f)
+    columns = json.load(f)
 
-bug_data = {field["field"]: 0 for field in fields}
+bug_data = {column["field_name"]: 0 for column in columns}
 
 for member in members:
-    for field in fields:
+    for column in columns:
         try:
-            if (re.search(field["pattern"], member[field["field"]])):
-                bug_data[field["field"]] += 1
+            if (re.search(column["data_pattern"], member[column["field_name"]])):
+                bug_data[column["field_name"]] += 1
         except Exception:
             pass
 

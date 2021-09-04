@@ -65,7 +65,8 @@ ws["C1"] = "Type"
 edge = 2
 for id1 in final_ids:
     account = find_by_id(users, id1)
-    for id2 in account["friends"]:
+    for friend in account["friends"]:
+        id2 = friend["id"]
         if (id2 in final_ids):
             ws["A"+str(edge)] = str(id1)
             ws["B"+str(edge)] = str(id2)

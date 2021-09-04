@@ -1,23 +1,18 @@
 import json
-from sigma_parsing.data import *
 import vk_api
 from pathlib import Path
+import re
 
 def getstr(var):
     if (isinstance(var, str)):
         return var
     return ""
 
-# return (vk_session, vk) 
-def init_vk():
-    vk_session = vk_api.VkApi(LOGIN, PASSWORD)
-    vk_session.auth()
-    vk = vk_session.get_api()
-    return (vk_session,vk)
-
-# return (json.load(inpfile), inpfilename)
-def get_json_by_pattern(patt):
-    files = [path for path in Path('.').rglob(patt)]
+def get_json_by_pattern(*patterns):
+    files = []
+    for pattern in patterns:
+        new_files = [path for path in Path('.').rglob(pattern)]
+        files += [f for f in new_files if f not in files]
     if (len(files) >= 1):
         print("Type a number:")
         for i in range(len(files)):
@@ -36,10 +31,23 @@ def get_json_by_pattern(patt):
 def get_file_name(oldname,suffix):
     fname=''
     print('You are about to output to '+oldname+suffix)
-    print('Problems? ( ͡° ͜ʖ ͡°) [Y/n]: ', end='')
+    if Path(oldname+suffix).is_file():
+        print("ALERT: You're going to rewrite existing file")
+    print('Is it OK? ( ͡° ͜ʖ ͡°) [Y/n]: ', end='')
     repl=input()
-    if(repl in ['n','N','т','Т']):
-        fname=oldname+suffix
-    else:
+    if(len(repl) > 0 and repl[0] in ['n','N']):
         fname=input('Input desired filename (like: output/my_members, with no format): ')+suffix
+    else:
+        fname=oldname+suffix 
+    if Path(fname).is_file():
+        print("ALERT: Existing file has been rewritten")
     return fname 
+
+def get_new_file_name(filename, suffix):
+    full_name = filename[:len(filename) - len(suffix)]
+    print(full_name)
+    if re.search(".*\([0-9]+\)",full_name):
+        name = full_name[:full_name.rfind("(")]
+        number = int(full_name[full_name.rfind("(") + 1:-1])
+        return name + "(" + str(number + 1) + ")" + suffix
+    return full_name + "(1)" + suffix

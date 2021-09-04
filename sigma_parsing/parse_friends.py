@@ -1,6 +1,5 @@
 import vk_api
 import json
-from sigma_parsing.data import *
 import time
 from cdifflib import CSequenceMatcher
 from pathlib import Path
@@ -8,12 +7,13 @@ from sigma_parsing.utils import *
 
 SIMILARITY_LIMIT = 0.93
 
-def save(members, accounts):
+def save_members(members):
     with open(oname, 'w') as f:
         print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
+
+def save_accounts(accounts):
     with open("output/accounts.txt", "w") as f:
         print(json.dumps(accounts, ensure_ascii=False, indent=4), file=f)
-
 
 def createDict(accounts):
     dct = dict()
@@ -21,7 +21,6 @@ def createDict(accounts):
         dct[account["id"]] = account
     return dct
 
-vk_session, vk = init_vk()
 suffix = '.vksearch.txt'
 members, filename = get_json_by_pattern("output/*processed*txt")
 oname = get_file_name(filename, suffix)
@@ -35,41 +34,31 @@ new_ids = {}
 for member in members:
     if (not member["processed"]):
         continue
-    for friend_id in dct[member["official_page"]["id"]]["friends"]:
+    for friend in dct[member["official_page"]["id"]]["friends"]:
+        friend_id = friend["id"]
         if (friend_id not in dct) and (friend_id not in new_ids):
-            new_ids[friend_id] = {}
-
-keys = list(new_ids.keys())
-QUERY_SIZE = 1000
-queries = (len(keys) + 1) // QUERY_SIZE
-print("Q:", len(keys))
-for i in range(queries):
-    print("query:" + str(i))
-    local_keys = [str(x) for x in keys[i * QUERY_SIZE : (i + 1) * QUERY_SIZE]]
-    if (len(local_keys) == 0):
-        continue
-    response = vk.users.get(user_ids=",".join(local_keys), fields = "bdate,schools")
-    for item in response:
-        new_ids[item["id"]] = item
-    time.sleep(0.4)
+            new_ids[friend_id] = friend
 
 i = 0
 print(len(new_ids))
 for user_id in new_ids:
-    try:
-        user_key = new_ids[user_id]["first_name"] + " " + new_ids[user_id]["last_name"] 
-    except:
-        continue
+    user_key = new_ids[user_id]["first_name"] + " " + new_ids[user_id]["last_name"] 
     for member in members:
         member_key = member["name"] + " " + member["surname"]
         ratio1 = CSequenceMatcher(None, user_key, member_key).ratio()
         if (ratio1 >= SIMILARITY_LIMIT):
-            member["vk_pages"] += [user_id]
+            member["vk_pages"].append(new_ids[user_id])
             accounts += [new_ids[user_id]]
             print(user_key, member_key, ratio1)
     i += 1
     if (i % 10 == 0):
         print("Status:" + str(i))
-    
-save(members, accounts)
-    # print(user_key)
+
+for member in members:
+    for i in range(len(member["vk_pages"])):
+        member["vk_pages"][i] = member["vk_pages"][i]["id"]
+    # member.pop("processed")
+    # member.pop("official_page")
+
+save_members(members)
+save_accounts(accounts)
