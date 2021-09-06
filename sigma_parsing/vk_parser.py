@@ -60,7 +60,7 @@ except Exception:
 ids = [account["id"] for account in accounts]
 
 SIMILARITY_LIMIT = 0.93
-SAVING_EVERY = 10
+SAVING_EVERY = 100
 print ("Members size: " + str(len(members)))
 for i in range(len(members)):
     print("downloading page: " + str(i))
@@ -72,7 +72,7 @@ for i in range(len(members)):
         local_pattern = copy.deepcopy(account_pattern)
         local_pattern["q"] = getstr(member["name"]) + " " + getstr(member["surname"])
         local_pattern["fields"] = config["fields"]
-        vk.call("users.search",
+        vk.add_task("users.search",
                 local_pattern,
                 append_accounts,
                 array=accounts,
@@ -82,6 +82,7 @@ for i in range(len(members)):
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
         save_members(members)
         save_accounts(accounts)
+vk.execute_tasks()
 save_members(members)
 save_accounts(accounts)
 
@@ -100,7 +101,7 @@ for i in range(len(config["groups"])):
     users = [] 
     while(True):
         print("Status " + str(j * 1000))
-        OK = vk.call("groups.getMembers",
+        OK = vk.direct_call("groups.getMembers",
                         {"group_id": g_id,
                         "offset": j*1000,
                         "count": 1000,
@@ -142,7 +143,7 @@ for i in range(len(accounts)):
     if ("friends" in account): # for savings
         continue
     account["friends"] = []
-    vk.call("friends.get",
+    vk.add_task("friends.get",
                 {"user_id": account["id"],
                 "fields": config["fields"]},
             assign_friends,
@@ -150,6 +151,7 @@ for i in range(len(accounts)):
     ) 
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
         save_accounts(accounts)
+vk.execute_tasks()
 save_accounts(accounts)
 
 print("Done")

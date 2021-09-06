@@ -55,13 +55,13 @@ for member in members:
     short_school = find_number(member["school"])
     member["school"] = (short_school if len(short_school) != 0 else member["school"])
     short_name = member["vk_id"][member["vk_id"].rfind("/") + 1:]
-    vk.call("users.get",
+    vk.add_task("users.get",
             {"user_ids": short_name},
             append_member,
             array=final_final,
             obj=copy.deepcopy(member)
     )
-
+vk.execute_tasks()
 
 with open(oname, 'w') as f:
     print(json.dumps(final_final, ensure_ascii=False, indent=4), file=f) 

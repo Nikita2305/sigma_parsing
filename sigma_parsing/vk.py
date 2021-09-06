@@ -5,10 +5,10 @@ class vk_collection:
     sessions=[]
     ind=0
     sleep_t=0
-    
-    def __init__(self,**kwargs):
-        if('sleep' in kwargs):
-            self.sleep_t=kwargs['sleep']
+    custom_t=False
+    tasks=[]   
+    size_limit=25 
+    def __init__(self,**kwargs): 
         with open('temp/data.txt','r') as f:
             print('initing vk accounts')
             for line in f:
@@ -17,7 +17,11 @@ class vk_collection:
                 self.sessions.append(vk_api.VkApi(login,password))
                 self.sessions[-1].auth()
             print('done initing vk accounts')
-   
+        if('sleep' in kwargs):
+            self.sleep_t=kwargs['sleep']
+            self.custom_t=True
+        else:
+            self.sleep_t=0.4/len(self.sessions)
     def get_session(self):
         if (len(self.sessions) == 0):
             print("No more sessions")
@@ -26,7 +30,52 @@ class vk_collection:
         self.ind%=len(self.sessions)
         return self.sessions[self.ind]
 
-    def call(self,method,method_args,res,**kwargs):
+    def execute_tasks(self):
+        if(self.sleep_t!=0):
+            sleep(self.sleep_t)
+        if (len(self.tasks) == 0):
+            return
+        print("LOG: executing " + str(len(self.tasks)) + " tasks")
+        code = "return ["
+        for task in self.tasks:
+            code += "API." + task[0] + "(" + str(task[1]) + "), " 
+        code = code[:-2]
+        code += "];"
+
+        while(True):
+            try:
+                response = self.get_session().method("execute", {"code": code}) 
+                if (len(response) != len(self.tasks)):  
+                    print("LOG: len(response) != len(tasks), skipping")
+                    return
+                break
+            except Exception as ex:
+                print(ex.error['error_msg'])
+                if(ex.code in (29,6,14,)):
+                    print("LOG: Changing session")
+                    del self.sessions[self.ind-1] #get_session увеличила ind
+                    if len(self.sessions) == 0:
+                        print("No more sessions")
+                        quit()
+                    if not self.custom_t:
+                        self.sleep_t=0.4/len(self.sessions)
+                    self.ind%=len(self.sessions)
+                else:
+                    print("LOG: Skip the request")
+                    return
+
+        for i in range(len(self.tasks)):
+            if (isinstance(response[i], bool) and not response[i]):
+                continue
+            self.tasks[i][2](response[i], **self.tasks[i][3]) # calling a callback
+        self.tasks = []
+            
+    def add_task(self, method, method_args, res, **kwargs):
+        self.tasks += [(method, method_args, res, kwargs)]
+        if (len(self.tasks) == self.size_limit):
+            self.execute_tasks()        
+        
+    def direct_call(self,method,method_args,res,**kwargs):
         if(self.sleep_t!=0):
             sleep(self.sleep_t)
         while(True):
@@ -37,6 +86,11 @@ class vk_collection:
                 if(ex.code in (29,6,14,)):
                     print("LOG: Changing session")
                     del self.sessions[self.ind-1] #get_session увеличила ind
+                    if len(self.sessions) == 0:
+                        print("No more sessions")
+                        quit()
+                    if not self.custom_t:
+                        self.sleep_t=0.4/len(self.sessions)
                     self.ind%=len(self.sessions)
                 else:
                     print("LOG: Skip the request")

@@ -36,7 +36,7 @@ def get_file_name(oldname,suffix):
     print('Is it OK? ( ͡° ͜ʖ ͡°) [Y/n]: ', end='')
     repl=input()
     if(len(repl) > 0 and repl[0] in ['n','N']):
-        fname=input('Input desired filename (like: output/my_members, with no format): ')+suffix
+        fname=input('Input desired filename (like: output/my_members): ')+suffix
     else:
         fname=oldname+suffix 
     if Path(fname).is_file():
