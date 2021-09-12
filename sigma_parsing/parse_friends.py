@@ -1,4 +1,3 @@
-import vk_api
 import json
 import time
 from cdifflib import CSequenceMatcher
