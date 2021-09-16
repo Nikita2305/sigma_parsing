@@ -21,9 +21,6 @@ else:
     print("No file")
     quit()
 
-with open(filename) as f:
-    members = json.load(f)
-
 lst = []
 for member in members:
     if (len(member["vk_pages"]) == 0):
@@ -47,28 +44,50 @@ for i in range(len(ybins)-1):
     for j in range(len(xbins)-1):
         ax.text(xbins[j]+0.5,ybins[i]+0.5, hist.T[i,j], 
                 color="w", ha="center", va="center", fontweight="bold")
-
 plt.savefig("output/M1_M2.png")
 plt.show()
-plt.clf()
 
 fig, ax = plt.subplots()
 hist, xbins, im = ax.hist(X, bins=30, range=(0,30))
-
+plt.yscale('log', nonpositive='clip')
 plt.savefig("output/M1.png")
 plt.show()
-plt.clf()
+
+if "vk_id" in members[0]:
+    xl = []
+    for member in members:
+        if (len(member["vk_pages"]) == 0):
+            continue
+        l = [len(account["friends"]) for account in member["vk_pages"] if account["id"] == member["vk_id"]]
+        xl += l
+    
+    fig, ax = plt.subplots()
+    hist, xbins, im = ax.hist(xl, bins=30, range=(0,30))
+    plt.yscale('log', nonpositive='clip')
+    plt.savefig("output/M1_truth.png")
+    plt.show()
+    
+    xl = []
+    for member in members:
+        if (len(member["vk_pages"]) == 0):
+            continue
+        l = [len(account["friends"]) for account in member["vk_pages"] if account["id"] != member["vk_id"]]
+        xl += l
+    
+    fig, ax = plt.subplots()
+    hist, xbins, im = ax.hist(xl, bins=30, range=(0,30))
+    plt.yscale('log', nonpositive='clip')
+    plt.savefig("output/M1_false.png")
+    plt.show()
 
 fig, ax = plt.subplots()
 hist, xbins, im = ax.hist(Y, bins=30, range=(0,30))
-
+plt.yscale('log', nonpositive='clip')
 plt.savefig("output/M2.png")
 plt.show()
-plt.clf()
 
 fig, ax = plt.subplots()
 hist, xbins, im = ax.hist(Z, bins=10, range=(0,10))
 
 plt.savefig("output/N.png")
 plt.show()
-plt.clf()

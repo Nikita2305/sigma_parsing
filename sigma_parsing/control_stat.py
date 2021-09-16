@@ -61,21 +61,21 @@ print("m2>0 ",len([l for l in lst if (l[0][1] if len(l[0]) > 1 else 0) > 0]))
 
 def to_features(member):
     feat = []
-    feat.append(len(member["vk_pages"]))
+    #feat.append(len(member["vk_pages"]))
     l = [(len(account["friends"]), not account["is_closed"] or account["can_access_closed"]) for account in member["vk_pages"]]
     l.sort(reverse=True)
     feat.append(l[0][0] if len(l) > 0 else 0)
     feat.append(l[1][0] if len(l) > 1 else 0)
-    feat.append(1 if len(l) > 0 and l[0][1] else 0)
-    feat.append(1 if len(l) > 1 and l[1][1] else 0)
+    #feat.append(1 if len(l) > 0 and l[0][1] else 0)
+    #feat.append(1 if len(l) > 1 and l[1][1] else 0)
     return feat
     
 def to_class(member):
     vk_id = member["vk_id"]
     pages = member["vk_pages"]
-    if(len(pages) >= 2 and pages[1]["id"] == vk_id):
-        return "M2-case"
-    elif(len(pages) >= 1 and pages[0]["id"] == vk_id):
+    #if(len(pages) >= 2 and pages[1]["id"] == vk_id):
+        #return "M2-case"
+    if(len(pages) >= 1 and pages[0]["id"] == vk_id):
         return "M1-case"
     else:
         return "Undefined"
@@ -83,10 +83,11 @@ def to_class(member):
 x = [to_features(member) for member in members]
 y = [to_class(member) for member in members]
 
-clf = tree.DecisionTreeClassifier(max_depth=6)
+clf = tree.DecisionTreeClassifier(max_depth=4)
 clf = clf.fit(x, y)
 
-r = export_text(clf, feature_names=["n","m1","m2","open1","open2"])
+#r = export_text(clf, feature_names=["n","m1","m2","open1","open2"])
+r = export_text(clf, feature_names=["m1","m2"],show_weights=True)
 print(r)
 
 if len(sys.argv) >= 3:
@@ -99,4 +100,7 @@ if len(sys.argv) >= 3:
         res = clf.predict_proba([to_features(mem)])
         l = [(len(account["friends"]), not account["is_closed"] or account["can_access_closed"],account["id"]) for account in mem["vk_pages"]]
         l.sort(reverse=True, key = lambda tup : (tup[0],tup[1]))
-        print(res," ",l[0][2] if len(l) > 0 else ""," ",l[1][2] if len(l) > 1 else ""," processed:",mem["official_page"]["id"] if mem["processed"] else "NO")
+        graph_guess = mem["official_page"]["id"] if mem["processed"] else 0
+        our_guess = (l[0][2] if len(l) > 0 else 0) if clf.predict([to_features(mem)])[0] == "M1-case" else 0
+        if(graph_guess != our_guess):
+            print(to_features(mem),res," ",l[0][2] if len(l) > 0 else ""," ",l[1][2] if len(l) > 1 else ""," processed:",mem["official_page"]["id"] if mem["processed"] else "NO")
