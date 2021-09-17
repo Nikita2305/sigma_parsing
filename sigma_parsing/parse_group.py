@@ -3,7 +3,7 @@ from sigma_parsing.vk import *
 import networkx as nx
 
 vk = vk_collection()
-group_ids = ["sigma_omsk"]
+group_ids = ["sigma_omsk", "happydevlite"]
 
 def append_group_members(response, array):
     if (len(response["items"]) == 0):
@@ -61,9 +61,10 @@ for group_id in group_ids:
         for member in results:
             for friend in results[member]:
                 G.add_edge(str(member), str(friend))
-   
+    
     # -- Graph statistics -- 
-    # print(nx.average_clustering(G)) 
+    print(G.number_of_nodes())
+    print(nx.average_clustering(G)) 
     # print(json.dumps(nx.algorithms.cluster.clustering(G), ensure_ascii=False, indent=4))
     
     # -- Community searching algorithms --
