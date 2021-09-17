@@ -30,6 +30,13 @@ class vk_collection:
         self.ind%=len(self.sessions)
         return self.sessions[self.ind]
 
+    def execute_callbacks(self, response):
+        for i in range(len(self.tasks)):
+            if (isinstance(response[i], bool) and not response[i]):
+                continue
+            self.tasks[i][2](response[i], **self.tasks[i][3]) # calling a callback
+        self.tasks = []
+
     def execute_tasks(self):
         if(self.sleep_t!=0):
             sleep(self.sleep_t)
@@ -41,46 +48,23 @@ class vk_collection:
             code += "API." + task[0] + "(" + str(task[1]) + "), " 
         code = code[:-2]
         code += "];"
-
-        while(True):
-            try:
-                response = self.get_session().method("execute", {"code": code}) 
-                if (len(response) != len(self.tasks)):  
-                    print("LOG: len(response) != len(tasks), skipping")
-                    return
-                break
-            except Exception as ex:
-                print(ex.error['error_msg'])
-                if(ex.code in (29,6,14,)):
-                    print("LOG: Changing session")
-                    del self.sessions[self.ind-1] #get_session увеличила ind
-                    if len(self.sessions) == 0:
-                        print("No more sessions")
-                        quit()
-                    if not self.custom_t:
-                        self.sleep_t=0.4/len(self.sessions)
-                    self.ind%=len(self.sessions)
-                else:
-                    print("LOG: Skip the request")
-                    return
-
-        for i in range(len(self.tasks)):
-            if (isinstance(response[i], bool) and not response[i]):
-                continue
-            self.tasks[i][2](response[i], **self.tasks[i][3]) # calling a callback
-        self.tasks = []
+        self.direct_call("execute",
+                        {"code": code},
+                        self.execute_callbacks,
+        )
+        print("LOG: executed, now processing...")
             
-    def add_task(self, method, method_args, res, **kwargs):
-        self.tasks += [(method, method_args, res, kwargs)]
+    def add_task(self, method, method_args, callback, **kwargs):
+        self.tasks += [(method, method_args, callback, kwargs)]
         if (len(self.tasks) == self.size_limit):
-            self.execute_tasks()        
+            self.execute_tasks()
         
-    def direct_call(self,method,method_args,res,**kwargs):
+    def direct_call(self,method,method_args,callback,**kwargs):
         if(self.sleep_t!=0):
             sleep(self.sleep_t)
         while(True):
             try:
-                return res(self.get_session().method(method,values=method_args), **kwargs)
+                return callback(self.get_session().method(method,values=method_args), **kwargs)
             except Exception as ex:
                 print(ex.error['error_msg'])
                 if(ex.code in (29,6,14,)):
