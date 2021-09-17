@@ -22,7 +22,6 @@
     ],
     "groups": [
         "sigma_omsk",
-        "happydevlite",
-        "jvcr1"
+        "happydevlite"
     ]
 }

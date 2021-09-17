@@ -3,11 +3,6 @@ import openpyxl
 from pathlib import Path
 from sigma_parsing.utils import *
 
-def getstr(var):
-    if (isinstance(var, str)):
-        return var
-    return ""
-
 def get_status(our_id, official_id):
     if (our_id == -1):
         return "not selected but search successfull"
@@ -65,8 +60,7 @@ ws["C1"] = "Type"
 edge = 2
 for id1 in final_ids:
     account = find_by_id(users, id1)
-    for friend in account["friends"]:
-        id2 = friend["id"]
+    for id2 in account["friends"]:
         if (id2 in final_ids):
             ws["A"+str(edge)] = str(id1)
             ws["B"+str(edge)] = str(id2)

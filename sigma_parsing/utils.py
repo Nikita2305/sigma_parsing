@@ -3,6 +3,13 @@ import vk_api
 from pathlib import Path
 import re
 
+accounts_oname = "output/accounts.txt"
+groups_oname = "output/groups.txt"
+friends_oname = "output/friends.txt"
+xlsxconfig_iname = "temp/xlsx_config.txt"
+xlsx_path = './temp/temp'
+vkconfig_iname = "temp/vk_config.txt"
+
 def getstr(var):
     if (isinstance(var, str)):
         return var
@@ -45,9 +52,12 @@ def get_file_name(oldname,suffix):
 
 def get_new_file_name(filename, suffix):
     full_name = filename[:len(filename) - len(suffix)]
-    print(full_name)
     if re.search(".*\([0-9]+\)",full_name):
         name = full_name[:full_name.rfind("(")]
         number = int(full_name[full_name.rfind("(") + 1:-1])
         return name + "(" + str(number + 1) + ")" + suffix
     return full_name + "(1)" + suffix
+
+def save_as_json(obj, filename):
+    with open(filename, 'w') as f:
+        print(json.dumps(obj, ensure_ascii=False, indent=4), file=f)

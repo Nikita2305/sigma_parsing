@@ -7,7 +7,7 @@ suffix = '.xlsxout.png'
 members, filename = get_json_by_pattern("output/*xlsxout*txt")
 oname = get_file_name(filename, suffix)
 
-with open("temp/xlsx_config.txt") as f:
+with open(xlsxconfig_iname) as f:
     columns = json.load(f)
 
 bug_data = {column["field_name"]: 0 for column in columns}

@@ -8,24 +8,6 @@ from sigma_parsing.utils import *
 from cdifflib import CSequenceMatcher
 from sigma_parsing.vk import *
 
-def getstr(var):
-    if (isinstance(var, str)):
-        return var
-    return ""
-
-def save_members(members):
-    with open(oname, 'w') as f:
-        print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
-
-def save_accounts(accounts):
-    with open("output/accounts.txt", "w") as f:
-        print(json.dumps(accounts, ensure_ascii=False, indent=4), file=f)
-
-def save_groups(groups):
-    with open("output/groups.txt", "w") as f:
-        print(json.dumps(groups, ensure_ascii=False, indent=4), file=f)
-
-
 def append_accounts(response, array, id_array, member): 
     for user in response["items"]:
         if (not user["id"] in member["vk_pages"]):
@@ -41,19 +23,23 @@ def append_group_members(response, array):
         array.append(member)
     return True
 
-def assign_friends(response, account):
-    account["friends"] = response["items"]
+def append_friends(response, account, friends_array, friend_set): 
+    for friend in response["items"]:
+        account["friends"].append(friend["id"])
+        if not friend["id"] in friend_set:
+            friend_set.add(friend["id"])
+            friends_array.append(friend)
 
 suffix='.vksearch.txt'
 members, filename = get_json_by_pattern('output/*xlsxout*txt', 'output/*vksearch*txt')
-oname = get_file_name(filename,suffix)
+members_oname = get_file_name(filename,suffix)
 vk = vk_collection(sleep=0.4)
 
-with open("temp/vk_config.txt") as f:
+with open(vkconfig_iname) as f:
     config = json.load(f)
 
 try:
-    with open("output/accounts.txt") as f:
+    with open(accounts_oname) as f:
         accounts = json.load(f)
 except Exception:
     accounts = []
@@ -80,14 +66,14 @@ for i in range(len(members)):
                 member=member
         )   
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
-        save_members(members)
-        save_accounts(accounts)
+        save_as_json(members, members_oname)
+        save_as_json(accounts, accounts_oname)
 vk.execute_tasks()
-save_members(members)
-save_accounts(accounts)
+save_as_json(members, members_oname)
+save_as_json(accounts, accounts_oname)
 
 try:
-    with open("output/groups.txt") as f:
+    with open(groups_oname) as f:
         groups = json.load(f)
 except Exception:
     groups = []
@@ -112,9 +98,8 @@ for i in range(len(config["groups"])):
         if (not OK):
             break
         j += 1
-    time.sleep(5)
     groups.append({"id": g_id, "members": users, "processed": False})  
-    save_groups(groups)
+    save_as_json(groups, groups_oname)
 
 for group in groups:
     print("processing " + group["id"])
@@ -134,7 +119,14 @@ for group in groups:
                     accounts.append(user)
                     ids.append(user["id"])
     group["processed"] = True
-    save_groups(groups)
+    save_as_json(groups, groups_oname)
+
+try:
+    with open(friends_oname) as f:
+        friends = json.load(f)
+except Exception:
+    friends = []
+friend_set = {friend["id"] for friend in friends}
 
 print("Accounts size: " + str(len(accounts)))
 for i in range(len(accounts)):
@@ -146,12 +138,16 @@ for i in range(len(accounts)):
     vk.add_task("friends.get",
                 {"user_id": account["id"],
                 "fields": config["fields"]},
-            assign_friends,
-            account=account
+            append_friends,
+            account=account,
+            friends_array=friends,
+            friend_set=friend_set
     ) 
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
-        save_accounts(accounts)
+        save_as_json(accounts, accounts_oname)
+        save_as_json(friends, friends_oname)
 vk.execute_tasks()
-save_accounts(accounts)
+save_as_json(accounts, accounts_oname)
+save_as_json(friends, friends_oname)
 
 print("Done")

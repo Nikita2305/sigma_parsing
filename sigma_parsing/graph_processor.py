@@ -3,11 +3,6 @@ import time
 from pathlib import Path
 from sigma_parsing.utils import *
 
-def getstr(var):
-    if (isinstance(var, str)):
-        return var
-    return ""
-
 def get_id_probability(members, user_id):
     sm = 0
     cnt = 0
@@ -23,14 +18,12 @@ def process(members, processed_ids, member):
     member["processed"] = True
     total = 0
     for account in member["vk_pages"]:
-        for friend in account["friends"]:
-            friend_id = friend["id"]
+        for friend_id in account["friends"]:
             total += (friend_id in processed_ids)
     mx = 0
     for account in member["vk_pages"]:
         count = 0
-        for friend in account["friends"]:
-            friend_id = friend["id"]
+        for friend_id in account["friends"]:
             if (not friend_id in processed_ids):
                 continue
             count += get_id_probability(members, friend_id)
@@ -46,7 +39,7 @@ PROCESSED_LIMIT = 0.0
 
 suffix = ".processed.txt"
 members, filename = get_json_by_pattern("output/*friendlists*txt")
-oname = get_file_name(filename, suffix)
+members_oname = get_file_name(filename, suffix)
 
 # ----------- COUNTING BASE -----------
 
@@ -66,7 +59,7 @@ for member in members:
     l = [len(account["friends"]) for account in member["vk_pages"]]
     l.sort()
     l = l[::-1]
-    if ((l[0] >= 10 and (len(l) == 1 or l[1] <= 1)) or member["processed"]):
+    if ((l[0] >= 10 and (len(l) == 1 or l[1] <= 1)) or member["processed"]): # for cycling with parse_friends
         member["processed"] = True
         for account in member["vk_pages"]:
             processed_ids.add(account["id"])
@@ -89,8 +82,7 @@ while(True):
         total = 0
         for account in member["vk_pages"]:
             total += len(account["friends"])
-            for friend in account["friends"]:
-                friend_id = friend["id"]
+            for friend_id in account["friends"]:
                 count += int(friend_id in processed_ids)
         if (total == 0):
             continue
@@ -122,8 +114,6 @@ for member in members:
 print("Final:")
 print(len([member for member in members if ("processed" in member and member["processed"])]))
 
-with open(oname, 'w') as f:
-    print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
-    print("Written")
+save_as_json(members, members_oname)
 
 print("Done")

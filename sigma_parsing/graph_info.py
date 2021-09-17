@@ -7,11 +7,6 @@ import numpy as np
 from pathlib import Path
 from sigma_parsing.utils import *
 
-def getstr(var):
-    if (isinstance(var, str)):
-        return var
-    return ""
-
 suffix = ".friendlists.png"
 members, filename = get_json_by_pattern("output/*friendlists*txt")
 oname = get_file_name(filename,suffix)
@@ -42,9 +37,9 @@ plt.bar(keys, values)
 plt.ylabel("Number of people")
 plt.xlabel("M1")
 plt.savefig(oname)
+oname = get_new_file_name(oname, suffix) 
 plt.clf()
 
-'''
 keys = list(active.keys())[:50]
 values = list(active.values())[:50]
 for i in reversed(range(1, len(keys))):
@@ -52,9 +47,10 @@ for i in reversed(range(1, len(keys))):
 plt.bar(keys, values)
 plt.ylabel("Number of people(cumulative)")
 plt.xlabel("M1")
-plt.savefig("output/research03_2.png")
+plt.savefig(oname)
+oname = get_new_file_name(oname, suffix)
 plt.clf()
-'''
+
 
 X = np.array([l[0][0] for l in lst])
 Y = np.array([(l[0][1] if len(l[0]) > 1 else 0) for l in lst])

@@ -7,14 +7,6 @@ from sigma_parsing.utils import *
 
 SIMILARITY_LIMIT = 0.93
 
-def save_members(members):
-    with open(oname, 'w') as f:
-        print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
-
-def save_accounts(accounts):
-    with open("output/accounts.txt", "w") as f:
-        print(json.dumps(accounts, ensure_ascii=False, indent=4), file=f)
-
 def createDict(accounts):
     dct = dict()
     for account in accounts:
@@ -23,35 +15,37 @@ def createDict(accounts):
 
 suffix = '.vksearch.txt'
 members, filename = get_json_by_pattern("output/*processed*txt")
-oname = get_file_name(filename, suffix)
+members_oname = get_file_name(filename, suffix)
 
-with open("output/accounts.txt") as f:
+with open(accounts_oname) as f:
     accounts = json.load(f)
-dct = createDict(accounts)
+    dct = createDict(accounts)
+with open(friends_oname) as f:
+    friends = json.load(f)
+    friends_dct = createDict(friends)
 
-new_ids = {}
+new_ids = []
 
 for member in members:
     if (not member["processed"]):
         continue
-    for friend in dct[member["official_page"]["id"]]["friends"]:
-        friend_id = friend["id"]
+    for friend_id in dct[member["official_page"]["id"]]["friends"]:
         if (friend_id not in dct) and (friend_id not in new_ids):
-            new_ids[friend_id] = friend
+            new_ids.append(friend_id)
 
 i = 0
-print(len(new_ids))
+print("New ids size:" + str(len(new_ids)))
 for user_id in new_ids:
-    user_key = new_ids[user_id]["first_name"] + " " + new_ids[user_id]["last_name"] 
+    user_key = friends_dct[user_id]["first_name"] + " " + friends_dct[user_id]["last_name"] 
     for member in members:
         member_key = member["name"] + " " + member["surname"]
         ratio1 = CSequenceMatcher(None, user_key, member_key).ratio()
         if (ratio1 >= SIMILARITY_LIMIT):
-            member["vk_pages"].append(new_ids[user_id])
-            accounts += [new_ids[user_id]]
+            member["vk_pages"].append(friends_dct[user_id])
+            accounts.append(friends_dct[user_id])
             print(user_key, member_key, ratio1)
     i += 1
-    if (i % 10 == 0):
+    if (i % 100 == 0):
         print("Status:" + str(i))
 
 for member in members:
@@ -60,5 +54,5 @@ for member in members:
     # member.pop("processed")
     # member.pop("official_page")
 
-save_members(members)
-save_accounts(accounts)
+save_as_json(members, members_oname)
+save_as_json(accounts, accounts_oname)

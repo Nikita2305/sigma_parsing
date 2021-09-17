@@ -51,12 +51,12 @@ def find_user_id(userlist, user):
     return -1
 
 suffix = '.xlsxout.txt'
-oname = get_file_name("output/members", suffix)
+members_oname = get_file_name("output/members", suffix)
 
-with open("temp/xlsx_config.txt") as f:
+with open(xlsxconfig_iname) as f:
     columns = json.load(f)
 
-xlsx_files = [path for path in Path('./temp/temp').rglob('*.xlsx')]
+xlsx_files = [path for path in Path(xlsx_path).rglob('*.xlsx')]
 members = []
 
 for xlsx_file in xlsx_files:
@@ -92,5 +92,4 @@ for xlsx_file in xlsx_files:
     print()
 
 print("Обработано: " + str(len(members)))
-with open(oname, 'w') as f:
-    print(json.dumps(members, ensure_ascii=False, indent=4), file=f)
+save_as_json(members, members_oname)
