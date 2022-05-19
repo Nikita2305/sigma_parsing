@@ -2,6 +2,8 @@ import json
 import vk_api
 from pathlib import Path
 import re
+import csv
+from vk_parsing.parser import Parser
 
 accounts_oname = "output/accounts.txt"
 groups_oname = "output/groups.txt"
@@ -9,6 +11,18 @@ friends_oname = "output/friends.txt"
 xlsxconfig_iname = "temp/xlsx_config.txt"
 xlsx_path = './temp/temp'
 vkconfig_iname = "temp/vk_config.txt"
+data_path = "temp/data.csv"
+
+def getParserInstance():
+    logins = []
+    passwords = []
+    with open(data_path, newline='') as f:
+        for arr in csv.reader(f, delimiter=';'):
+            if (len(arr) != 2):
+                raise Exception("Wrong data.csv")
+            logins += [arr[0]]
+            passwords += [arr[1]]
+    return Parser(logins, passwords)
 
 def getstr(var):
     if (isinstance(var, str)):

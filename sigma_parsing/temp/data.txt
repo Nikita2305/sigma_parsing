@@ -1,2 +1,0 @@
-phone_number1 password1
-phone_number2 password2

@@ -1,12 +1,13 @@
 import json
 from threading import *
-import vk_api
 import time
 import copy
 from pathlib import Path
 from sigma_parsing.utils import *
 from cdifflib import CSequenceMatcher
-from sigma_parsing.vk import *
+
+# from sigma_parsing.vk import *
+from vk_parsing.exceptions import StopParsingError
 
 def append_accounts(response, array, id_array, member): 
     for user in response["items"]:
@@ -33,7 +34,7 @@ def append_friends(response, account, friends_array, friend_set):
 suffix='.vksearch.txt'
 members, filename = get_json_by_pattern('output/*xlsxout*txt', 'output/*vksearch*txt')
 members_oname = get_file_name(filename,suffix)
-vk = vk_collection(sleep=0.4)
+vk = getParserInstance()
 
 with open(vkconfig_iname) as f:
     config = json.load(f)
@@ -58,17 +59,30 @@ for i in range(len(members)):
         local_pattern = copy.deepcopy(account_pattern)
         local_pattern["q"] = getstr(member["name"]) + " " + getstr(member["surname"])
         local_pattern["fields"] = config["fields"]
-        vk.add_task("users.search",
+        try:
+            vk.add_task("users.search",
                 local_pattern,
                 append_accounts,
-                array=accounts,
-                id_array=ids,
-                member=member
-        )   
+                (accounts, ids, member)
+            )
+        except StopParsingError as ex:
+            print(f"stop: {ex}")
+            quit()
+        except Exception as ex:
+            print(f"ignore: {ex}")
+
+ 
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
         save_as_json(members, members_oname)
         save_as_json(accounts, accounts_oname)
-vk.execute_tasks()
+try:
+    vk.execute_tasks()
+except StopParsingError as ex:
+    print(f"stop: {ex}")
+    quit()
+except Exception as ex:
+    print(f"ignore: {ex}")
+
 save_as_json(members, members_oname)
 save_as_json(accounts, accounts_oname)
 
@@ -87,14 +101,22 @@ for i in range(len(config["groups"])):
     users = [] 
     while(True):
         print("Status " + str(j * 1000))
-        OK = vk.direct_call("groups.getMembers",
+        try:
+            OK = vk.direct_call("groups.getMembers",
                         {"group_id": g_id,
                         "offset": j*1000,
                         "count": 1000,
                         "fields": config["fields"]},
-                    append_group_members,
-                    array=users
-        )
+                        append_group_members,
+                        (users,)
+            )
+        except StopParsingError as ex:
+            print(f"stop: {ex}")
+            quit()
+        except Exception as ex:
+            print(f"ignore: {ex}")
+            continue
+
         if (not OK):
             break
         j += 1
@@ -135,18 +157,31 @@ for i in range(len(accounts)):
     if ("friends" in account): # for savings
         continue
     account["friends"] = []
-    vk.add_task("friends.get",
+    try:
+        vk.add_task("friends.get",
                 {"user_id": account["id"],
                 "fields": config["fields"]},
             append_friends,
-            account=account,
-            friends_array=friends,
-            friend_set=friend_set
-    ) 
+            (account, friends, friend_set)
+        )
+    except StopParsingError as ex:
+        print(f"stop: {ex}")
+        quit()
+    except Exception as ex:
+        print(f"ignore: {ex}")
+
+ 
     if (i % SAVING_EVERY == SAVING_EVERY - 1):
         save_as_json(accounts, accounts_oname)
         save_as_json(friends, friends_oname)
-vk.execute_tasks()
+try:
+    vk.execute_tasks()
+except StopParsingError as ex:
+    print(f"stop: {ex}")
+    quit()
+except Exception as ex:
+    print(f"ignore: {ex}")
+
 save_as_json(accounts, accounts_oname)
 save_as_json(friends, friends_oname)
 

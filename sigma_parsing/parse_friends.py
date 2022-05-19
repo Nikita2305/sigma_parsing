@@ -5,6 +5,8 @@ from cdifflib import CSequenceMatcher
 from pathlib import Path
 from sigma_parsing.utils import *
 
+# Something doesn't work
+
 SIMILARITY_LIMIT = 0.93
 
 def createDict(accounts):
