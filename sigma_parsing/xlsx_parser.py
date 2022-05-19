@@ -14,10 +14,11 @@ def log(string):
 
 def find_cell_with_pattern(sheet, pattern):
     ret = []
-    for i in range(1, 3):
+    for i in range(1, 20):
         for j in range(1, 50):
-            if (isinstance(sheet.cell(i, j).value, str) and re.search(pattern,
-                                        format_spaces(sheet.cell(i, j).value.lower()))):
+            if (isinstance(sheet.cell(i, j).value, str) and
+                    # re.search(pattern, ):
+                    pattern == format_spaces(sheet.cell(i, j).value.lower())):
                 ret += [(i, j)]
     return ret
 
@@ -26,6 +27,7 @@ def find_format(sheet):
     row = -1
     for column in columns:
         lst = find_cell_with_pattern(sheet, column["cell_pattern"])
+        log(lst)
         if (len(lst) != 1 or (row != -1 and row != lst[0][0])):
             log(column["cell_pattern"] + ": " + str(lst))    
             return -1, {}
@@ -50,6 +52,12 @@ def find_user_id(userlist, user):
             return i
     return -1
 
+def find_olymp(olymplist, olymp):
+    for x in olymplist:
+        if (x["olymp"] == olymp["olymp"]):
+            return True
+    return False 
+
 suffix = '.xlsxout.txt'
 members_oname = get_file_name("output/members", suffix)
 
@@ -61,34 +69,44 @@ members = []
 
 for xlsx_file in xlsx_files:
     fname = str(xlsx_file)
-    log(fname)
+    subject = fname[fname.find('_')+1:fname.rfind('.xlsx')]
     wb = openpyxl.load_workbook(xlsx_file)
-    sheet = wb["Parse"]
-    zero_row, column_interpret = find_format(sheet)
-    if (zero_row == -1):
-        log("Формат не найден")
-    else:
-        while (True):
-            zero_row += 1
-            user_dict = {}
-            OK = True
+    for sheet in wb:
+        description = format_spaces(sheet.title)
+        class_number = find_number(description)  
+        log(subject + ", class:" + class_number)
+        zero_row, column_interpret = find_format(sheet)
+        if (zero_row == -1):
+            log("Формат не найден")
+        else:
+            while (True):
+                zero_row += 1
+                user_dict = {}
+                OK = True
 
-            for column in columns:
-                col_number = column_interpret[column["field_name"]]
-                value = format_spaces(sheet.cell(zero_row, col_number).value)
-                if (column["field_name"] == "name" or
-                                column["field_name"] == "surname"):
-                    if (not isinstance(value, str) or not re.search(column["data_pattern"], value)):
-                        OK = False
-                user_dict[column["field_name"]] = str(value)
-         
-            if (not OK):
-                break            
+                for column in columns:
+                    col_number = column_interpret[column["field_name"]]
+                    value = format_spaces(sheet.cell(zero_row, col_number).value)
+                    if (column["field_name"] == "name" or
+                                    column["field_name"] == "surname"):
+                        if (not isinstance(value, str) or not re.search(column["data_pattern"], value)):
+                            OK = False
+                    user_dict[column["field_name"]] = str(value)
+                     
+                if (not OK):
+                    break  
+          
+                event_dict = {"olymp": subject, "class": class_number, "status": user_dict["status"]}
+                # user_dict["status"] = "just not empty string"
 
-            user_id = find_user_id(members, user_dict) 
-            if (user_id == -1):   
-                members += [user_dict]
-        log("Обработан")
+                user_id = find_user_id(members, user_dict) 
+                if (user_id == -1):   
+                    user_dict["diplomas"] = [event_dict]
+                    members += [user_dict]
+                else:
+                    if (not find_olymp(members[user_id]["diplomas"], event_dict)):
+                        members[user_id]["diplomas"] += [event_dict]
+            log("Обработан")
     print()
 
 print("Обработано: " + str(len(members)))

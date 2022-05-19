@@ -12,21 +12,15 @@
         "is_important": true
     },
     {
-        "cell_pattern": "школа",
+        "cell_pattern": "образовательное учреждение",
         "field_name": "school",
         "data_pattern": ".",
         "is_important": false
     },
     {
-        "cell_pattern": "класс",
-        "field_name": "class",
+        "cell_pattern": "тип диплома (победитель/ призер)",
+        "field_name": "status",
         "data_pattern": ".",
         "is_important": false
-    },
-    {
-        "cell_pattern": "вконтакте",
-        "field_name": "vk_id",
-        "data_pattern": "vk.com/.",
-        "is_important": true
     }
 ]

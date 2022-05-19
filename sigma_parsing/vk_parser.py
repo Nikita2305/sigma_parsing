@@ -59,6 +59,7 @@ for i in range(len(members)):
         local_pattern = copy.deepcopy(account_pattern)
         local_pattern["q"] = getstr(member["name"]) + " " + getstr(member["surname"])
         local_pattern["fields"] = config["fields"]
+        local_pattern["lang"] = 0
         try:
             vk.add_task("users.search",
                 local_pattern,
@@ -106,7 +107,8 @@ for i in range(len(config["groups"])):
                         {"group_id": g_id,
                         "offset": j*1000,
                         "count": 1000,
-                        "fields": config["fields"]},
+                        "fields": config["fields"],
+                        "lang": 0},
                         append_group_members,
                         (users,)
             )
@@ -160,7 +162,8 @@ for i in range(len(accounts)):
     try:
         vk.add_task("friends.get",
                 {"user_id": account["id"],
-                "fields": config["fields"]},
+                "fields": config["fields"],
+                "lang": 0},
             append_friends,
             (account, friends, friend_set)
         )

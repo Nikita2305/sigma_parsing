@@ -1,8 +1,8 @@
 # Списки муниципального этапа 2021 года
 
-## Описание NEW!
+## Описание 2022
 
-Порядок
+* Порядок
 
 utils.py
 
@@ -18,6 +18,10 @@ graph_processor.py
 // graph_control.py
 
 parse_friends.py
+
+
+* XLS -> XLSX:
+libreoffice —convert-to xlsx *
 
 ## Описание
 
