@@ -17,23 +17,27 @@ def find_cell_with_pattern(sheet, pattern):
     for i in range(1, 20):
         for j in range(1, 50):
             if (isinstance(sheet.cell(i, j).value, str) and
-                    # re.search(pattern, ):
-                    pattern == format_spaces(sheet.cell(i, j).value.lower())):
+                    re.search(pattern, format_spaces(sheet.cell(i, j).value.lower()))):
+                    # pattern == ):
                 ret += [(i, j)]
     return ret
 
 def find_format(sheet):
     col = {}
-    row = -1
+    mn = 1000000
+    mx = -1
     for column in columns:
         lst = find_cell_with_pattern(sheet, column["cell_pattern"])
         log(lst)
-        if (len(lst) != 1 or (row != -1 and row != lst[0][0])):
+        if (len(lst) != 1):
             log(column["cell_pattern"] + ": " + str(lst))    
             return -1, {}
-        row = lst[0][0]
+        mn = min(lst[0][0], mn)
+        mx = max(lst[0][0], mx)
         col[column["field_name"]] = lst[0][1]
-    return row, col
+    if (mx - mn > 1):
+        return -1, {}
+    return mx, col
 
 def find_number(string):
     start = -1
