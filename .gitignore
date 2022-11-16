@@ -3,6 +3,7 @@ sigma_parsing/__pycache__/
 sigma_parsing/data.py
 sigma_parsing/vk_config.v2.json
 sigma_parsing/temp/data.txt
+sigma_parsing/output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

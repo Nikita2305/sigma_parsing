@@ -47,7 +47,7 @@ except Exception:
 ids = [account["id"] for account in accounts]
 
 SIMILARITY_LIMIT = 0.93
-SAVING_EVERY = 100
+SAVING_EVERY = 1000
 print ("Members size: " + str(len(members)))
 for i in range(len(members)):
     print("downloading page: " + str(i))

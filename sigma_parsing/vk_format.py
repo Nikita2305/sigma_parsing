@@ -22,8 +22,11 @@ with open(friends_oname) as f:
     friends = json.load(f)
     friends_ids = {f["id"] for f in friends}
 
-with open(groups_oname) as f:
-    groups = json.load(f)
+try:
+    with open(groups_oname) as f:
+        groups = json.load(f)
+except Exception as ex:
+    groups = []
 
 id_dict = createDict(accounts) 
 
