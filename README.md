@@ -1,5 +1,28 @@
 # Списки муниципального этапа 2021 года
 
+## Описание 2022
+
+* Порядок
+
+utils.py
+
+xlsx_parser.py
+xlsx_info.py
+xlsx_format.py
+
+vk_parser.py
+vk_format.py
+
+graph_info.py
+graph_processor.py
+// graph_control.py
+
+parse_friends.py
+
+
+* XLS -> XLSX:
+libreoffice —convert-to xlsx *
+
 ## Описание
 
 В этом репозитории представлен набор скриптов для поиска аудитории в VK. Осторожно - в некоторых запросах к VK подразумевается, что аудитория из Омска и возраста 12-19 лет.
@@ -16,7 +39,7 @@
 
 * [manual_seeker.py](#manual_seeker) - даёт возможность искать некоторых людей вручную
 
-Полученные результаты смотри в **output/members.txt**.
+Полученные результаты смотри в **output/**.
 
 ## Требования
 
@@ -27,12 +50,9 @@
 
 Затем в файле data.py необходимо записать логин и пароль оператора (для части скриптов, работающих с VK API).
 
-Затем следует выполнить команды 
-* pip3 install openpyxl
-* pip3 install json
-* pip3 install vk_api
-* pip3 install matplotlib
-* sudo apt install xdotool
+Затем следует установить зависимости:
+- `python3 -m venv env`
+- `./env/bin/python3 -m pip install -r requirements.txt`
 
 ## xlsx_parser
 

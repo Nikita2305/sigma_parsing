@@ -1,2 +1,0 @@
-LOGIN = 'phone'
-PASSWORD = 'password'

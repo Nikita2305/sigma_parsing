@@ -1,0 +1,27 @@
+{
+    "fields": "bdate,schools",
+    "accounts": [
+        {
+            "count": 5
+        },
+        {
+            "city": 104,
+            "count": 5
+        },
+        {
+            "from_age": 14,
+            "to_age": 25,
+            "count": 5
+        },
+        {
+            "from_age": 14,
+            "to_age": 25,
+            "city": 104,
+            "count": 5
+        }
+    ],
+    "groups": [
+        "sigma_omsk",
+        "happydevlite"
+    ]
+}
