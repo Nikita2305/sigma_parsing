@@ -5,13 +5,14 @@ import re
 import csv
 from vk_parsing.parser import Parser
 
-accounts_oname = "output/accounts.txt"
-groups_oname = "output/groups.txt"
-friends_oname = "output/friends.txt"
-xlsxconfig_iname = "temp/2022/xlsx_config.txt"
-xlsx_path = 'temp/2022'
-vkconfig_iname = "temp/2022/vk_config.txt"
-data_path = "temp/huge_data.csv"
+output_path = "output/2025"
+xlsx_path = "temp/2025"
+data_path = "temp/data.csv"
+accounts_oname = f"{output_path}/accounts.txt"
+groups_oname = f"{output_path}/groups.txt"
+friends_oname = f"{output_path}/friends.txt"
+xlsxconfig_iname = f"{xlsx_path}/xlsx_config.txt"
+vkconfig_iname = f"{xlsx_path}/vk_config.txt"
 
 def getParserInstance():
     logins = []
@@ -22,7 +23,7 @@ def getParserInstance():
                 raise Exception("Wrong data.csv")
             logins += [arr[0]]
             passwords += [arr[1]]
-    return Parser(logins, passwords)
+    return Parser(logins, passwords, sleep_time=1)
 
 def getstr(var):
     if (isinstance(var, str)):

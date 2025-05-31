@@ -1,0 +1,20 @@
+[
+    {
+        "cell_pattern": "имя",
+        "field_name": "name",
+        "data_pattern": ".",
+        "is_important": true
+    },
+    {
+        "cell_pattern": "фамилия",
+        "field_name": "surname",
+        "data_pattern": ".",
+        "is_important": true
+    },
+    {
+        "cell_pattern": "сокращенное название оу учащегося|образовательное учреждение|оу",
+        "field_name": "school",
+        "data_pattern": ".",
+        "is_important": false
+    }
+]

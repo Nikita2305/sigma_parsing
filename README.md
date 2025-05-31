@@ -50,12 +50,9 @@ libreoffice —convert-to xlsx *
 
 Затем в файле data.py необходимо записать логин и пароль оператора (для части скриптов, работающих с VK API).
 
-Затем следует выполнить команды 
-* pip3 install openpyxl
-* pip3 install json
-* pip3 install vk_api
-* pip3 install matplotlib
-* sudo apt install xdotool
+Затем следует установить зависимости:
+- `python3 -m venv env`
+- `./env/bin/python3 -m pip install -r requirements.txt`
 
 ## xlsx_parser
 

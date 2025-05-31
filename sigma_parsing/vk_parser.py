@@ -61,6 +61,7 @@ for i in range(len(members)):
         local_pattern["fields"] = config["fields"]
         local_pattern["lang"] = 0
         try:
+            # you can try direct_call here
             vk.add_task("users.search",
                 local_pattern,
                 append_accounts,
